@@ -1,0 +1,462 @@
+@import url("/assets/css/common.css");
+
+/* 쪽지 리스트 */
+.message-list .search-form {
+    margin-bottom: 15px;
+}
+.message-list .board-type-2 .paging {
+    margin-top: 21px;
+}
+
+/* 쪽지 뷰 */
+.message-view .table-wrap {
+    margin-top: 40px;
+}
+.message-view .table-wrap h5 {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.message-view .table-wrap .btn-area {
+    margin-top: 31px;
+    text-align: right;
+}
+.message-view .table-wrap .btn-area p > .btn{
+    width: 90px;
+}
+/* 비밀번호 확인*/
+.pw-confirm .container > article {
+    padding: 35px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.pw-confirm .container > article figure {
+    width: 44px;
+    margin: 0 auto;
+}
+.pw-confirm .container > article figure img {
+    width: 100%;
+}
+.pw-confirm .container > article .details {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.pw-confirm .container > article .details h2 {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.pw-confirm .container > article .details .summary {
+    font-size: 11px;
+    text-align: center;
+    line-height: 16px;
+    color: #8f8f8f;
+    word-break: keep-all;
+}
+.pw-confirm .container > article .form-group .form-control {
+    width: 260px;
+    margin: 0 auto;
+}
+.pw-confirm .container > article .btn-area {
+    margin-top: 30px;
+}
+
+
+/* 내가 쓴 글 */
+.my-history .my-board h3 {
+    font-size: 12px;
+    color: #333;
+}
+.my-history .my-board .search-form {
+    margin: 15px 0;
+}
+.my-history .my-board .board-type-2 .paging {
+    margin-top: 22px;
+}
+.my-history .my-board .board-type-2 > ul > li {
+    border-bottom: 1px solid #dfdfdf;
+}
+.my-history .my-comment h5 {
+    font-size: 13px;
+    color: #333;
+    margin-top: 40px;
+}
+.my-history .my-comment .board-type-3 {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.my-history .my-comment .board-type-3 .article-header ul li.date {
+    width: 70px;
+}
+.my-history .my-comment .board-type-3 .article-content .table-wrap .table tbody tr td {
+    border-color: #dfdfdf;
+}
+
+.my-history .my-comment .board-type-3 .article-content .table-wrap .table tbody tr td.date {
+    width: 70px;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+}
+.my-history .my-comment .board-type-3 .article-content .paging {
+    margin-top: 20px;
+}
+
+/* 회원탈퇴 동의 */
+.member-leave article {
+    padding: 40px 18px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.member-leave article figure {
+    width: 92px;
+    margin: 0 auto;
+}
+.member-leave article figure img {
+    width: 100%;
+}
+.member-leave article p {
+    font-size: 11px;
+    color: #8f8f8f;
+    text-align: center;
+    line-height: 16px;
+    word-break: keep-all;
+    margin-top: 20px;
+}
+.member-leave label {
+    margin-top: 20px;
+    width: 100%;
+    color: #666;
+    font-weight: 300;
+}
+.member-leave input {
+    font-size: 11px;
+    position: relative;
+    top: 3px;
+    margin-right: 7px;
+}
+.member-leave .btn-area {
+    margin-top: 40px;
+    text-align: right;
+}
+
+/* 회원탈퇴 완료 */
+.success .container > article {
+    padding: 50px 0 40px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.success .container > article h4 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+}
+.success .container > article .summary {
+    font-size: 11px;
+    color: #8f8f8f;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 28px;
+}
+.success .container > article figure {
+    width: 173px;
+    margin: 0 auto
+}
+.success .container > article figure img {
+    width: 100%;
+}
+.success .container > article .btn-area {
+    margin-top: 30px;
+}
+
+/* 마일리지 */
+.mileage .mileage-view {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+}
+.mileage .mileage-view dl {
+    overflow: hidden;
+}
+.mileage .mileage-view dl dt {
+    float: left;
+    font-size: 12px;
+    color: #333;
+    line-height: 30px;
+}
+.mileage .mileage-view dl dt i {
+    font-style: normal;
+    color: #ff7875;
+}
+.mileage .mileage-view dl dd {
+    float: right;
+    font-size: 11px;
+    color: #e25371;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 24px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/assets/images/mypage/img_mileage.png);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    background-size: 17px auto;
+}
+.mileage .mileage-check {
+    margin-top: 20px;
+}
+.mileage .mileage-check .search-date {
+    font-size: 0;
+    margin-bottom: 20px;
+}
+.mileage .mileage-check .search-date .form-group {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+}
+.mileage .mileage-check .search-date .date-year {
+    padding-left: 65px;
+}
+.mileage .mileage-check .search-date .date-day {
+    padding-left: 85px;
+}
+.mileage .mileage-check .search-date .date-day dl dt {
+    margin-left: 30px;
+}
+.mileage .mileage-check .search-date .form-group dl {
+    width: 100%;
+}
+.mileage .mileage-check .search-date .form-group dl dt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 11px;
+    line-height: 30px;
+    color: #333;
+}
+.mileage .mileage-check .search-date .form-group dl dd {
+    font-size: 11px;
+    color: #999;
+}
+.mileage .mileage-check .search-date .form-group dl dd .form-control {
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+.mileage .mileage-check .board-type-3 .article-content .table-wrap .table tbody tr td {
+    font-size: 9px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.mileage .mileage-check .board-type-3 .article-content .paging {
+    margin-top: 20px;
+}
+
+/* 주문현황 */
+.order-info .mileage-order h3{
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.order-info .board-type-4 {
+    padding: 25px 23px 20px;
+}
+.order-info .board-type-4 > ul > li:first-child {
+    padding-top: 0;
+}
+.order-info .mileage-order .board-type-4 .paging {
+    margin-top: 20px;
+}
+.order-info .big-deal h3 {
+    font-size: 13px;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.order-info .big-deal .board-type-4 .paging {
+    margin-top: 20px;
+}
+.order-info .mileage-order .section-header .search-date {
+    margin-bottom: 30px;
+}
+.order-info .mileage-order .section-header .search-date .search {
+    margin-top: 10px;
+}
+.order-info .mileage-order .section-header .search-date .search .form-control {
+    border-radius: 30px;
+    border-color: #ccc;
+    padding-left: 20px;
+}
+/* modify */
+.modify .join-write .section-content {margin-top:0;}
+
+
+/* 이벤트 목록 */
+.experience-event .section-header .prizewinner {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    padding-left: 70px;
+}
+.experience-event .section-header .prizewinner dt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    color: #fff;
+    font-size: 10px;
+    padding-left: 10px;
+    line-height: 30px;
+    background-color: #ff7875;
+}
+.experience-event .section-header .prizewinner dd {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 10px;
+    /*font-weight: 300;*/
+    background-image: url(/assets/images/event/bg_prizewinner.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto 30px;
+    background-color: #fff;
+}
+.experience-event .section-header .prizewinner dd a {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
+    color: #666;
+    text-decoration: none;
+    font-weight: 300;
+}
+.experience-event .section-content .form-group {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.experience-event .section-content .form-group .form-control {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 10px;
+    color: #333;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #dfdfdf;
+}
+.experience-event .section-content .form-group .form-control:last-child {
+    margin: 0;
+}
+.experience-event .section-content .list-wrap {
+    margin-top: 15px;
+}
+.experience-event .section-content .list-wrap .event-list .event-item a .details {
+    padding-top: 20px;
+}
+.experience-event .section-content .list-wrap .event-list .event-item a .details .title {
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    font-weight: 400;
+    text-align: center;
+}
+.experience-event .section-content .list-wrap .event-list .event-item a .details .event-information {
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+}
+.experience-event .section-content .list-wrap .event-list .event-item a .details .event-information ul {
+    display: inline-block;
+}
+.experience-event .section-content .list-wrap .event-list .event-item a .details .event-information ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+}
+.experience-event .section-content .list-wrap .event-list .event-item a .details .event-information ul li:last-child {
+    margin-right: 0;
+}
+.experience-event .section-content .list-wrap .event-list .event-item a .details .event-information ul li i.icon-heart:before {
+    content: "\E80F";
+    margin-right: 5px;
+}
+.experience-event .section-content .list-wrap .event-list .event-item a .details .event-information ul li i.icon-calendar-empty:before {
+    content: "\F133";
+    margin-right: 5px;
+}
+.experience-event .section-content .list-wrap .event-list .event-item a .details .event-information ul li i.icon-user:before {
+    content: "\E817";
+    margin-right: 5px;
+}
+.experience-event .section-content .list-wrap .event-list .event-item a .details .event-information ul li i.icon-database:before {
+    content: "\E818";
+    margin-right: 5px;
+}
+.experience-event .section-content .list-wrap .event-list .event-item a .details .event-information p.event-sucess {
+    display: inline-block;
+    width: 50px;
+    height: 16px;
+    margin-left: 20px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 16px;
+    color: #fff;
+    background-color: #ccc;
+}
+.experience-event .section-content .list-wrap .event-list .event-item a .details .event-information p.event-before {
+    display: inline-block;
+    width: 50px;
+    height: 16px;
+    margin-left: 20px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 14px;
+    color: #999;
+    border: 1px solid #ccc;
+}
+.experience-event .section-content .list-wrap .paging {
+    margin-top: 40px;
+}
+.experience-event .section-header .event-slider .bx-wrapper .bx-viewport ul li a figure {
+    overflow: hidden;
+    border-radius: 10px;
+}
+.experience-event .section-header .event-slider .bx-wrapper .bx-viewport ul li a figure img {
+    width: 100%;
+}
+.experience-event .section-header .event-slider .bx-wrapper .bx-controls {
+    margin: 10px 0;
+}
+.experience-event .section-header .event-slider .bx-wrapper .bx-controls .bx-pager {
+     text-align: center;   
+}
+.experience-event .section-header .event-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+    display: inline-block;
+}
+.experience-event .section-header .event-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 3px;
+    text-indent: -9999px;
+    border: 1px solid #999;
+}
+.experience-event .section-header .event-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item .active {
+    background-color: #999;
+}
+
+/* 이벤트 수정 */
+.event-modify article .table-wrap .btn-area {
+    margin-top: 30px;
+    text-align: right;
+}

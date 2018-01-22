@@ -1,0 +1,314 @@
+@import 'common';
+
+.layer-popup {
+    position: fixed;
+    top: 60px;
+    bottom: 60px;
+    right: 20px;
+    left: 20px;
+    display: none;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    z-index: 100;
+    .pop-backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .8);
+    }
+    &.open {
+        display: block;
+    }
+    .popup-area {
+        position: absolute;
+        top: 35px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        .layer-container {
+            height: 100%;
+            background-color: #fff;
+            .content {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                overflow: hidden;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+                .pop-header {
+                    position: relative;
+                    padding-left: 10px;
+                    padding-right: 35px;
+                    color: #fff;
+                    text-align: left;
+                    .pop-title {
+                        display: block;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 35px;
+                    }
+                    .btn-pop-close {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        text-align: center;
+                        display: block;
+                        img {
+                            position: relative;
+                            top: -2px;
+                            width: 15px;
+                        }
+                    }
+                }
+                .pop-body {
+                    padding: 20px 10px;
+                }
+            }
+        }
+    }
+}
+
+// 투표결과 팝업
+.result {
+    .popup-area {
+        .layer-container {
+            .content {
+                .pop-header {
+                    background-color: #9fca83;
+                    .pop-title {
+                        line-height: 35px;
+                    }
+                    .btn-pop-close {
+                        background-color: #7db858;
+                        img {
+                            width: 15px;
+                        }
+                    }
+                }
+                .pop-body {
+                    ul {
+                        li {
+                            border-bottom: 2px solid #b2d69b;
+                            & ~ li {
+                                padding-top: 30px;
+                            }
+                            dl {
+                                dt {
+                                    position: relative;
+                                    font-size: 11px;
+                                    color: #333;
+                                    padding-left: 20px;
+                                    padding-bottom: 10px;
+                                    border-bottom: 2px solid #b2d69b;
+                                    &:before {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        font-weight: 500;
+                                        content: "Q";
+                                        color: #fff;
+                                        width: 16px;
+                                        line-height: 16px;
+                                        font-size: 10px;
+                                        text-align: center;
+                                        border-radius: 50%;
+                                        background-color: #b2d69b;
+                                    }
+                                }
+                                dd {
+                                    padding-top: 10px;
+                                    p {
+                                        font-size: 10px;
+                                        color: #666;
+                                        line-height: 20px;
+                                        b {
+                                            float: right;
+                                            font-weight: 400;
+                                            @include roboto();
+                                        }
+                                    }
+                                }
+                            }
+                            figure {
+                                margin-top: 10px;
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 참여자보기 팝업
+.participation {
+    .popup-area {
+        .layer-container {
+            .content {
+                .pop-header {
+                    background-color: #ad9cc4;
+                    .pop-title {
+                        line-height: 35px;
+                    }
+                    .btn-pop-close {
+                        background-color: #9079af;
+                        img {
+                            width: 15px;
+                        }
+                    }
+                }
+                .pop-body {
+                    .result-box {
+                        padding: 25px 20px;
+                        border-radius: 5px;
+                        border: 1px solid #ebebeb;
+                        background-color: #fafafa;
+                        ul {
+                            li {
+                                position: relative;
+                                padding-right: 65px;
+                                & ~ li {
+                                    margin-top: 20px;
+                                }
+                                .details {
+                                    p {
+                                        font-size: 10px;
+                                        color: #666;
+                                        font-weight: 300;
+                                        line-height: 15px;
+                                        &.outcome {
+                                            font-weight: 400;
+                                            b {
+                                                display: inline-block;
+                                                margin-left: 10px;
+                                                font-weight: 500;
+                                                @include roboto();
+                                            }
+                                        }
+                                    }
+                                }
+                                .btn-more {
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                    .btn-gray {
+                                        width: 65px;
+                                        font-size: 10px;
+                                        color: #666;
+                                        line-height: 30px;
+                                        border-radius: 30px;
+                                        background-color: #dfdfdf;
+                                        box-shadow: none;
+                                        &:focus {
+                                            color: #fff;
+                                            background-color: #ad9cc4;
+                                        }
+                                        &.active {
+                                            color: #fff;
+                                            background-color: #ad9cc4;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    article {
+                        margin-top: 20px;
+                        .article-header {
+                            padding-bottom: 10px;
+                            border-bottom: 2px solid #ad9cc4;
+                            h6 {
+                                font-size: 11px;
+                                color: #333;
+                                font-weight: 300;
+                                b {
+                                    font-weight: 500;
+                                    color: #9079af;
+                                }
+                            }
+                        }
+                        .article-content {
+                            .search-area {
+                                padding: 20px 0 10px;
+                                text-align: right;
+                                .form-group {
+                                    position: relative;
+                                    width: 100px;
+                                    display: inline-block;
+                                    .form-control {
+                                        height: 26px;
+                                        padding-right: 30px;
+                                        border-radius: 30px;
+                                    }
+                                    .search-btn {
+                                        .btn-default {
+                                            position: absolute;
+                                            top: 0;
+                                            right: 0;
+                                            width: 26px;
+                                            text-align: center;
+                                            line-height: 26px;
+                                            font-size: 12px;
+                                            color: #ad9cc4;
+                                            background: none !important;
+                                            i {
+                                                position: relative;
+                                                top: -1px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .participation-list {
+                                h6 {
+                                    font-size: 11px;
+                                    color: #fff;
+                                    font-weight: 400;
+                                    line-height: 30px;
+                                    text-align: center;
+                                    background-color: #979aa2;
+                                }
+                                ul {
+                                    overflow: hidden;
+                                    width: 100%;
+                                    padding: 20px 10px 15px;
+                                    border-bottom: 1px solid #e7e7e7;
+                                    li {
+                                        float: left;
+                                        width: 33.33%;
+                                        text-align: left;
+                                        font-size: 10px;
+                                        color: #666;
+                                        font-weight: 300;
+                                        line-height: 22px;
+                                        display: table-cell;
+                                        vertical-align: middle;
+                                        &:nth-of-type(3n + 1) {
+                                            clear: both;
+                                        }
+                                    }
+                                }
+                            }
+                            .paging {
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,63 @@
+@import url('https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700');
+
+// font
+@mixin noto() {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@mixin roboto() {
+    font-family: 'Roboto', sans-serif;
+}
+@mixin jua() {
+    font-family: 'BM JUA','배달의민족 주아';
+}
+@mixin maven() {
+    font-family: 'Maven Pro', sans-serif;
+}
+// transition
+@mixin transition($property: all, $duration: .15s, $timing: linear, $delay: 0s) {
+	-webkit-transition-property: $property;
+    transition-property: $property;
+	-webkit-transition-duration: $duration;
+    transition-duration: $duration;
+	-webkit-transition-timing-function: $timing;
+    transition-timing-function: $timing;
+	-webkit-transition-delay: $delay;
+    transition-delay: $delay;
+}
+
+body {
+    padding-top: 135px;
+    min-width: 320px;
+    font-size: 10px;
+    color: #666;
+    font-weight: 300;
+    @include noto();
+    background-color: #eeeff4;
+}
+address, p, dl {
+    margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul, ol {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.container {
+    padding-left: 5px;
+    padding-right: 5px;
+    .row {
+        margin-left: -5px;
+        margin-right: -5px;
+        @for $i from 1 through 12 {
+            .col-xs-#{$i} {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    }
+}

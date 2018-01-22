@@ -1,0 +1,348 @@
+@import url("/assets/css/common.css");
+
+/* 마일리지 독립 리스트, 뷰 */
+.mileage-review-list {
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* 마일리지 몰 */
+.mileage-list .section-content .board-type-5 .paging {
+    margin-top: 30px;
+}
+
+/* 마일리지몰 뷰 상품후기 공통*/
+.product-report .section-header {
+    padding-bottom: 0;
+}
+.product-report .section-header figure img {
+    width: 100%;
+}
+.product-report .section-header .sns-like {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.product-report .section-header .sns-like .sns-share {
+    float: left;
+    padding-top: 5px;
+}
+.product-report .section-header .sns-like .sns-share li {
+    display: inline-block;
+    width: 20px;
+    margin-right: 5px;
+}
+.product-report .section-header .sns-like .sns-share > li > a > img {
+    width: 100%;
+}
+.product-report .section-header .sns-like .btn-like {
+    float: right;
+}
+.product-report .section-header .sns-like .btn-like .btn.btn-xs {
+    text-align: center;
+    width: 63px;
+    font-size: 10px;
+    color: #666;
+    line-height: 30px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.product-report .section-header .sns-like .btn-like .btn.btn-xs .icon-heart {
+    color: #ff7875;
+}
+.product-report .section-header .information {
+    margin-top: 20px;
+}
+.product-report .section-header .information .info-head h3 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+}
+.product-report .section-header .information .info-head p {
+    font-size: 11px;
+    line-height: 15px;
+    color: #666;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.product-report .section-header .information .info-body {
+    border-top: 1px solid #cecfd2;
+    border-bottom: 1px solid #cecfd2;
+}
+.product-report .section-header .information .info-body .info-first dl {
+    border-bottom: 1px solid #cecfd2;
+}
+.product-report .section-header .information .info-body dl {   
+    padding: 15px 5px;
+    overflow: hidden;
+}
+.product-report .section-header .information .info-body dl dt {
+    float: left;
+    clear: both;
+    width: 80px;
+    color: #666;
+}
+.product-report .section-header .information .info-body dl dd {
+    padding-left: 80px;
+    color: #999;
+    font-weight: 300;
+}
+.product-report .section-header .information .info-body .info-second dl .payment {
+    color: #ff7875;
+}
+.product-report .section-header .information .info-body .info-second dl .delivery {
+    color: #ff7875;
+}
+.product-report .section-header .btn-area {
+    margin: 20px 0 40px;
+}
+.product-report .section-content .tab-accordion .panel-group .panel .panel-collapse .panel-body figure img {
+    width: 100%;
+}
+
+/* 마일리지몰 상품후기 상품정보*/
+.mileage-view .section-content .tab-accordion .panel-group .panel .panel-collapse .panel-body .board-type-2 .paging {
+    margin-top: 20px;
+}
+.mileage-view .section-content .tab-accordion .panel-group .panel .panel-collapse .panel-body .board-type-2 .btn-area {
+    margin-top: 10px;
+    text-align: right;
+}
+
+/* 마일리지몰 상품후기 뷰*/
+.mileage-view .product-report .section-content .tab-accordion .panel-group .panel .panel-collapse .panel-body .board-view .btn-area {
+    margin-bottom: 0;
+}
+
+/* 마일리지몰 상품후기 쓰기 */
+.mileage-write .table-wrap .table tbody tr td a {
+    display: block;
+    text-decoration: none;
+}
+.mileage-write .table-wrap .table tbody tr td a .item {
+    width: 77px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d7d7d7;
+}
+.mileage-write .table-wrap .table tbody tr td a .item img {
+    width: 100%;
+}
+.mileage-write .table-wrap .table tbody tr td a .details {
+    font-size: 10px;
+    color: #333;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+.mileage-write .table-wrap .btn-area {
+    text-align: right;
+    margin-top: 30px;
+}
+
+/* 비밀번호 확인 */
+.pw-confirm .container > article {
+    padding: 35px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.pw-confirm .container > article figure {
+    width: 44px;
+    margin: 0 auto;
+}
+.pw-confirm .container > article figure img {
+    width: 100%;
+}
+.pw-confirm .container > article .details {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.pw-confirm .container > article .details h2 {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.pw-confirm .container > article .details .summary {
+    font-size: 11px;
+    text-align: center;
+    line-height: 16px;
+    color: #8f8f8f;
+    word-break: keep-all;
+}
+.pw-confirm .container > article .form-group .form-control {
+    width: 260px;
+    margin: 0 auto;
+}
+.pw-confirm .container > article .btn-area {
+    margin-top: 30px;
+}
+
+/* 빅딜 */
+.big-deal .section-content .board-type-5 .paging {
+    margin-top: 30px;
+}
+
+/* 장바구니 목록 */
+.basket-list .section-content .board-type-4 {
+    padding: 5px 9px 0;
+}
+.basket-list .section-content .board-type-4 > ul > li {
+    padding: 20px 15px 30px;
+}
+.basket-list .section-content > .btn-area {
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* 장바구니 주문결제 */
+.order-write .view-details {
+    margin-top: 20px;
+}
+.order-write .section-content .table-wrap .btn-modify {
+    text-align: right;
+    margin-bottom: 10px;
+}
+.order-write .section-content .table-wrap .btn-modify p {
+    line-height: 30px;
+    font-size: 10px;
+    color: #999;
+    margin-right: 10px;
+    display: inline-block;
+}
+.order-write .section-content .table-wrap .btn-modify .btn-xs {
+    display: inline-block;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    color: #999;
+    font-size: 10px;
+    width: 60px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.order-write .section-content .table-wrap .radio-box {
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.order-write .section-content .table-wrap .radio-box .form-group label  {
+    color: #999;
+    margin-right: 10px;
+    font-weight: 300;
+}
+.order-write .section-content .table-wrap .radio-box .form-group label:last-child {
+    margin-right: 0;
+}
+.order-write .section-content .table-wrap .radio-box .form-group label input[type="radio"] {
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+.order-write .section-content .table-wrap .btn-area {
+    margin-top: 20px;
+    text-align: right;
+}
+
+
+/* 장바구니 주문완료 */
+.success .section-header .success-info {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 15px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.success .section-header .view-details {
+    margin-top: 30px;
+}
+.success .section-header .success-info figure img {
+    width: 100%;
+}
+.success .section-header .success-info figure figcaption {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-align: center;
+    color: #ff7875;
+    font-weight: 400;
+}
+.success .section-header .success-info dl {
+    overflow: hidden;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.success .section-header .success-info dl dt {
+    display: inline-block;
+    font-weight: 300;
+}
+.success .section-header .success-info dl dt:after {
+    content: " : "
+}
+.success .section-header .success-info dl dd {
+    display: inline-block;
+    font-weight: 300;
+}
+.success .section-header .success-info p {
+    text-align: center;
+    color: #8f8f8f;
+    word-break: keep-all;
+    font-size: 11px;
+    line-height: 16px;
+}
+.success .section-content .table.type-1 ~ .table.type-1 {
+    margin-top: 30px;
+}
+.success .section-content .table-wrap .btn-area {
+    padding: 20px 0 30px;
+    text-align: right;
+}
+.success .section-content .attention-box {
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+}
+.success .section-content .attention-box ol li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 10px;
+    color: #999;
+    line-height: 15px;
+    margin-top: 5px;
+}
+.success .section-content .attention-box ol li span {
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    color: #fff;
+    font-size: 8px;
+    text-align: center;
+    line-height: 14px;
+    border-radius: 50%;
+    background-color: #ad9cc4;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

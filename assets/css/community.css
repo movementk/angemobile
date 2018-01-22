@@ -1,0 +1,629 @@
+@import url("https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css");
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
+body {
+  padding-top: 135px;
+  min-width: 320px;
+  font-size: 10px;
+  color: #666;
+  font-weight: 300;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #eeeff4; }
+
+address, p, dl {
+  margin-bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+ul, ol {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
+
+.container {
+  padding-left: 5px;
+  padding-right: 5px; }
+  .container .row {
+    margin-left: -5px;
+    margin-right: -5px; }
+    .container .row .col-xs-1 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-xs-2 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-xs-3 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-xs-4 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-xs-5 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-xs-6 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-xs-7 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-xs-8 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-xs-9 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-xs-10 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-xs-11 {
+      padding-left: 5px;
+      padding-right: 5px; }
+    .container .row .col-xs-12 {
+      padding-left: 5px;
+      padding-right: 5px; }
+
+.list-type-1 > ul {
+  overflow: hidden; }
+  .list-type-1 > ul > li {
+    float: left;
+    width: 50%; }
+    .list-type-1 > ul > li ~ li {
+      margin-top: 30px; }
+    .list-type-1 > ul > li:nth-of-type(2n + 1) {
+      clear: both;
+      padding-right: 5px; }
+    .list-type-1 > ul > li:nth-of-type(2n + 2) {
+      padding-left: 5px; }
+    .list-type-1 > ul > li:nth-of-type(2) {
+      margin-top: 0; }
+    .list-type-1 > ul > li > a {
+      display: block;
+      text-decoration: none; }
+      .list-type-1 > ul > li > a .item {
+        position: relative; }
+        .list-type-1 > ul > li > a .item figure {
+          overflow: hidden;
+          border-radius: 10px; }
+          .list-type-1 > ul > li > a .item figure img {
+            width: 100%; }
+        .list-type-1 > ul > li > a .item .icon-list {
+          position: absolute;
+          bottom: 10px;
+          left: 0;
+          width: 100%;
+          text-align: center; }
+          .list-type-1 > ul > li > a .item .icon-list li {
+            color: #fff; }
+      .list-type-1 > ul > li > a .details {
+        text-align: center;
+        padding: 15px 10px 0;
+        /*padding-top: 15px;*/ }
+        .list-type-1 > ul > li > a .details small {
+          font-size: 10px;
+          color: #ad9cc4;
+          display: inline-block;
+          margin-bottom: 10px; }
+        .list-type-1 > ul > li > a .details p {
+          font-size: 11px;
+          color: #333;
+          line-height: 14px;
+          font-weight: 400; }
+        .list-type-1 > ul > li > a .details .icon-list {
+          margin-top: 15px;
+          text-align: center;
+          color: #999; }
+
+.poll-list .section-header figure {
+  margin-top: 10px; }
+  .poll-list .section-header figure img {
+    width: 100%; }
+.poll-list .section-content {
+  margin-top: 15px; }
+  .poll-list .section-content .search-form {
+    margin-bottom: 15px; }
+  .poll-list .section-content .paging {
+    margin-top: 20px; }
+
+.poll-write .section-header figure {
+  margin-top: 10px; }
+  .poll-write .section-header figure img {
+    width: 100%; }
+.poll-write .section-content .board-view .article-header {
+  overflow: hidden; }
+  .poll-write .section-content .board-view .article-header .icon-list {
+    float: left; }
+    .poll-write .section-content .board-view .article-header .icon-list li {
+      float: left !important;
+      line-height: 16px;
+      margin-right: 10px; }
+  .poll-write .section-content .board-view .article-header .result {
+    margin-top: 10px;
+    float: right; }
+    .poll-write .section-content .board-view .article-header .result .btn-xs {
+      width: 50px;
+      font-size: 10px;
+      color: #fff;
+      line-height: 16px;
+      border-radius: 30px;
+      background-color: #ff7a77; }
+.poll-write .section-content .board-view .article-content .content {
+  text-align: center;
+  padding: 30px 10px;
+  background-color: #fff; }
+  .poll-write .section-content .board-view .article-content .content h5 {
+    font-size: 12px;
+    color: #e25371;
+    font-weight: 400; }
+  .poll-write .section-content .board-view .article-content .content .ask {
+    font-size: 11px;
+    color: #666;
+    line-height: 16px;
+    margin-top: 20px;
+    padding: 0 10px;
+    word-break: keep-all; }
+  .poll-write .section-content .board-view .article-content .content .vote-box {
+    text-align: left;
+    margin-top: 20px;
+    padding: 25px 15px;
+    border-radius: 10px;
+    border: 1px solid #dfdfdf; }
+    .poll-write .section-content .board-view .article-content .content .vote-box ul li ~ li {
+      margin-top: 40px; }
+    .poll-write .section-content .board-view .article-content .content .vote-box ul li dl dt {
+      position: relative;
+      padding-left: 20px;
+      line-height: 16px;
+      font-size: 11px;
+      color: #666;
+      font-weight: 400; }
+      .poll-write .section-content .board-view .article-content .content .vote-box ul li dl dt:before {
+        position: absolute;
+        top: 1px;
+        left: 0;
+        font-weight: 500;
+        content: "Q";
+        color: #fff;
+        width: 16px;
+        line-height: 16px;
+        font-size: 10px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #b2d69b; }
+    .poll-write .section-content .board-view .article-content .content .vote-box ul li dl dd {
+      margin-top: 20px;
+      padding-left: 20px; }
+      .poll-write .section-content .board-view .article-content .content .vote-box ul li dl dd .form-group label {
+        display: block;
+        line-height: 18px;
+        font-size: 10px;
+        color: #999;
+        font-weight: 400; }
+        .poll-write .section-content .board-view .article-content .content .vote-box ul li dl dd .form-group label input {
+          position: relative;
+          top: 3px;
+          margin-top: 0;
+          margin-right: 5px; }
+      .poll-write .section-content .board-view .article-content .content .vote-box ul li dl dd .form-group .etc {
+        position: relative;
+        padding-left: 55px; }
+        .poll-write .section-content .board-view .article-content .content .vote-box ul li dl dd .form-group .etc label {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 50px;
+          line-height: 30px;
+          display: inline-block; }
+.poll-write .section-content .board-view .article-content .btn-area {
+  margin-top: 30px;
+  margin-bottom: 0;
+  text-align: right; }
+
+.today-talk .calendar {
+  text-align: center; }
+  .today-talk .calendar strong {
+    display: inline-block;
+    font-size: 17px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px; }
+    .today-talk .calendar strong:after {
+      font-weight: 400;
+      content: "\E819";
+      font-family: "fontello";
+      margin-left: 15px;
+      position: relative;
+      top: -1px; }
+  .today-talk .calendar .day {
+    position: relative;
+    padding: 13px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+    background-color: #fff; }
+    .today-talk .calendar .day ul {
+      display: table;
+      width: 100%; }
+      .today-talk .calendar .day ul li {
+        display: table-cell;
+        width: 1%; }
+        .today-talk .calendar .day ul li a {
+          position: relative;
+          display: block;
+          font-size: 14px;
+          width: 23px;
+          height: 23px;
+          line-height: 23px;
+          color: #666;
+          text-align: center;
+          font-weight: bold;
+          font-family: 'Roboto', sans-serif;
+          margin: 0 auto;
+          text-decoration: none;
+          z-index: 2; }
+        .today-talk .calendar .day ul li.active a {
+          color: #fff;
+          border-radius: 50%;
+          background-color: #ff7875; }
+    .today-talk .calendar .day .btn-controls {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      padding: 0 13px;
+      margin-top: -12px;
+      z-index: 1; }
+      .today-talk .calendar .day .btn-controls a {
+        font-size: 15px;
+        color: #666;
+        line-height: 23px; }
+        .today-talk .calendar .day .btn-controls a i {
+          position: relative;
+          top: -1px; }
+        .today-talk .calendar .day .btn-controls a.prev {
+          float: left; }
+        .today-talk .calendar .day .btn-controls a.next {
+          float: right; }
+        .today-talk .calendar .day .btn-controls a:hover, .today-talk .calendar .day .btn-controls a:focus {
+          color: #ff7875; }
+.today-talk .article-header {
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+  background-color: #fff; }
+  .today-talk .article-header h3 img {
+    width: 57px; }
+  .today-talk .article-header p {
+    margin-top: 20px;
+    font-size: 10px;
+    color: #666;
+    word-break: keep-all;
+    line-height: 16px; }
+  .today-talk .article-header figure {
+    margin-top: 20px; }
+    .today-talk .article-header figure img {
+      width: 100%; }
+.today-talk .article-content {
+  margin-top: 20px; }
+  .today-talk .article-content h4 {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px; }
+  .today-talk .article-content .write-form {
+    position: relative;
+    padding-left: 40px; }
+    .today-talk .article-content .write-form figure {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #e0e0e0; }
+      .today-talk .article-content .write-form figure img {
+        display: inline-block;
+        width: 100%; }
+    .today-talk .article-content .write-form .writing {
+      position: relative;
+      padding-left: 15px;
+      border-radius: 10px; }
+      .today-talk .article-content .write-form .writing:before {
+        position: absolute;
+        top: 0px;
+        left: 4px;
+        width: 8px;
+        transform: scale(0.4);
+        -webkit-transform: scale(0.4);
+        -ms-transform: scale(0.4);
+        -moz-transform: scale(0.4);
+        content: url(/assets/images/community/bg_writing.png); }
+      .today-talk .article-content .write-form .writing .form-group .form-control {
+        height: 75px;
+        border: 1px solid #d7d7d7;
+        border-radius: 10px; }
+      .today-talk .article-content .write-form .writing .btn-area {
+        position: absolute;
+        top: 0px;
+        right: 0px; }
+        .today-talk .article-content .write-form .writing .btn-area .btn-gray {
+          font-size: 10px;
+          color: #333;
+          width: 70px;
+          text-align: center;
+          line-height: 73px;
+          height: 75px;
+          border: 1px solid #d7d7d7;
+          border-left: 0;
+          border-radius: 10px;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+          background-color: #f5f5f5; }
+  .today-talk .article-content .banner {
+    margin: 30px 0; }
+    .today-talk .article-content .banner a {
+      display: block; }
+      .today-talk .article-content .banner a figure img {
+        width: 100%; }
+  .today-talk .article-content .talk-list {
+    padding: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+    background-color: #fff; }
+    .today-talk .article-content .talk-list > ul > li {
+      position: relative;
+      padding-left: 50px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #dfdfdf; }
+      .today-talk .article-content .talk-list > ul > li ~ li {
+        margin-top: 20px; }
+      .today-talk .article-content .talk-list > ul > li .user-profile {
+        position: absolute;
+        top: 0;
+        left: 10px; }
+        .today-talk .article-content .talk-list > ul > li .user-profile figure {
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          border-radius: 50%;
+          background-color: #e0e0e0; }
+          .today-talk .article-content .talk-list > ul > li .user-profile figure img {
+            display: inline-block;
+            width: 100%; }
+      .today-talk .article-content .talk-list > ul > li .details {
+        padding-left: 10px; }
+        .today-talk .article-content .talk-list > ul > li .details h4 {
+          font-size: 11px;
+          color: #3d3d3d; }
+          .today-talk .article-content .talk-list > ul > li .details h4 small {
+            font-size: 10px;
+            color: #999;
+            float: right;
+            font-family: 'Roboto', sans-serif; }
+        .today-talk .article-content .talk-list > ul > li .details p {
+          font-size: 10px;
+          color: #515151;
+          line-height: 14px; }
+    .today-talk .article-content .talk-list .paging {
+      margin-top: 20px; }
+
+.debate-list .section-content .search-form {
+  margin-bottom: 15px; }
+.debate-list .section-content .paging {
+  margin-top: 20px; }
+
+.debate-view .section-content .review-write {
+  margin-top: 20px; }
+  .debate-view .section-content .review-write .paging {
+    margin-top: 20px; }
+
+.debate-write .section-content .btn-area {
+  text-align: right;
+  margin-top: 30px; }
+
+.model-list .banner a {
+  display: block; }
+  .model-list .banner a figure img {
+    width: 100%; }
+.model-list .article-content {
+  margin-top: 20px; }
+  .model-list .article-content .search-form {
+    margin-bottom: 20px; }
+  .model-list .article-content .paging {
+    margin-top: 30px; }
+  .model-list .article-content .btn-area {
+    text-align: right;
+    margin-top: 25px; }
+
+.model-write .article-content .btn-area {
+  text-align: right;
+  margin-top: 30px; }
+
+.knowhow-list .banner a {
+  display: block; }
+  .knowhow-list .banner a figure img {
+    width: 100%; }
+.knowhow-list .article-content {
+  margin-top: 20px; }
+  .knowhow-list .article-content .search-form {
+    margin-bottom: 20px; }
+  .knowhow-list .article-content .paging {
+    margin-top: 30px; }
+  .knowhow-list .article-content .btn-area {
+    text-align: right;
+    margin-top: 25px; }
+
+.knowhow-write .article-content .btn-area {
+  text-align: right;
+  margin-top: 30px; }
+
+.chatter-list .article-content .search-form {
+  margin-bottom: 15px; }
+.chatter-list .article-content .paging {
+  margin-top: 20px; }
+
+.chatter-view .section-content .vote-result {
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+  background-color: #fff; }
+  .chatter-view .section-content .vote-result h5 {
+    font-size: 12px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 30px; }
+  .chatter-view .section-content .vote-result .form-group ~ .form-group {
+    margin-top: 30px; }
+  .chatter-view .section-content .vote-result .form-group label {
+    font-size: 10px;
+    color: #333;
+    font-weight: 300; }
+    .chatter-view .section-content .vote-result .form-group label input {
+      position: relative;
+      top: 3px;
+      margin-top: 0;
+      margin-right: 5px; }
+  .chatter-view .section-content .vote-result .form-group .bar {
+    display: block;
+    height: 2px;
+    border-radius: 30px;
+    margin: 15px 0 10px;
+    background-color: #ff7a77; }
+  .chatter-view .section-content .vote-result > .btn-area {
+    margin-top: 20px; }
+    .chatter-view .section-content .vote-result > .btn-area > p > .btn-pink {
+      float: left; }
+.chatter-view .section-content .btn-area {
+  margin-top: 30px; }
+
+.chatter-write article ~ article {
+  margin-top: 30px; }
+.chatter-write article h3 {
+  font-size: 12px;
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 15px; }
+.chatter-write article .table-wrap .table tbody tr td .btn-area {
+  margin-top: 10px;
+  text-align: left; }
+.chatter-write .btn-area {
+  text-align: right;
+  margin-top: 30px; }
+
+.sponsor .sponsor-list > li {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc; }
+  .sponsor .sponsor-list > li ~ li {
+    padding-top: 20px; }
+  .sponsor .sponsor-list > li figure {
+    overflow: hidden;
+    border-radius: 10px; }
+    .sponsor .sponsor-list > li figure img {
+      width: 100%; }
+  .sponsor .sponsor-list > li .details {
+    padding-left: 10px; }
+    .sponsor .sponsor-list > li .details h3 {
+      font-size: 11px;
+      color: #333;
+      font-weight: 400; }
+    .sponsor .sponsor-list > li .details > ul {
+      margin-top: 10px; }
+      .sponsor .sponsor-list > li .details > ul > li a {
+        display: block;
+        line-height: 16px;
+        color: #999;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif; }
+        .sponsor .sponsor-list > li .details > ul > li a:before {
+          font-family: "fontello";
+          margin-right: 5px; }
+      .sponsor .sponsor-list > li .details > ul > li.contact a:before {
+        content: "\E820"; }
+      .sponsor .sponsor-list > li .details > ul > li.home-page a:before {
+        content: "\E821"; }
+    .sponsor .sponsor-list > li .details p {
+      font-size: 10px;
+      color: #999;
+      line-height: 13px;
+      margin-top: 20px; }
+.sponsor .paging {
+  margin-top: 20px; }
+
+.qna-list .article-header {
+  padding-bottom: 15px; }
+  .qna-list .article-header figure img {
+    width: 100%; }
+.qna-list .article-content .search-form {
+  margin-bottom: 15px; }
+.qna-list .article-content .paging {
+  margin-top: 25px; }
+
+.qna-view .qna-content .article-content .view-content .reply {
+  margin-top: 55px;
+  padding: 25px 20px;
+  border-radius: 5px;
+  border: 1px solid #ececec;
+  background-color: #f7f7f7; }
+  .qna-view .qna-content .article-content .view-content .reply .reply-title {
+    position: relative;
+    font-size: 11px;
+    color: #333;
+    font-weight: 400;
+    padding-right: 80px; }
+    .qna-view .qna-content .article-content .view-content .reply .reply-title small {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 10px;
+      font-weight: 300;
+      color: #999; }
+  .qna-view .qna-content .article-content .view-content .reply .content {
+    margin-top: 20px;
+    font-size: 10px;
+    color: #666;
+    font-weight: 300;
+    line-height: 16px; }
+
+.qna-write .article-content .btn-area {
+  text-align: right;
+  margin-top: 30px; }
+
+.movie-list .article-header figure img {
+  width: 100%; }
+.movie-list .article-content {
+  margin-top: 20px; }
+  .movie-list .article-content > ul > li ~ li a {
+    margin-top: 20px; }
+  .movie-list .article-content > ul > li:nth-of-type(2) a {
+    margin-top: 0; }
+  .movie-list .article-content > ul > li:nth-of-type(2n + 1) {
+    clear: both; }
+  .movie-list .article-content > ul > li > a {
+    display: block;
+    text-decoration: none; }
+    .movie-list .article-content > ul > li > a figure {
+      overflow: hidden;
+      border-radius: 10px; }
+      .movie-list .article-content > ul > li > a figure img {
+        width: 100%; }
+      .movie-list .article-content > ul > li > a figure figcaption {
+        font-size: 11px;
+        color: #333;
+        text-align: center;
+        word-break: keep-all;
+        line-height: 14px;
+        margin-top: 15px; }
+  .movie-list .article-content .paging {
+    margin-top: 35px; }
+
+.faq-list .article-content .search-form {
+  margin-bottom: 15px; }
+.faq-list .article-content .paging {
+  margin-top: 20px; }
+
+/*# sourceMappingURL=community.css.map */

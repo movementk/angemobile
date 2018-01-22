@@ -1,0 +1,865 @@
+@import 'common';
+
+// 공통 리스트
+.list-type-1 {
+    > ul {
+        overflow: hidden;
+        > li {
+            float: left;
+            width: 50%;
+            & ~ li {
+                margin-top: 30px;
+            }
+            &:nth-of-type(2n + 1) {
+                clear: both;
+                padding-right: 5px;
+            }
+            &:nth-of-type(2n + 2) {
+                padding-left: 5px;
+            }
+            &:nth-of-type(2) {
+                margin-top: 0;
+            }
+            > a {
+                display: block;
+                text-decoration: none;
+                .item {
+                    position: relative;
+                    figure {
+                        overflow: hidden;
+                        border-radius: 10px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .icon-list {
+                        position: absolute;
+                        bottom: 10px;
+                        left: 0;
+                        width: 100%;
+                        text-align: center;
+                        li {
+                            color: #fff;
+                        }
+                    }
+                }
+                .details {
+                    text-align: center;
+                    padding: 15px 10px 0;
+                    /*padding-top: 15px;*/
+                    small {
+                        font-size: 10px;
+                        color: #ad9cc4;
+                        display: inline-block;
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        font-size: 11px;
+                        color: #333;
+                        line-height: 14px;
+                        font-weight: 400;
+                    }
+                    .icon-list {
+                        margin-top: 15px;
+                        text-align: center;
+                        color: #999;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 앙쥬 poll 리스트
+.poll-list {
+    .section-header {
+        figure {
+            margin-top: 10px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .section-content {
+        margin-top: 15px;
+        .search-form {
+            margin-bottom: 15px;
+        }
+        .paging {
+            margin-top: 20px;
+        }
+    }
+}
+
+// 앙쥬 poll 투표하기
+.poll-write {
+    .section-header {
+        figure {
+            margin-top: 10px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .section-content {
+        .board-view {
+            .article-header {
+                overflow: hidden;
+                .icon-list {
+                    float: left;
+                    li {
+                        float: left !important;
+                        line-height: 16px;
+                        margin-right: 10px;
+                    }
+                }
+                .result {
+                    margin-top: 10px;
+                    float: right;
+                    .btn-xs {
+                        width: 50px;
+                        font-size: 10px;
+                        color: #fff;
+                        line-height: 16px;
+                        border-radius: 30px;
+                        background-color: #ff7a77;
+                    }
+                }
+            }
+            .article-content {
+                .content {
+                    text-align: center;
+                    padding: 30px 10px;
+                    background-color: #fff;
+                    h5 {
+                        font-size: 12px;
+                        color: #e25371;
+                        font-weight: 400;
+                    }
+                    .ask {
+                        font-size: 11px;
+                        color: #666;
+                        line-height: 16px;
+                        margin-top: 20px;
+                        padding: 0 10px;
+                        word-break: keep-all;
+                    }
+                    .vote-box {
+                        text-align: left;
+                        margin-top: 20px;
+                        padding: 25px 15px;
+                        border-radius: 10px;
+                        border: 1px solid #dfdfdf;
+                        ul {
+                            li {
+                                & ~ li {
+                                    margin-top: 40px;
+                                }
+                                dl {
+                                    dt {
+                                        position: relative;
+                                        padding-left: 20px;
+                                        line-height: 16px;
+                                        font-size: 11px;
+                                        color: #666;
+                                        font-weight: 400;
+                                        &:before {
+                                            position: absolute;
+                                            top: 1px;
+                                            left: 0;
+                                            font-weight: 500;
+                                            content: "Q";
+                                            color: #fff;
+                                            width: 16px;
+                                            line-height: 16px;
+                                            font-size: 10px;
+                                            text-align: center;
+                                            border-radius: 50%;
+                                            background-color: #b2d69b;
+                                        }
+                                    }
+                                    dd {
+                                        margin-top: 20px;
+                                        padding-left: 20px;
+                                        .form-group {
+                                            label {
+                                                display: block;
+                                                line-height: 18px;
+                                                font-size: 10px;
+                                                color: #999;
+                                                font-weight: 400;
+                                                input {
+                                                    position: relative;
+                                                    top: 3px;
+                                                    margin-top: 0;
+                                                    margin-right: 5px;
+                                                }
+                                            }
+                                            .etc {
+                                                position: relative;
+                                                padding-left: 55px;
+                                                label {
+                                                    position: absolute;
+                                                    top: 0;
+                                                    left: 0;
+                                                    width: 50px;
+                                                    line-height: 30px;
+                                                    display: inline-block;
+                                                }
+                                                .form-control {
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .btn-area {
+                    margin-top: 30px;
+                    margin-bottom: 0;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+//투데이톡
+.today-talk {
+    .calendar {
+        text-align: center;
+        strong {
+            display: inline-block;
+            font-size: 17px;
+            color: #333;
+            @include roboto();
+            margin-bottom: 15px;
+            &:after {
+                font-weight: 400;
+                content: "\E819";
+                font-family: "fontello";
+                margin-left: 15px;
+                position: relative;
+                top: -1px;
+            }
+        }
+        .day {
+            position: relative;
+            padding: 13px 30px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+            background-color: #fff;
+            ul {
+                display: table;
+                width: 100%;
+                li {
+                    display: table-cell;
+                    width: 1%;
+                    a {
+                        position: relative;
+                        display: block;
+                        font-size: 14px;
+                        width: 23px;
+                        height: 23px;
+                        line-height: 23px;
+                        color: #666;
+                        text-align: center;
+                        font-weight: bold;
+                        @include roboto();
+                        margin: 0 auto;
+                        text-decoration: none;
+                        z-index: 2;
+                    }
+                    &.active {
+                        a {
+                            color: #fff;
+                            border-radius: 50%;
+                            background-color: #ff7875;
+                        }
+                    }
+                }
+            }
+            .btn-controls {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 100%;
+                padding: 0 13px;
+                margin-top: -12px;
+                z-index: 1;
+                a {
+                    font-size: 15px;
+                    color: #666;
+                    line-height: 23px;
+                    i {
+                        position: relative;
+                        top: -1px;
+                    }
+                    &.prev {
+                        float: left;
+                    }
+                    &.next {
+                        float: right;
+                    }
+                    &:hover, &:focus {
+                        color: #ff7875;
+                    }
+                }
+            }
+        }
+    }
+    .article-header {
+        text-align: center;
+        margin-top: 30px;
+        padding: 30px 25px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+        background-color: #fff;
+        h3 {
+            img {
+                width: 57px;
+            }
+        }
+        p {
+            margin-top: 20px;
+            font-size: 10px;
+            color: #666;
+            word-break: keep-all;
+            line-height: 16px;
+        }
+        figure {
+            margin-top: 20px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .article-content {
+        margin-top: 20px;
+        h4 {
+            font-size: 12px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .write-form {
+            position: relative;
+            padding-left: 40px;
+            figure {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border-radius: 50%;
+                background-color: #e0e0e0;
+                img {
+                    display: inline-block;
+                    width: 100%;
+                }
+            }
+            .writing {
+                position: relative;
+                padding-left: 15px;
+                border-radius: 10px;
+                &:before {
+                    position: absolute;
+                    top: 0px;
+                    left: 4px;
+                    width: 8px;
+                    transform: scale(0.4);
+                    -webkit-transform: scale(0.4);
+                    -ms-transform: scale(0.4);
+                    -moz-transform: scale(0.4);
+                    content: url(/assets/images/community/bg_writing.png);
+                }
+                .form-group {
+                    .form-control {
+                        height: 75px;
+                        border: 1px solid #d7d7d7;
+                        border-radius: 10px;
+                    }
+                }
+                .btn-area {
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    .btn-gray {
+                        font-size: 10px;
+                        color: #333;
+                        width: 70px;
+                        text-align: center;
+                        line-height: 73px;
+                        height: 75px;
+                        border: 1px solid #d7d7d7;
+                        border-left: 0;
+                        border-radius: 10px;
+                        border-top-left-radius: 0;
+                        border-bottom-left-radius: 0;
+                        background-color: #f5f5f5;
+                    }
+                }
+            }
+        }
+        .banner {
+            margin: 30px 0;
+            a {
+                display: block;
+                figure {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .talk-list {
+            padding: 20px 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+            background-color: #fff;
+            > ul {
+                > li {
+                    position: relative;
+                    padding-left: 50px;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #dfdfdf;
+                    & ~ li {
+                        margin-top: 20px;
+                    }
+                    .user-profile {
+                        position: absolute;
+                        top: 0;
+                        left: 10px;
+                        figure {
+                            width: 40px;
+                            height: 40px;
+                            line-height: 40px;
+                            text-align: center;
+                            border-radius: 50%;
+                            background-color: #e0e0e0;
+                            img {
+                                display: inline-block;
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .details {
+                        padding-left: 10px;
+                        h4 {
+                            font-size: 11px;
+                            color: #3d3d3d;
+                            small {
+                                font-size: 10px;
+                                color: #999;
+                                float: right;
+                                @include roboto();
+                            }
+                        }
+                        p {
+                            font-size: 10px;
+                            color: #515151;
+                            line-height: 14px;
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+// 온라인 토론 리스트
+.debate-list {
+    .section-content {
+        .search-form {
+            margin-bottom: 15px;
+        }
+        .paging {
+            margin-top: 20px;
+        }
+    }
+}
+// 온라인 토론 뷰
+.debate-view {
+    .section-content {
+        .review-write {
+            margin-top: 20px;
+            .paging {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+// 온라인 토론 쓰기
+.debate-write {
+    .section-content {
+        .btn-area {
+            text-align: right;
+            margin-top: 30px;
+        }
+    }
+}
+// 도전 잡지모델 리스트
+.model-list {
+    .banner {
+        a {
+            display: block;
+            figure {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .article-content {
+        margin-top: 20px;
+        .search-form {
+            margin-bottom: 20px;
+        }
+        .paging {
+            margin-top: 30px;
+        }
+        .btn-area {
+            text-align: right;
+            margin-top: 25px;
+        }
+    }
+}
+// 도전 잡지 모델 쓰기
+.model-write {
+    .article-content {
+        .btn-area {
+            text-align: right;
+            margin-top: 30px;
+        }
+    }
+}
+// 육아 노하우 리스트
+.knowhow-list {
+    .banner {
+        a {
+            display: block;
+            figure {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .article-content {
+        margin-top: 20px;
+        .search-form {
+            margin-bottom: 20px;
+        }
+        .paging {
+            margin-top: 30px;
+        }
+        .btn-area {
+            text-align: right;
+            margin-top: 25px;
+        }
+    }
+}
+// 육아 노하우 쓰기
+.knowhow-write {
+    .article-content {
+        .btn-area {
+            text-align: right;
+            margin-top: 30px;
+        }
+    }
+}
+//수다방 리스트
+.chatter-list {
+    .article-content {
+        .search-form {
+            margin-bottom: 15px;
+        }
+        .paging {
+            margin-top: 20px;
+        }
+    }
+}
+//수다방 뷰
+.chatter-view {
+    .section-content {
+        .vote-result {
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+            background-color: #fff;
+            h5 {
+                font-size: 12px;
+                color: #333;
+                font-weight: 400;
+                margin-bottom: 30px;
+            }
+            .form-group {
+                & ~ .form-group {
+                    margin-top: 30px;
+                }
+                label {
+                    font-size: 10px;
+                    color: #333;
+                    font-weight: 300;
+                    input {
+                        position: relative;
+                        top: 3px;
+                        margin-top: 0;
+                        margin-right: 5px;
+                    }
+                }
+                .bar {
+                    display: block;
+                    height: 2px;
+                    border-radius: 30px;
+                    margin: 15px 0 10px;
+                    background-color: #ff7a77;
+                }
+            }
+            > .btn-area {
+                margin-top: 20px;
+                > p {
+                    > .btn-pink {
+                        float: left;
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 30px;
+        }
+    }
+}
+//수다방 쓰기
+.chatter-write {
+    article {
+        & ~ article {
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 12px;
+            color: #333;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+        .table-wrap {
+            .table {
+                tbody {
+                    tr {
+                        td {
+                            .btn-area {
+                                margin-top: 10px;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn-area {
+        text-align: right;
+        margin-top: 30px;
+    }
+}
+// 후원사
+.sponsor {
+    .sponsor-list {
+        > li {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            & ~ li {
+                padding-top: 20px;
+            }
+            figure {
+                overflow: hidden;
+                border-radius: 10px;
+                img {
+                    width: 100%;
+                }
+            }
+            .details {
+                padding-left: 10px;
+                h3 {
+                    font-size: 11px;
+                    color: #333;
+                    font-weight: 400;
+                }
+                > ul {
+                    margin-top: 10px;
+                    > li {
+                        a {
+                            display: block;
+                            line-height: 16px;
+                            color: #999;
+                            font-weight: 400;
+                            @include roboto();
+                            &:before {
+                                font-family: "fontello";
+                                margin-right: 5px;
+                            }
+                        }
+                        &.contact {
+                            a {
+                                &:before {
+                                    content: "\E820";
+                                }
+                            }
+                        }
+                        &.home-page {
+                            a {
+                                &:before {
+                                    content: "\E821";
+                                }
+                            }
+                        }
+                    }
+                }
+                p {
+                    font-size: 10px;
+                    color: #999;
+                    line-height: 13px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    .paging {
+        margin-top: 20px;
+    }
+}
+// qna 리스트
+.qna-list {
+    .article-header {
+        padding-bottom: 15px;
+        figure {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .article-content {
+        .search-form {
+            margin-bottom: 15px;
+        }
+        .paging {
+            margin-top: 25px;
+        }
+    }
+}
+// qna 뷰
+.qna-view {
+    .qna-content {
+        .article-content {
+            .view-content {
+                .reply {
+                    margin-top: 55px;
+                    padding: 25px 20px;
+                    border-radius: 5px;
+                    border: 1px solid #ececec;
+                    background-color: #f7f7f7;
+                    .reply-title {
+                        position: relative;
+                        font-size: 11px;
+                        color: #333;
+                        font-weight: 400;
+                        padding-right: 80px;
+                        small {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            font-size: 10px;
+                            font-weight: 300;
+                            color: #999;
+                        }
+                    }
+                    .content {
+                        margin-top: 20px;
+                        font-size: 10px;
+                        color: #666;
+                        font-weight: 300;
+                        line-height: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+// qna 쓰기
+.qna-write {
+    .article-content {
+        .btn-area {
+            text-align: right;
+            margin-top: 30px;
+        }
+    }
+}
+// 동영상 리스트
+.movie-list {
+    .article-header {
+        figure {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .article-content {
+        margin-top: 20px;
+        > ul {
+            > li {
+                & ~ li {
+                    a {
+                        margin-top: 20px;
+                    }
+                }
+                &:nth-of-type(2) {
+                    a {
+                        margin-top: 0;
+                    }
+                }
+                &:nth-of-type(2n + 1) {
+                    clear: both;
+                }
+                > a {
+                    display: block;
+                    text-decoration: none;
+                    figure {
+                        overflow: hidden;
+                        border-radius: 10px;
+                        img {
+                            width: 100%;
+                        }
+                        figcaption {
+                            font-size: 11px;
+                            color: #333;
+                            text-align: center;
+                            word-break: keep-all;
+                            line-height: 14px;
+                            margin-top: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 35px;
+        }
+    }
+}
+// faq 리스트
+.faq-list {
+    .article-content {
+        .search-form {
+            margin-bottom: 15px;
+        }
+        .paging {
+            margin-top: 20px;
+        }
+    }
+}
