@@ -1,9 +1,9 @@
-<?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/dochead.php"); ?>
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
 <link href="/assets/css/samplepack.css" rel="stylesheet">
 </head>
 <body class="sub samplepack"><!-- 폴더별 클래스명 추가 -->
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/header.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
     <!-- pgae-header -->
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
@@ -28,9 +28,9 @@
             <section>
                 <div class="section-header">
                     <h3 class="section-title">샘플팩 신청하기</h3>
-                    <p class="summary">앙쥬에서 회원님들의 행복을 축하드리며 임신부용품은 물론 아기용품,<br> 생활용품까지 다양한 선물을 드립니다.<br> 신청조건을 확인하시고 신청하세요.</p>
+                    <p class="summary">앙쥬에서 회원님들의 행복을 축하드리며 임신부용품은 물론 아기용품, 생활용품까지 다양한 선물을 드립니다.<br> 신청조건을 확인하시고 신청하세요.</p>
                     <figure>
-                        <img src="/assets/images/samplepack/img_samplepack_explain.png" alt="">
+                        <img src="/assets/images/samplepack/img_samplepack.jpg" alt="">
                     </figure>
                     <div class="btn-area">
                         <p>
@@ -153,8 +153,8 @@
         </div>
     </main>
     
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/footer.php"); ?>
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/docfoot.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common.js"></script>
 </body>
 </html>

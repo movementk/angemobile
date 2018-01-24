@@ -8,6 +8,16 @@
 }
 
 /* 마일리지 몰 */
+.mileage-list .section-content .banner {
+    display: block;
+    margin-bottom: 30px;
+}
+.mileage-list .section-content .banner a {
+    display: block;
+}
+.mileage-list .section-content .banner a figure img {
+    width: 100%;
+}
 .mileage-list .section-content .board-type-5 .paging {
     margin-top: 30px;
 }

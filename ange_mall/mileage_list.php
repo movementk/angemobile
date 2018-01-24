@@ -1,9 +1,9 @@
-<?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/dochead.php"); ?>
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
 <link href="/assets/css/ange_mall.css" rel="stylesheet">
 </head>
 <body class="sub ange_mall"><!-- 폴더별 클래스명 추가 -->
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/header.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
     <!-- pgae-header -->
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
@@ -40,6 +40,13 @@
                 </div>
                 
                 <div class="section-content">
+                    <div class="banner">
+                        <a href="#">
+                            <figure>
+                                <img src="/assets/images/ange_mall/banner_img.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
                     <article class="board-type-5">
                         <ul class="row">
                             <li class="col-xs-6">
@@ -145,8 +152,8 @@
         </div>
     </main>
     
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/footer.php"); ?>
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/docfoot.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common.js"></script>
 </body>
 </html>

@@ -1,9 +1,9 @@
-<?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/dochead.php"); ?>
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
 <link href="/assets/css/event.css" rel="stylesheet">
 </head>
 <body class="sub event"><!-- 폴더별 클래스명 추가 -->
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/header.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
     <!-- pgae-header -->
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
@@ -123,8 +123,8 @@
         </div>
     </main>
     
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/footer.php"); ?>
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/docfoot.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common.js"></script>
 </body>
 </html>

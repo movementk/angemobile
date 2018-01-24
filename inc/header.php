@@ -189,6 +189,7 @@
                 <button type="button" class="btn btn-close">
                     <img src="/assets/images/nav_btn_close.png" alt="네비 닫기">
                 </button>
+                <!-- 로그인 일때
                 <div class="user-info">
                     <h2>
                         무브먼트 <small>님</small>
@@ -218,6 +219,27 @@
                         </div>
                     </div>
                 </div>
+                -->
+                <!-- 로그아웃 일때 -->
+                <div class="member-login">
+                    <h2>로그인</h2>
+                    <form action="#">
+                        <div class="form-group">
+                            <input type="text" id="member-id" class="form-control" placeholder="아이디">
+                            <label for="member-id" class="sr-only">아이디 입력</label>
+                            <input type="password" id="member-pw" class="form-control" placeholder="비밀번호">
+                            <label for="member-pw" class="sr-only">비밀번호</label>
+                        </div>
+                        <div class="member-btn">
+                            <button type="button" class="btn btn-white btn-lg">로그인하기</button>
+                        </div>
+                        <ul class="join-confirm">
+                            <li><a href="#">회원가입</a></li>
+                            <li><a href="#">아이디/비밀번호 찾기</a></li>
+                        </ul>
+                    </form>
+                </div>
+                
             </div>
             <div class="ange-event">
                 <a href="#">

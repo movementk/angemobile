@@ -1,10 +1,10 @@
-<?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/dochead.php"); ?>
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
 <link href="/assets/css/mypage.css" rel="stylesheet">
 <link rel="stylesheet" property="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css">
 </head>
 <body class="sub mypage"><!-- 폴더별 클래스명 추가 -->
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/header.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
     <!-- pgae-header -->
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
@@ -245,8 +245,8 @@
         </div>
     </main>
     
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/footer.php"); ?>
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/docfoot.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>

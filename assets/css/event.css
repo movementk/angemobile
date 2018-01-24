@@ -310,6 +310,16 @@
     font-size: 12px;
     color: #333;
 }
+.prizewinner-list .section-header .banner {
+    display: block;
+    margin-top: 20px;
+}
+.prizewinner-list .section-header .banner a {
+    display: block;
+}
+.prizewinner-list .section-header .banner a figure img {
+    width: 100%;
+}
 .prizewinner-list .section-header .search-form {
     margin: 15px 0;
 }

@@ -1,8 +1,8 @@
-<?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/dochead.php"); ?>
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/main.css" rel="stylesheet">
 </head>
 <body>
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/header.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
     <main id="content">
         <div class="hot-issue">
             <div class="container">
@@ -528,8 +528,8 @@
             </div>
         </div>
     </main>
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/footer.php"); ?>
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."./inc/docfoot.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
+    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="/assets/js/common.js"></script>
     <script>
