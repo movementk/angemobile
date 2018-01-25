@@ -1,4 +1,21 @@
 @import 'common';
+@import url('https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css');
+@font-face {
+  font-family: 'Daehan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Daehan';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff') format('woff');
+}
+@mixin daehan() {
+    font-family: 'Daehan', serif;
+}
 
 // 공통 리스트
 .list-type-1 {
@@ -863,3 +880,321 @@
         }
     }
 }
+
+// 회원 혜택
+.member-benefit {
+    > ul {
+        > li {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            & ~ li {
+                margin-top: 20px;
+            }
+            figure {
+                img {
+                    width: 118px;
+                    display: block;
+                    margin: 0 auto;
+                }
+                figcaption {
+                    padding-top: 30px;
+                    h3 {
+                        font-size: 16px;
+                        color: #333;
+                        text-align: center;
+                        margin-bottom: 20px;
+                    }
+                    p {
+                        font-size: 10px;
+                        color: #666;
+                        line-height: 18px;
+                        i {
+                            font-style: normal;
+                            color: #e25371;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// club-tab-menu
+.club-tab-menu {
+    ul {
+        font-size: 0;
+        text-align: center;
+        li {
+            display: inline-block;
+            width: 93px;
+            margin-right: 10px;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                width: 100%;
+                height: 26px;
+                line-height: 24px;
+                display: block;
+                text-align: center;
+                font-size: 10px;
+                color: #666;
+                border-radius: 30px;
+                background-color: #fff;
+                border: 1px solid #cdcdce;
+            }
+            &.active {
+                a {
+                    color: #fff;
+                    border-color: #ff7875;
+                    background-color: #ff7875;
+                }
+            }
+        }
+    }
+}
+
+// 클럽/선생님 소개
+.education-intro {
+    .article-content {
+        margin-top: 25px;
+        > ul {
+            > li {
+                position: relative;
+                padding-top: 2px;
+                & ~ li {
+                    margin-top: 20px;
+                }
+                .club-mark {
+                    position: absolute;
+                    top: 0;
+                    right: 10px;
+                    z-index: 2;
+                    img {
+                        width: 34px;
+                    }
+                }
+                .box {
+                    position: relative;
+                    width: 100%;
+                    padding: 35px 0;
+                    padding-left: 100px;
+                    border-radius: 10px;
+                    border: 1px solid #e5e5e5;
+                    background-color: #fbfbfb;
+                    z-index: 1;
+                    figure {
+                        position: absolute;
+                        top: 35px;
+                        left: 0;
+                        width: 100px;
+                        height: 100%;
+                        img {
+                            display: block;
+                            margin: 0 auto;
+                        }
+                    }
+                    .details {
+                        padding-right: 15px;
+                        small {
+                            font-size: 10px;
+                        }
+                        h3 {
+                            font-size: 14px;
+                            color: #333;
+                            font-weight: 400;
+                            margin: 20px 0 25px;
+                            b {
+                                font-size: 20px;
+                                font-weight: bold;
+                            }
+                        }
+                        > ul {
+                            > li {
+                                position: relative;
+                                padding-left: 10px;
+                                line-height: 18px;
+                                font-size: 12px;
+                                color: #555;
+                                &:before {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    content: "\E805";
+                                    font-family: "fontello";
+                                }
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(1) {
+                    .box {
+                        figure {
+                            img {
+                                width: 66px;
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(2) {
+                    .box {
+                        figure {
+                            img {
+                                width: 63px;
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(3) {
+                    .box {
+                        figure {
+                            img {
+                                width: 72px;
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(4) {
+                    .box {
+                        figure {
+                            img {
+                                width: 78px;
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(5) {
+                    .box {
+                        figure {
+                            img {
+                                width: 67px;
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(6) {
+                    .box {
+                        figure {
+                            img {
+                                width: 73px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// 클럽소개
+.club-intro {
+    .article-content {
+        margin-top: 40px;
+        .logo {
+            margin-bottom: 20px;
+            img {
+                width: 67px;
+            }
+        }
+        h3 {
+            font-size: 20px;
+            color: #333;
+            font-weight: 300;
+            line-height: 30px;
+            margin-bottom: 30px;
+            b {
+                font-weight: bold;
+                color: #7da7d9;
+                font-weight: 500;
+            }
+        }
+        .summary {
+            font-size: 11px;
+            color: #666;
+            line-height: 20px;
+            i {
+                font-style: normal;
+                color: #ff7875;
+            }
+        }
+    }
+    .spon-company {
+        margin-top: 50px;
+        h4 {
+            position: relative;
+            padding-top: 10px;
+            line-height: 22px;
+            @include daehan();
+            font-weight: 300;
+            b {
+                color: #333;
+                font-weight: bold;
+            }
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                width: 15px;
+                height: 1px;
+                content: " ";
+                background-color: #666;
+            }
+        }
+        .company-list {
+            margin-top: 20px;
+            li {
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

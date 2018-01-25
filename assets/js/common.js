@@ -1,4 +1,10 @@
 (function($) {
+    // top 배너 슬라이드 부분
+    $('.top-banner ul').bxSlider({
+        controls: false,
+        pager: false,
+        auto: true
+    });
     // gnb nav
     $(document).on("click", "#header .btn-open-nav", function(e) {
         $("body").addClass("gnb-opened");

@@ -1,10 +1,21 @@
 <header id="header">
     <div class="top-banner">
-        <a href="#">
-            <figure>
-                <img src="/assets/images/img_top_banner.jpg" alt="">
-            </figure>
-        </a>
+        <ul>
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="/assets/images/img_top_banner.jpg" alt="">
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="/assets/images/img_top_banner.jpg" alt="">
+                    </figure>
+                </a>
+            </li>
+        </ul>
     </div>
     <div class="logo-nav">
         <h1><a href="/index.php"><img src="/assets/images/logo.jpg" alt=""></a></h1>

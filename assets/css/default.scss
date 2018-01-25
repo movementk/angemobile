@@ -11,16 +11,20 @@
     .top-banner {
         height: 50px;
         border-bottom: 1px solid #dfdfdf;
-        a {
-            display: block;
-            height: 50px;
-            padding: 5px 0;
-            figure {
-                img {
-                    width: auto;
+        ul {
+            li {
+                a {
                     display: block;
-                    height: 40px;
-                    margin: 0 auto;
+                    height: 50px;
+                    padding: 5px 0;
+                    figure {
+                        img {
+                            width: auto;
+                            display: block;
+                            height: 40px;
+                            margin: 0 auto;
+                        }
+                    }
                 }
             }
         }

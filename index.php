@@ -530,12 +530,11 @@
     </main>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
-    <script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="/assets/js/common.js"></script>
     <script>
         (function($) {
-            // 메인슬라이드
             $(document).ready(function(){
+                // 메인슬라이드
                 $('.jumbo .container > ul').bxSlider({
                     controls: false
                 });
