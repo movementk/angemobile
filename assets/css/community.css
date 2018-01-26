@@ -999,5 +999,17 @@ ul, ol {
     width: 93px; }
   .club-member .article-content .member-company.msd .company-item .item-img img {
     width: 135px; }
+  .club-member .article-content .member-company.sanofi .company-info .logo img {
+    width: 75px; }
+  .club-member .article-content .member-company.sanofi .company-item .item-img img {
+    width: 100px; }
+  .club-member .article-content .member-company.edu-challenge .company-info .logo img {
+    width: 70px; }
+  .club-member .article-content .member-company.edu-challenge .company-item .item-img img {
+    width: 105px; }
+  .club-member .article-content .member-company.greenfinger .company-info .logo img {
+    width: 110px; }
+  .club-member .article-content .member-company.greenfinger .company-item .item-img img {
+    width: 100px; }
 
 /*# sourceMappingURL=community.css.map */
