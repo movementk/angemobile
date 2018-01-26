@@ -281,28 +281,30 @@
                                 color: #aaa;
                                 font-size: 11px;
                                 font-family: "fontello";
-                                content: "\E80A";
+                                content: "\E81A";
                             }
                         }
                         > ul {
                             display: none;
-                            padding: 5px 0;
-                            padding-left: 15px;
                             border-top: 1px solid #dfdfdf;
+                            background-color: #fff;
                             > li {
                                 > a {
-                                    position: relative;
-                                    display: inline-block;
+                                    display: block;
                                     font-size: 10px;
                                     color: #999;
                                     line-height: 30px;
+                                    padding-right: 15px;
+                                    padding-left: 15px;
                                     text-decoration: none;
-                                    &:before {
-                                        color: #999 !important;
-                                        content: "- ";
-                                    }
-                                    &:hover, &:focus {
-                                        color: #7da7d9;
+                                }
+                                &.has-child {
+                                    > a {
+                                        &:after {
+                                            float: right;
+                                            content: "\F107";
+                                            font-family: "fontello";
+                                        }
                                     }
                                 }
                             }
@@ -313,11 +315,47 @@
                                 background-color: #7da7d9;
                                 &:after {
                                     color: #fff;
-                                    content: "\E80C";
+                                    content: "\E823";
                                 }
                             }
                             > ul {
                                 display: block;
+                                > li {
+                                    > ul {
+                                        display: none;
+                                        padding-left: 20px;
+                                        background-color: #f1f2f6;
+                                        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1) inset;
+                                        li {
+                                            a {
+                                                position: relative;
+                                                display: inline-block;
+                                                font-size: 10px;
+                                                color: #999 !important;
+                                                line-height: 27px;
+                                                text-decoration: none;
+                                                &:before {
+                                                    content: "- ";
+                                                }
+                                                &:hover, &:focus {
+                                                    text-decoration: underline;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.on {
+                                        > a {
+                                            color: #7da7d9 !important;
+                                            &:after {
+                                                color: #7da7d9;
+                                                content: "\F106";
+                                            }
+                                        }
+                                        > ul {
+                                            display: block;
+                                        }
+                                    }
+                                }
                             }
                         }
                     }

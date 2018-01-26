@@ -94,11 +94,54 @@
                             <a href="#">e매거진</a>
                             <ul>
                                 <li><a href="../e_magazine/ebook.php">E-BOOK<span></span></a></li>
-                                <li><a href="../e_magazine/magazine_list.php">임신/출산<span></span></a></li>
-                                <li><a href="../e_magazine/magazine_list.php">성장/건강<span></span></a></li>
-                                <li><a href="../e_magazine/magazine_list.php">놀이/교육<span></span></a></li>
-                                <li><a href="../e_magazine/magazine_list.php">리빙/헬스<span></span></a></li>
-                                <li><a href="../e_magazine/magazine_list.php">앙쥬스토리<span></span></a></li>
+                                <li class="has-child">
+                                    <a href="../e_magazine/magazine_list.php">임신/출산<span></span></a>
+                                    <ul>
+                                        <li><a href="#">주차별 정보<span></span></a></li>
+                                        <li><a href="#">임신준비&amp;태교</a></li>
+                                        <li><a href="#">건강</a></li>
+                                        <li><a href="#">요리&amp;푸드</a></li>
+                                        <li><a href="#">출산준비&amp;용품</a></li>
+                                        <li><a href="#">산후관리</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-child">
+                                    <a href="../e_magazine/magazine_list.php">성장/건강<span></span></a>
+                                    <ul>
+                                        <li><a href="#">1~24개월별 정보</a></li>
+                                        <li><a href="#">3세</a></li>
+                                        <li><a href="#">4세</a></li>
+                                        <li><a href="#">5세 이상</a></li>
+                                        <li><a href="#">이유식&amp;푸드</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-child">
+                                    <a href="../e_magazine/magazine_list.php">놀이/교육<span></span></a>
+                                    <ul>
+                                        <li><a href="#">DIY&amp;놀이법</a></li>
+                                        <li><a href="#">훈육노하우</a></li>
+                                        <li><a href="#">부모교육</a></li>
+                                        <li><a href="#">육아용품</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-child">
+                                    <a href="../e_magazine/magazine_list.php">리빙/헬스<span></span></a>
+                                    <ul>
+                                        <li><a href="#">데코</a></li>
+                                        <li><a href="#">실용정보</a></li>
+                                        <li><a href="#">뷰티&amp;패션</a></li>
+                                        <li><a href="#">부모건강</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-child">
+                                    <a href="../e_magazine/magazine_list.php">앙쥬스토리<span></span></a>
+                                    <ul>
+                                        <li><a href="#">커버스토리</a></li>
+                                        <li><a href="#">닥터앙쥬 전문가 QNA</a></li>
+                                        <li><a href="#">영상으로 배우는 육아</a></li>
+                                        <li><a href="#">브랜드스토리</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <li>
