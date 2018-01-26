@@ -26,6 +26,12 @@
     <main id="content">
         <article class="sponsor">
             <div class="container">
+                <div class="club-tab-menu type-2">
+                    <ul>
+                        <li><a href="/community/club_member.php">앙쥬클럽 회원사 소개</a></li>
+                        <li class="active"><a href="/community/sponsor.php">앙쥬클럽 후원사 소개</a></li>
+                    </ul>
+                </div>
                 <ul class="sponsor-list">
                     <li>
                         <div class="row">
