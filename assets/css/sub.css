@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css");
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 @import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
@@ -138,13 +139,13 @@ button {
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: #fff;
   box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
   z-index: 10; }
   .page-header .page-title {
     position: relative;
     width: 100%;
-    height: 40px; }
+    height: 40px;
+    background-color: #fff; }
     .page-header .page-title h2 {
       font-size: 13px;
       color: #333;
@@ -161,10 +162,8 @@ button {
         left: 15px; }
       .page-header .page-title > .btn-controls > a.next {
         right: 15px; }
-  .page-header .doropdown-btn {
+  .page-header .drop-open-btn {
     position: absolute;
-    bottom: 0;
-    left: 0;
     bottom: -10px;
     left: 50%;
     margin-left: -10px;
@@ -177,12 +176,15 @@ button {
     background-size: 8px auto;
     background-position: 50% 70%;
     z-index: 1; }
-    .page-header .doropdown-btn.open-btn {
-      background-image: url(/assets/images/sub/dorop_on_btn.jpg); }
   .page-header .dropdowns-menu {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
     display: none; }
     .page-header .dropdowns-menu .drop-container > ul {
-      text-align: left; }
+      text-align: left;
+      background-color: #fff; }
       .page-header .dropdowns-menu .drop-container > ul > li > a {
         display: block;
         font-size: 11px;
@@ -209,6 +211,8 @@ button {
       .page-header .dropdowns-menu .drop-container > ul > li.active > ul {
         display: block; }
       .page-header .dropdowns-menu .drop-container > ul > li > ul {
+        position: relative;
+        z-index: 3;
         display: none;
         padding: 5px 0;
         background-color: #f1f2f6;
@@ -225,24 +229,33 @@ button {
             color: #333;
             text-decoration: underline; }
   .page-header.dropdown-open {
-    height: 100%; }
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); }
+    .page-header.dropdown-open .dorop-open-btn {
+      display: none; }
     .page-header.dropdown-open .dropdowns-menu {
-      position: relative;
-      display: block;
-      z-index: 2; }
+      display: block; }
       .page-header.dropdown-open .dropdowns-menu .drop-container {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%; }
-        .page-header.dropdown-open .dropdowns-menu .drop-container > ul {
-          /*position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          overflow: auto;*/ }
+        height: 100%;
+        overflow: auto;
+        /* padding 값을 줘야 스크롤이 정상적으로 보임 */
+        padding-bottom: 180px; }
+      .page-header.dropdown-open .dropdowns-menu .drop-close-btn {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        border-radius: 50%;
+        background-color: #fff;
+        background-image: url(/assets/images/sub/dorop_on_btn.jpg);
+        background-repeat: no-repeat;
+        background-size: 8px auto;
+        background-position: 50% 70%;
+        z-index: 2; }
 
 .step-list {
   overflow: hidden;

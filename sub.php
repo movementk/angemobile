@@ -6,18 +6,82 @@
     <!-- pgae-header -->
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
-        <h2>e-book</h2>
-        <div class="btn-controls">
-            <a href="#" class="prev">
-                <i class="icon-left-open-big">
-                    <span class="sr-only">이전 페이지</span>
-                </i>
-            </a>
-            <a href="#" class="next">
-                <i class="icon-right-open-big">
-                    <span class="sr-only">다음 페이지</span>
-                </i>
-            </a>
+        <div class="page-title">
+            <h2>e-book</h2>
+            <div class="btn-controls">
+                <a href="#" class="prev">
+                    <i class="icon-left-open-big">
+                        <span class="sr-only">이전 페이지</span>
+                    </i>
+                </a>
+                <a href="#" class="next">
+                    <i class="icon-right-open-big">
+                        <span class="sr-only">다음 페이지</span>
+                    </i>
+                </a>
+            </div>
+        </div>
+        <!-- dropdowns-menu -->
+        <button type="button" class="drop-open-btn">
+            <span class="sr-only">메뉴 열기</span>
+        </button>
+        <div class="dropdowns-menu">
+            <div class="drop-container">
+                <ul>
+                    <li><a href="#">E-BOOK<span></span></a></li>
+                    <li class="has-child">
+                        <a href="#">임신/출산<span></span></a>
+                        <ul>
+                            <li><a href="#">주차별 정보<span></span></a></li>
+                            <li><a href="#">임신준비&amp;태교</a></li>
+                            <li><a href="#">건강</a></li>
+                            <li><a href="#">요리&amp;푸드</a></li>
+                            <li><a href="#">출산준비&amp;용품</a></li>
+                            <li><a href="#">산후관리</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-child">
+                        <a href="#">성장/건강<span></span></a>
+                        <ul>
+                            <li><a href="#">1~24개월별 정보</a></li>
+                            <li><a href="#">3세</a></li>
+                            <li><a href="#">4세</a></li>
+                            <li><a href="#">5세 이상</a></li>
+                            <li><a href="#">이유식&amp;푸드</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-child">
+                        <a href="#">놀이/교육<span></span></a>
+                        <ul>
+                            <li><a href="#">DIY&amp;놀이법</a></li>
+                            <li><a href="#">훈육노하우</a></li>
+                            <li><a href="#">부모교육</a></li>
+                            <li><a href="#">육아용품</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-child">
+                        <a href="#">리빙/헬스<span></span></a>
+                        <ul>
+                            <li><a href="#">데코</a></li>
+                            <li><a href="#">실용정보</a></li>
+                            <li><a href="#">뷰티&amp;패션</a></li>
+                            <li><a href="#">부모건강</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-child">
+                        <a href="#">앙쥬스토리<span></span></a>
+                        <ul>
+                            <li><a href="#">커버스토리</a></li>
+                            <li><a href="#">닥터앙쥬 전문가 QNA</a></li>
+                            <li><a href="#">영상으로 배우는 육아</a></li>
+                            <li><a href="#">브랜드스토리</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button type="button" class="drop-close-btn">
+                    <span class="sr-only">메뉴 닫기</span>
+                </button>
+            </div>
         </div>
     </div>
     
@@ -879,5 +943,6 @@
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common.js"></script>
+    <script src="/assets/js/common2.js"></script>
 </body>
 </html>
