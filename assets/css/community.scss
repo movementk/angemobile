@@ -1418,6 +1418,7 @@
                 }
             }
             &.msd {
+                
                 .company-info {
                     .logo {
                         img {
@@ -1437,7 +1438,14 @@
                 .company-info {
                     .logo {
                         img {
-                            
+                            width: 75px;
+                        }
+                    }
+                }
+                .company-item {
+                    .item-img {
+                        img {
+                            width: 100px;
                         }
                     }
                 }
@@ -1446,7 +1454,14 @@
                 .company-info {
                     .logo {
                         img {
-                            
+                            width: 70px;
+                        }
+                    }
+                }
+                .company-item {
+                    .item-img {
+                        img {
+                            width: 105px;
                         }
                     }
                 }
@@ -1455,7 +1470,14 @@
                 .company-info {
                     .logo {
                         img {
-                            
+                            width: 110px;
+                        }
+                    }
+                }
+                .company-item {
+                    .item-img {
+                        img {
+                            width: 100px;
                         }
                     }
                 }
