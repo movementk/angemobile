@@ -35,7 +35,7 @@
         e.preventDefault();
     });
     
-    $(document).on("click", "#gnb-nav .nav-container .nav-body .gnb-menu > ul > .active > ul > li > a", function(e) {		
+    $(document).on("click", "#gnb-nav .nav-container .nav-body .gnb-menu > ul > .active > ul > .has-child > a", function(e) {		
         if ($(this).parent().hasClass("on")) {
             $(this).parent().removeClass("on");
         } else {
