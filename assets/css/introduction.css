@@ -246,17 +246,65 @@
     margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/* 광고문의 제휴& 광고문의신청 */
+.affiliates .section-header small {
+    text-align: right;
+    display: block;
+    font-size: 10px;
+}
+.affiliates .section-header small:before {
+    content: " *";
+    color: #e25371;
+}
+.affiliates .section-content .table-wrap .table tbody tr td .form-group textarea {
+    height: 150px;
+}
+.affiliates .section-content .privacy {
+    margin: 30px 0;
+    padding: 20px 15px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.affiliates .section-content .privacy h5 {
+    font-size: 12px;
+}
+.affiliates .section-content .privacy h5 > a {
+    margin-left: 5px;
+    font-size: 10px;
+    color: #555;
+    vertical-align: top;
+    text-align: center;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.affiliates .section-content .privacy ul {
+    margin-top: 5px;
+}
+.affiliates .section-content .privacy ul li {
+    position: relative;
+    font-size: 10px;
+    color: #333;
+    padding-left: 5px;
+}
+.affiliates .section-content .privacy ul li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "\E805";
+    font-family: "fontello";
+}
+.affiliates .section-content .privacy .form-group label input {
+    position: relative;
+    top: 3px;
+    left: 0;
+}
+.affiliates .section-content .btn-area {
+    text-align: right;
+}
+    
 
 
 
