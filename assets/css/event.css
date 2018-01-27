@@ -348,6 +348,9 @@
 .prizewinner-view section .review-write .article-content  .review-list > li .review-content .btn-more .btn-xs:last-child {
     margin-right: 0;
 }
+.prizewinner-view section .article-content .paging {
+    margin-top: 20px;
+}
 
 /* 애독자 엽서 보내기*/
 .reader-view .section-header figure img {
