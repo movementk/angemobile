@@ -294,10 +294,11 @@ ul, ol {
             font-family: "fontello"; }
         #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > a {
           color: #fff;
-          background-color: #7da7d9; }
-          #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > a:after {
-            color: #fff;
-            content: "\E823"; }
+          background-color: #7da7d9;
+          /*&:after {
+              color: #fff;
+              content: "\E823";
+          }*/ }
         #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul {
           display: block; }
           #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul > li > ul {
@@ -305,16 +306,16 @@ ul, ol {
             padding-left: 20px;
             background-color: #f1f2f6;
             box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1) inset; }
-            #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul > li > ul li a {
+            #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul > li > ul li > a {
               position: relative;
               display: inline-block;
               font-size: 10px;
               color: #999 !important;
               line-height: 27px;
               text-decoration: none; }
-              #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul > li > ul li a:before {
+              #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul > li > ul li > a:before {
                 content: "- "; }
-              #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul > li > ul li a:hover, #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul > li > ul li a:focus {
+              #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul > li > ul li > a:hover, #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul > li > ul li > a:focus {
                 text-decoration: underline; }
           #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul > li.on > a {
             color: #7da7d9 !important; }

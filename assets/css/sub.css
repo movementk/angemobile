@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css");
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 @import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
@@ -242,7 +241,6 @@ button {
         width: 100%;
         height: 100%;
         overflow: auto;
-        /* padding 값을 줘야 스크롤이 정상적으로 보임 */
         padding-bottom: 180px; }
       .page-header.dropdown-open .dropdowns-menu .drop-close-btn {
         position: relative;
@@ -1556,5 +1554,63 @@ button {
       font-size: 10px;
       color: #999;
       line-height: 20px; }
+
+.best-cut {
+  padding-top: 30px;
+  padding-bottom: 10px; }
+  .best-cut .best-title {
+    height: 35px;
+    line-height: 27px;
+    font-size: 10px;
+    color: #333;
+    text-align: center;
+    background-image: url(../images/community/bg_magazine_model_ribbon.png);
+    background-repeat: no-repeat;
+    background-size: 190px 35px;
+    background-position: 50% 50%;
+    margin-bottom: 20px; }
+  .best-cut ul li a {
+    text-decoration: none; }
+    .best-cut ul li a .item {
+      position: relative; }
+      .best-cut ul li a .item figure {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px; }
+        .best-cut ul li a .item figure img {
+          width: 100%; }
+        .best-cut ul li a .item figure:after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: "";
+          display: block;
+          width: 100%;
+          height: 100%;
+          box-shadow: 0px -60px 70px -30px rgba(0, 0, 0, 0.35) inset;
+          z-index: 1; }
+      .best-cut ul li a .item .icon-list {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 3; }
+        .best-cut ul li a .item .icon-list > li {
+          font-family: 'Roboto', sans-serif;
+          font-size: 8px;
+          color: #fff;
+          margin-right: 15px; }
+          .best-cut ul li a .item .icon-list > li:last-child {
+            margin-right: 0; }
+    .best-cut ul li a .details {
+      text-align: center; }
+      .best-cut ul li a .details p {
+        margin: 5px;
+        font-size: 10px;
+        color: #666;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
 
 /*# sourceMappingURL=sub.css.map */

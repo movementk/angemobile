@@ -259,6 +259,7 @@
 //투데이톡
 .today-talk {
     .calendar {
+        position: relative;
         text-align: center;
         strong {
             display: inline-block;
@@ -273,6 +274,24 @@
                 margin-left: 15px;
                 position: relative;
                 top: -1px;
+            }
+        }
+        .control-link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            a {
+                font-size: 11px;
+                color: #666;
+                line-height: 25px;
+                text-decoration: none;
+                &.prev_month {
+                    float: left;
+                }
+                &.next_month {
+                    float: right;
+                }
             }
         }
         .day {
@@ -577,64 +596,6 @@
             figure {
                 img {
                     width: 100%;
-                }
-            }
-        }
-    }
-    .best-cut {
-        padding-top: 30px;
-        padding-bottom: 10px;
-        .best-title {
-            height: 35px;
-            line-height: 27px;
-            font-size: 10px;
-            color: #333;
-            text-align: center;
-            background-image: url(../images/community/bg_magazine_model_ribbon.png);
-            background-repeat: no-repeat;
-            background-size: 190px 35px;
-            background-position: 50% 50%;
-            margin-bottom: 20px;
-        }
-        ul {
-            li {
-                a {
-                    text-decoration: none;
-                    .item {
-                        position: relative;
-                        figure {
-                            img {
-                                width: 100%;
-                            }
-                        }
-                        .icon-list {
-                            position: absolute;
-                            bottom: 10px;
-                            left: 0;
-                            width: 100%;
-                            text-align: center;
-                            z-index: 3;
-                            > li {
-                                @include roboto();
-                                font-size: 8px;
-                                color: #fff;
-                            }
-                        }
-                    }
-                    .details {
-                        text-align: center;
-                        p {
-                            
-                            margin: 5px;
-                            font-size: 10px;
-                            color: #666;
-                            overflow: hidden;
-                            text-overflow: ellipsis;
-                            white-space: nowrap;
-                        }
-                        > ul {
-                        }
-                    }
                 }
             }
         }

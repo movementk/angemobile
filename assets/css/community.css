@@ -245,6 +245,7 @@ ul, ol {
   text-align: right; }
 
 .today-talk .calendar {
+  position: relative;
   text-align: center; }
   .today-talk .calendar strong {
     display: inline-block;
@@ -259,6 +260,20 @@ ul, ol {
       margin-left: 15px;
       position: relative;
       top: -1px; }
+  .today-talk .calendar .control-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; }
+    .today-talk .calendar .control-link a {
+      font-size: 11px;
+      color: #666;
+      line-height: 25px;
+      text-decoration: none; }
+      .today-talk .calendar .control-link a.prev_month {
+        float: left; }
+      .today-talk .calendar .control-link a.next_month {
+        float: right; }
   .today-talk .calendar .day {
     position: relative;
     padding: 13px 30px;
@@ -473,46 +488,6 @@ ul, ol {
     display: block; }
     .knowhow-list .banner a figure img {
       width: 100%; }
-.knowhow-list .best-cut {
-  padding-top: 30px;
-  padding-bottom: 10px; }
-  .knowhow-list .best-cut .best-title {
-    height: 35px;
-    line-height: 27px;
-    font-size: 10px;
-    color: #333;
-    text-align: center;
-    background-image: url(../images/community/bg_magazine_model_ribbon.png);
-    background-repeat: no-repeat;
-    background-size: 190px 35px;
-    background-position: 50% 50%;
-    margin-bottom: 20px; }
-  .knowhow-list .best-cut ul li a {
-    text-decoration: none; }
-    .knowhow-list .best-cut ul li a .item {
-      position: relative; }
-      .knowhow-list .best-cut ul li a .item figure img {
-        width: 100%; }
-      .knowhow-list .best-cut ul li a .item .icon-list {
-        position: absolute;
-        bottom: 10px;
-        left: 0;
-        width: 100%;
-        text-align: center;
-        z-index: 3; }
-        .knowhow-list .best-cut ul li a .item .icon-list > li {
-          font-family: 'Roboto', sans-serif;
-          font-size: 8px;
-          color: #fff; }
-    .knowhow-list .best-cut ul li a .details {
-      text-align: center; }
-      .knowhow-list .best-cut ul li a .details p {
-        margin: 5px;
-        font-size: 10px;
-        color: #666;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap; }
 .knowhow-list .article-content {
   margin-top: 20px; }
   .knowhow-list .article-content .search-form {

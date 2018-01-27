@@ -230,7 +230,6 @@ button {
                 width: 100%;
                 height: 100%;
                 overflow: auto;
-                /* padding 값을 줘야 스크롤이 정상적으로 보임 */
                 padding-bottom: 180px;
             }
             .drop-close-btn {
@@ -2112,3 +2111,102 @@ button {
         }
     }
 }
+
+
+// a베스트 3
+.best-cut {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    .best-title {
+        height: 35px;
+        line-height: 27px;
+        font-size: 10px;
+        color: #333;
+        text-align: center;
+        background-image: url(../images/community/bg_magazine_model_ribbon.png);
+        background-repeat: no-repeat;
+        background-size: 190px 35px;
+        background-position: 50% 50%;
+        margin-bottom: 20px;
+    }
+    ul {
+        li {
+            a {
+                text-decoration: none;
+                .item {
+                    position: relative;
+                    figure {
+                        position: relative;
+                        overflow: hidden;
+                        border-radius: 10px;
+                        img {
+                            width: 100%;
+                        }
+                        &:after {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            content: "";
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            box-shadow: 0px -60px 70px -30px rgba(0, 0, 0, 0.35) inset;
+                            z-index: 1;
+                        }
+                    }
+                    .icon-list {
+                        position: absolute;
+                        bottom: 10px;
+                        left: 0;
+                        width: 100%;
+                        text-align: center;
+                        z-index: 3;
+                        > li {
+                            @include roboto();
+                            font-size: 8px;
+                            color: #fff;
+                            margin-right: 15px;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+                .details {
+                    text-align: center;
+                    p {
+
+                        margin: 5px;
+                        font-size: 10px;
+                        color: #666;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    > ul {
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

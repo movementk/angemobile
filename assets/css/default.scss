@@ -313,10 +313,10 @@
                             > a {
                                 color: #fff;
                                 background-color: #7da7d9;
-                                &:after {
+                                /*&:after {
                                     color: #fff;
                                     content: "\E823";
-                                }
+                                }*/
                             }
                             > ul {
                                 display: block;
@@ -327,7 +327,7 @@
                                         background-color: #f1f2f6;
                                         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1) inset;
                                         li {
-                                            a {
+                                            > a {
                                                 position: relative;
                                                 display: inline-block;
                                                 font-size: 10px;
