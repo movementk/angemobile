@@ -467,10 +467,52 @@ ul, ol {
   text-align: right;
   margin-top: 30px; }
 
-.knowhow-list .banner a {
-  display: block; }
-  .knowhow-list .banner a figure img {
-    width: 100%; }
+.knowhow-list .banner {
+  padding-top: 10px; }
+  .knowhow-list .banner a {
+    display: block; }
+    .knowhow-list .banner a figure img {
+      width: 100%; }
+.knowhow-list .best-cut {
+  padding-top: 30px;
+  padding-bottom: 10px; }
+  .knowhow-list .best-cut .best-title {
+    height: 35px;
+    line-height: 27px;
+    font-size: 10px;
+    color: #333;
+    text-align: center;
+    background-image: url(../images/community/bg_magazine_model_ribbon.png);
+    background-repeat: no-repeat;
+    background-size: 190px 35px;
+    background-position: 50% 50%;
+    margin-bottom: 20px; }
+  .knowhow-list .best-cut ul li a {
+    text-decoration: none; }
+    .knowhow-list .best-cut ul li a .item {
+      position: relative; }
+      .knowhow-list .best-cut ul li a .item figure img {
+        width: 100%; }
+      .knowhow-list .best-cut ul li a .item .icon-list {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 3; }
+        .knowhow-list .best-cut ul li a .item .icon-list > li {
+          font-family: 'Roboto', sans-serif;
+          font-size: 8px;
+          color: #fff; }
+    .knowhow-list .best-cut ul li a .details {
+      text-align: center; }
+      .knowhow-list .best-cut ul li a .details p {
+        margin: 5px;
+        font-size: 10px;
+        color: #666;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
 .knowhow-list .article-content {
   margin-top: 20px; }
   .knowhow-list .article-content .search-form {

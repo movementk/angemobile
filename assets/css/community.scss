@@ -571,11 +571,70 @@
 // 육아 노하우 리스트
 .knowhow-list {
     .banner {
+        padding-top: 10px;
         a {
             display: block;
             figure {
                 img {
                     width: 100%;
+                }
+            }
+        }
+    }
+    .best-cut {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        .best-title {
+            height: 35px;
+            line-height: 27px;
+            font-size: 10px;
+            color: #333;
+            text-align: center;
+            background-image: url(../images/community/bg_magazine_model_ribbon.png);
+            background-repeat: no-repeat;
+            background-size: 190px 35px;
+            background-position: 50% 50%;
+            margin-bottom: 20px;
+        }
+        ul {
+            li {
+                a {
+                    text-decoration: none;
+                    .item {
+                        position: relative;
+                        figure {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        .icon-list {
+                            position: absolute;
+                            bottom: 10px;
+                            left: 0;
+                            width: 100%;
+                            text-align: center;
+                            z-index: 3;
+                            > li {
+                                @include roboto();
+                                font-size: 8px;
+                                color: #fff;
+                            }
+                        }
+                    }
+                    .details {
+                        text-align: center;
+                        p {
+                            
+                            margin: 5px;
+                            font-size: 10px;
+                            color: #666;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                        > ul {
+                        }
+                    }
                 }
             }
         }

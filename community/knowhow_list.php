@@ -29,9 +29,71 @@
                 <div class="banner">
                     <a href="#">
                         <figure>
-                            <img src="/assets/images/community/img_none_banner_model.jpg" alt="">
+                            <img src="/assets/images/community/img_knowhow_banner.jpg" alt="">
                         </figure>
                     </a>
+                </div>
+                <div class="best-cut">
+                    <h3 class="best-title">레시피 공개 BEST 3</h3>
+                    <ul class="row">
+                        <li class="col-xs-4">
+                            <a href="#">
+                                <div class="item">
+                                    <figure>
+                                        <img src="/assets/images/community/img_bestcut_none.png" class="img-responsive" alt="">
+                                    </figure>
+                                    <ul class="icon-list">
+                                        <li class="like">123</li>
+                                        <li class="comment">123</li>
+                                    </ul>
+                                </div>
+                                <div class="details">
+                                    <p>레시피 타이틀</p>
+                                    <ul class="icon-list">
+                                        <li class="user">무브먼트</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-xs-4">
+                            <a href="#">
+                                <div class="item">
+                                    <figure>
+                                        <img src="/assets/images/community/img_bestcut_none.png" class="img-responsive" alt="">
+                                    </figure>
+                                    <ul class="icon-list">
+                                        <li class="like">123</li>
+                                        <li class="comment">123</li>
+                                    </ul>
+                                </div>
+                                <div class="details">
+                                    <p>레시피 타이틀</p>
+                                    <ul class="icon-list">
+                                        <li class="user">무브먼트</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li> 
+                        <li class="col-xs-4">
+                            <a href="#">
+                                <div class="item">
+                                    <figure>
+                                        <img src="/assets/images/community/img_bestcut_none.png" class="img-responsive" alt="">
+                                    </figure>
+                                    <ul class="icon-list">
+                                        <li class="like">123</li>
+                                        <li class="comment">123</li>
+                                    </ul>
+                                </div>
+                                <div class="details">
+                                    <p>레시피 타이틀</p>
+                                    <ul class="icon-list">
+                                        <li class="user">무브먼트</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>    
+                    </ul>
                 </div>
                 <div class="article-content">
                     <div class="search-form">
