@@ -1,5 +1,9 @@
 @import 'common';
 
+body {
+    padding-top: 135px;
+}
+
 #content {
     padding: 10px 5px;
     a {
@@ -218,7 +222,7 @@
                         font-weight: 400;
                         line-height: 20px;
                         padding-left: 16px;
-                        background-image: url(/assets/images/main/icon_question.gif);
+                        background-image: url(../images/main/icon_question.gif);
                         background-repeat: no-repeat;
                         background-position: 0 50%;
                         background-size: 11px auto;

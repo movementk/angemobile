@@ -1,4 +1,4 @@
-@import url("/assets/css/common.css");
+@import url("../css/common.css");
 
 /* 이벤트 공통 */
 .event .section-header {
@@ -598,7 +598,7 @@
     width: 100%;
     padding-left: 20px;
     padding-right: 10px;
-    background-image: url(/assets/images/event/bg_prizewinner.png);
+    background-image: url(../images/event/bg_prizewinner.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: auto 30px;

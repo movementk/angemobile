@@ -1,4 +1,4 @@
-@import url("/assets/css/common.css");
+@import url("../css/common.css");
 
 /* 쪽지 리스트 */
 .message-list .search-form {
@@ -198,7 +198,7 @@
     line-height: 30px;
     padding-left: 24px;
     font-family: 'Roboto', sans-serif;
-    background-image: url(/assets/images/mypage/img_mileage.png);
+    background-image: url(../images/mypage/img_mileage.png);
     background-repeat: no-repeat;
     background-position: 0 5px;
     background-size: 17px auto;
@@ -319,7 +319,7 @@
     padding-left: 20px;
     padding-right: 10px;
     /*font-weight: 300;*/
-    background-image: url(/assets/images/event/bg_prizewinner.png);
+    background-image: url(../images/event/bg_prizewinner.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: auto 30px;
