@@ -1,6 +1,7 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
 <link href="/assets/css/community.css" rel="stylesheet">
+<link href="/assets/css/sub_popup.css" rel="stylesheet">
 </head>
 <body class="sub community"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
@@ -105,7 +106,7 @@
                                                 <a href="#" class="btn btn-xs btn-gray">댓글</a>
                                                 <a href="#" class="btn btn-xs btn-gray">수 정</a>
                                                 <a href="#" class="btn btn-xs btn-gray">삭 제</a>
-                                                <a href="#" class="btn btn-xs btn-gray">신 고</a>
+                                                <a href="#layerPopup" class="btn btn-xs btn-gray btn-popup">신 고</a>
                                                 <a href="#" class="btn btn-xs btn-gray">블라인드</a>
                                             </div>
                                         </div>
@@ -198,8 +199,57 @@
         </section>
     </main>
     
+    <!-- layer-popup -->
+    <div class="layer-popup accusation-popup" id="layerPopup">
+        <div class="pop-backdrop"></div>
+        <div class="popup-area">
+            <div class="layer-container">
+                <div class="content">
+                    <div class="pop-header">
+                        <h5 class="pop-title">신고하기</h5>
+                        <a class="btn-pop-close" href="#none"><img src="/assets/images/community/btn_close.png" alt=""></a>
+                    </div>
+                    <div class="pop-body">
+                        <form action="#">
+                            <div class="form-group">
+                                <textarea id="u-accusation" class="form-control" placeholder="신고하실 내용을 입력해 주세요"></textarea>
+                                <label for="u-accusation" class="sr-only">신고접수하기</label>
+                            </div>
+                            <div class="btn-area">
+                                <p>
+                                    <button type="submit" class="btn btn-sm btn-green">신고하기</button>
+                                    <a href="#" class="btn btn-sm btn-white" role="button">취소</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common.js"></script>
+    <script>
+        $(function($){
+            // 팝업 레이어
+            $('.btn-popup').on('click', function(e) {
+                e.preventDefault();
+                
+                var el = $($(this).attr('href'));
+                
+                if (!el.hasClass('open')) {
+                    el.addClass('open');
+                } else {
+                    el.removeClass('open');
+                }
+            });
+
+            $('.btn-pop-close, .pop-backdrop').on('click', function(e) {
+                $(this).closest('.layer-popup').removeClass('open');
+            });
+        }(jQuery));
+    </script>
 </body>
 </html>

@@ -5,7 +5,10 @@
     margin-bottom: 15px;
 }
 .message-list .board-type-2 .paging {
-    margin-top: 21px;
+    margin-top: 20px;
+}
+.message-list .board-type-2 .btn-area {
+    margin-top: 20px;
 }
 
 /* 쪽지 뷰 */

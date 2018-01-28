@@ -101,7 +101,6 @@ ul, ol {
         bottom: 0;
         left: 0;
         overflow: hidden;
-        overflow-y: auto;
         -webkit-overflow-scrolling: touch; }
         .layer-popup .popup-area .layer-container .content .pop-header {
           position: relative;
@@ -128,6 +127,8 @@ ul, ol {
               top: -2px;
               width: 15px; }
         .layer-popup .popup-area .layer-container .content .pop-body {
+          height: 100%;
+          overflow-y: auto;
           padding: 20px 10px; }
 
 .result .popup-area .layer-container .content .pop-header {
@@ -287,5 +288,38 @@ ul, ol {
         clear: both; }
   .participation .popup-area .layer-container .content .pop-body article .article-content .paging {
     margin-top: 20px; }
+
+.accusation-popup {
+  height: 0;
+  background: none !important; }
+  .accusation-popup .popup-area .layer-container {
+    height: 200px; }
+    .accusation-popup .popup-area .layer-container .content {
+      height: 200px; }
+      .accusation-popup .popup-area .layer-container .content .pop-header {
+        background-color: #9fca83; }
+        .accusation-popup .popup-area .layer-container .content .pop-header .pop-title {
+          line-height: 35px; }
+        .accusation-popup .popup-area .layer-container .content .pop-header .btn-pop-close {
+          background-color: #7db858; }
+          .accusation-popup .popup-area .layer-container .content .pop-header .btn-pop-close img {
+            width: 15px; }
+      .accusation-popup .popup-area .layer-container .content .pop-body {
+        height: 165px; }
+        .accusation-popup .popup-area .layer-container .content .pop-body .form-group .form-control {
+          width: 100%;
+          border-radius: 10px;
+          height: 80px;
+          border: 1px solid #ccc; }
+        .accusation-popup .popup-area .layer-container .content .pop-body .btn-area {
+          text-align: right;
+          margin-top: 15px; }
+          .accusation-popup .popup-area .layer-container .content .pop-body .btn-area p .btn-green {
+            line-height: 28px;
+            color: #666;
+            color: #fff;
+            border-radius: 30px;
+            border-color: #7db858;
+            background-color: #7db858; }
 
 /*# sourceMappingURL=sub_popup.css.map */

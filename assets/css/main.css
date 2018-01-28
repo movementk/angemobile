@@ -177,6 +177,7 @@ body {
       font-size: 11px;
       color: #ccc;
       margin-right: 5px;
+      padding: 0;
       -webkit-transition-property: all;
       transition-property: all;
       -webkit-transition-duration: 0.15s;
@@ -187,7 +188,7 @@ body {
       transition-delay: 0s; }
       .article-header .btn-controls a:last-child {
         margin-right: 0; }
-      .article-header .btn-controls a:hover, .article-header .btn-controls a:focus {
+      .article-header .btn-controls a:focus {
         color: #e96d7b; }
       .article-header .btn-controls a i:before {
         margin: 0; }
@@ -256,6 +257,8 @@ body {
       color: #666;
       line-height: 13px;
       margin-top: 10px; }
+      .parenting-learn .article-content > ul > li a figure figcaption em {
+        font-style: normal !important; }
 
 .subject-content {
   overflow: hidden;

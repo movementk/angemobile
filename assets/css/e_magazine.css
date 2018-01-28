@@ -385,6 +385,10 @@ ul, ol {
       .magazine-view .section-content article .article-header .summary i {
         color: #ff7875;
         font-style: normal; }
+    .magazine-view .section-content article .article-header .banner {
+      margin-top: 30px; }
+      .magazine-view .section-content article .article-header .banner figure img {
+        width: 100%; }
     .magazine-view .section-content article .article-header hr {
       margin: 20px 0 10px;
       border-top: 1px solid #dfdfdf; }

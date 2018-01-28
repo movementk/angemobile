@@ -246,6 +246,9 @@
 }
 
 /* 회원문의 쓰기 */
+.inquiry-write .table-wrap .summary {
+    margin-bottom: 10px;
+}
 .inquiry-write .table-wrap h4.title {
     margin-bottom: 15px;
 }

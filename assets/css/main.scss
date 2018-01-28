@@ -158,11 +158,12 @@ body {
             font-size: 11px;
             color: #ccc;
             margin-right: 5px;
+            padding: 0;
             @include transition();
             &:last-child {
                 margin-right: 0;
             }
-            &:hover, &:focus {
+            &:focus {
                 color: #e96d7b;
             }
             i {
@@ -255,6 +256,9 @@ body {
                             color: #666;
                             line-height: 13px;
                             margin-top: 10px;
+                            em {
+                                font-style: normal !important;
+                            }
                         }
                     }
                 }
