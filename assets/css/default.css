@@ -294,11 +294,10 @@ ul, ol {
             font-family: "fontello"; }
         #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > a {
           color: #fff;
-          background-color: #7da7d9;
-          /*&:after {
-              color: #fff;
-              content: "\E823";
-          }*/ }
+          background-color: #7da7d9; }
+          #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > a:after {
+            color: #fff;
+            content: "\E823"; }
         #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul {
           display: block; }
           #gnb-nav .nav-container .nav-body .gnb-menu > ul > li.active > ul > li > ul {

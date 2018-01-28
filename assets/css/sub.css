@@ -185,6 +185,7 @@ button {
       text-align: left;
       background-color: #fff; }
       .page-header .dropdowns-menu .drop-container > ul > li > a {
+        position: relative;
         display: block;
         font-size: 11px;
         color: #999;
@@ -193,7 +194,8 @@ button {
         line-height: 40px;
         padding-left: 20px;
         padding-right: 15px;
-        border-bottom: 1px solid #dfdfdf; }
+        border-bottom: 1px solid #dfdfdf;
+        z-index: 3; }
       .page-header .dropdowns-menu .drop-container > ul > li:first-child > a {
         border-top: 1px solid #dfdfdf; }
       .page-header .dropdowns-menu .drop-container > ul > li:last-child > a {
@@ -205,8 +207,6 @@ button {
       .page-header .dropdowns-menu .drop-container > ul > li.active > a {
         color: #fff;
         background-color: #7da7d9; }
-        .page-header .dropdowns-menu .drop-container > ul > li.active > a:after {
-          content: "\E823"; }
       .page-header .dropdowns-menu .drop-container > ul > li.active > ul {
         display: block; }
       .page-header .dropdowns-menu .drop-container > ul > li > ul {
@@ -227,6 +227,8 @@ button {
           .page-header .dropdowns-menu .drop-container > ul > li > ul > li > a:hover, .page-header .dropdowns-menu .drop-container > ul > li > ul > li > a:focus {
             color: #333;
             text-decoration: underline; }
+      .page-header .dropdowns-menu .drop-container > ul .has-child.active > a:after {
+        content: "\E823"; }
   .page-header.dropdown-open {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8); }
@@ -508,7 +510,8 @@ button {
       font-size: 10px;
       font-weight: 300;
       line-height: 16px;
-      color: #666; }
+      color: #666;
+      word-break: break-all; }
   .board-view .article-content .attach {
     overflow: hidden;
     padding: 15px 10px;
@@ -1125,6 +1128,8 @@ button {
       color: #666;
       line-height: 15px;
       word-break: keep-all; }
+      .board-type-6 > ul > li > div .subject a {
+        color: #666; }
     .board-type-6 > ul > li > div .btn-result {
       position: absolute;
       top: 50%;

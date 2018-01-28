@@ -133,7 +133,10 @@ ul, ol {
           font-size: 11px;
           color: #333;
           line-height: 14px;
-          font-weight: 400; }
+          font-weight: 400;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
         .list-type-1 > ul > li > a .details .icon-list {
           margin-top: 15px;
           text-align: center;
@@ -601,6 +604,22 @@ ul, ol {
   padding-bottom: 15px; }
   .qna-list .article-header figure img {
     width: 100%; }
+  .qna-list .article-header .movie-banner {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    height: 114px;
+    background-image: url(../images/community/bg_movie_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 300px 114px; }
+    .qna-list .article-header .movie-banner .btn-area p .btn-pink {
+      position: absolute;
+      bottom: 16px;
+      left: 20px;
+      width: 140px;
+      height: 35px;
+      line-height: 35px; }
 .qna-list .article-content .search-form {
   margin-bottom: 15px; }
 .qna-list .article-content .paging {
@@ -1040,5 +1059,18 @@ ul, ol {
     width: 110px; }
   .club-member .article-content .member-company.greenfinger .company-item .item-img img {
     width: 100px; }
+
+.knowhow-content .article-content .paging {
+  margin-top: 20px; }
+
+.knowhow-view .article-content .review-write {
+  margin-top: 30px; }
+.knowhow-view .article-content .paging {
+  margin-top: 20px; }
+
+.model-view .review-write {
+  margin-top: 30px; }
+.model-view .paging {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=community.css.map */

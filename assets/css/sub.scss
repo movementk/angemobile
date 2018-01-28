@@ -146,6 +146,7 @@ button {
                 background-color: #fff;
                 > li {
                     > a {
+                        position: relative;
                         display: block;
                         font-size: 11px;
                         color: #999;
@@ -155,6 +156,7 @@ button {
                         padding-left: 20px;
                         padding-right: 15px;
                         border-bottom: 1px solid #dfdfdf;
+                        z-index: 3;
                     }
                     &:first-child {
                         > a {
@@ -179,9 +181,6 @@ button {
                         > a {
                             color: #fff;
                             background-color: #7da7d9;
-                            &:after {
-                                content: "\E823";
-                            }
                         }
                         > ul {
                             display: block;
@@ -209,6 +208,13 @@ button {
                                     text-decoration: underline;
                                 }
                             }
+                        }
+                    }
+                }
+                .has-child.active {
+                    > a {
+                        &:after {
+                            content: "\E823";
                         }
                     }
                 }
@@ -602,6 +608,7 @@ button {
                 font-weight: 300;
                 line-height: 16px;
                 color: #666;
+                word-break: break-all;
             }
         }
         .attach {
@@ -1472,6 +1479,9 @@ button {
                     color: #666;
                     line-height: 15px;
                     word-break: keep-all;
+                    a {
+                        color: #666;
+                    }
                 }
                 .btn-result {
                     position: absolute;

@@ -54,11 +54,13 @@
                     <article>
                         <div class="article-header">
                             <ul class="share-list">
-                                <li class="tweeter"><a href="#"></a></li>
-                                <li class="facebook"><a href="#"></a></li>
+                                <li class="naver-blog"><a href="#"></a></li>
+                                <li class="naver-post"><a href="#"></a></li>
+                                <li class="insta"><a href="#"></a></li>
                                 <li class="kakao"><a href="#"></a></li>
-                                <li class="folder"><a href="#"></a></li>
+                                <li class="facebook"><a href="#"></a></li>
                                 <li class="export"><a href="#"></a></li>
+                                <li class="last-ebook"><a href="#" class="btn btn-pink btn-ebook" role="button">eBook</a></li>
                             </ul>
                             <h4>심한 입덧 가라앉히는 방법 없나요?</h4>
                             <figure>

@@ -88,6 +88,9 @@
                         color: #333;
                         line-height: 14px;
                         font-weight: 400;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
                     }
                     .icon-list {
                         margin-top: 15px;
@@ -792,6 +795,28 @@
         figure {
             img {
                 width: 100%;
+            }
+        }
+        .movie-banner {
+            position: relative;
+            width: 300px;
+            margin: 0 auto;
+            height: 114px;
+            background-image: url(../images/community/bg_movie_banner.jpg);
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-size: 300px 114px;
+            .btn-area {
+                p {
+                    .btn-pink {
+                        position: absolute;
+                        bottom: 16px;
+                        left: 20px;
+                        width: 140px;
+                        height: 35px;
+                        line-height: 35px;
+                    }
+                }
             }
         }
     }
@@ -1520,12 +1545,34 @@
 }
 
 
+.knowhow-content {
+    .article-content {
+        .paging {
+            margin-top: 20px;
+        }
+    }
+}
 
 
+.knowhow-view {
+    .article-content {
+        .review-write {
+            margin-top: 30px;
+        }
+        .paging {
+            margin-top: 20px;
+        }
+    }
+}
 
-
-
-
+.model-view {
+    .review-write {
+        margin-top: 30px;
+    }
+    .paging {
+        margin-top: 20px;
+    }
+}
 
 
 

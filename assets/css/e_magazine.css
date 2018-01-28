@@ -79,6 +79,7 @@ ul, ol {
     right: 10px; }
 
 .share-list {
+  position: relative;
   text-align: center;
   font-size: 0; }
   .share-list li {
@@ -86,28 +87,38 @@ ul, ol {
     .share-list li a {
       display: block;
       font-size: 10px;
-      width: 20px;
-      height: 20px;
+      width: 19px;
+      height: 19px;
       margin: 0 3px;
       border-radius: 50%;
-      border: 1px solid #eeeff4;
       background-position: 50% 50%;
+      background-size: 19px 19px;
       background-repeat: no-repeat; }
-    .share-list li.tweeter a {
-      background-image: url(../images/e_magazine/icon_tweeter.png);
-      background-size: 9px auto; }
-    .share-list li.facebook a {
-      background-image: url(../images/e_magazine/icon_facebook.png);
-      background-size: 5px auto; }
+    .share-list li.naver-blog a {
+      background-image: url(../images/e_magazine/icon_blog.png); }
+    .share-list li.naver-post a {
+      background-image: url(../images/e_magazine/icon_post.png); }
+    .share-list li.insta a {
+      background-image: url(../images/e_magazine/icon_insta.png); }
     .share-list li.kakao a {
-      background-image: url(../images/e_magazine/icon_kakao.png);
-      background-size: 4px auto; }
-    .share-list li.folder a {
-      background-image: url(../images/e_magazine/icon_folder.png);
-      background-size: 9px auto; }
+      background-image: url(../images/e_magazine/icon_kakao.png); }
+    .share-list li.facebook a {
+      background-image: url(../images/e_magazine/icon_facebook.png); }
     .share-list li.export a {
-      background-image: url(../images/e_magazine/icon_export.png);
-      background-size: 9px auto; }
+      background-image: url(../images/e_magazine/icon_export.png); }
+    .share-list li.last-ebook {
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .share-list li.last-ebook .btn-ebook {
+        font-size: 10px;
+        color: #fff;
+        width: 50px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background-color: #ff7875;
+        border-radius: 30px; }
 
 .ebook {
   padding-top: 10px; }

@@ -205,6 +205,22 @@
     margin-top: 20px;
 }
 
+/* 자주하는질문 목록 */
+.qna-list .section-header h4 {
+    margin-bottom: 10px;
+}
+.qna-list .section-header .search-form {
+    margin: 15px 0;
+}
+.qna-list .section-content .board-type-2 ul li a .icon-list > li.user:before {
+    content: "\E817"
+}
+.qna-list .section-content .board-type-2 .paging {
+    margin-top: 20px;
+}
+
+
+
 /* 자주하는질문 보기 */
 .faq-view section .section-header h4 {
     margin-bottom: 10px;
@@ -240,3 +256,15 @@
 .inquiry-write .table-wrap .btn-area p > .btn{
     width: 90px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
