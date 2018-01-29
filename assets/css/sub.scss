@@ -2265,7 +2265,7 @@ button {
         }
     }
     .form-group {
-        margin-top: 0;
+        margin-top: 10px;
         .btn-write {
             margin-top: 10px;
             width: 100%;
@@ -2281,6 +2281,272 @@ button {
 .reply2 {
     margin: 15px 0;
 }
+
+// 검색결과
+.search-result {
+    .section-content {
+        article {
+            & ~ article {
+                margin-top: 40px;
+            }
+            .article-header {
+                position: relative;
+                padding-bottom: 5px;
+                border-bottom: 2px solid #979aa2;
+                &:before {
+                    position: absolute;
+                    bottom: -2px;
+                    left: 0;
+                    width: 100px;
+                    height: 2px;
+                    content: " ";
+                    display: block;
+                    background-color: #ff7875;
+                }
+                .article-title {
+                    font-size: 11px;
+                    line-height: 14px;
+                    color: #333;
+                    padding-left: 20px;
+                    background-image: url(../images/introduction/icon_cooperative.png);
+                    background-position: 0 0;
+                    background-repeat: no-repeat;
+                    background-size: 13px 13px;
+                }
+            }
+            .article-content {
+                margin-top: 20px;
+                .sponsor-list {
+                    margin-top: 30px;
+                    > li {
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid #ccc;
+                        & ~ li {
+                            padding-top: 20px;
+                        }
+                        figure {
+                            overflow: hidden;
+                            border-radius: 10px;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        .details {
+                            padding-left: 10px;
+                            h3 {
+                                font-size: 11px;
+                                color: #333;
+                                font-weight: 400;
+                            }
+                            > ul {
+                                margin-top: 10px;
+                                > li {
+                                    a {
+                                        display: block;
+                                        line-height: 16px;
+                                        color: #999;
+                                        font-weight: 400;
+                                        @include roboto();
+                                        &:before {
+                                            font-family: "fontello";
+                                            margin-right: 5px;
+                                        }
+                                    }
+                                    &.contact {
+                                        a {
+                                            &:before {
+                                                content: "\E820";
+                                            }
+                                        }
+                                    }
+                                    &.home-page {
+                                        a {
+                                            &:before {
+                                                content: "\E821";
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            p {
+                                font-size: 10px;
+                                color: #999;
+                                line-height: 13px;
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+                .list-type-1 {
+                    > ul {
+                        overflow: hidden;
+                        > li {
+                            float: left;
+                            width: 50%;
+                            & ~ li {
+                                margin-top: 20px;
+                            }
+                            &:nth-of-type(2n + 1) {
+                                clear: both;
+                                padding-right: 5px;
+                            }
+                            &:nth-of-type(2n + 2) {
+                                padding-left: 5px;
+                            }
+                            &:nth-of-type(2) {
+                                margin-top: 0;
+                            }
+                            > a {
+                                display: block;
+                                text-decoration: none;
+                                figure {
+                                    position: relative;
+                                    overflow: hidden;
+                                    border-radius: 10px;
+                                    &:before {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        content: "";
+                                        display: block;
+                                        width: 100%;
+                                        height: 100%;
+                                        box-shadow: 0px -60px 70px -30px rgba(0, 0, 0, 0.35) inset;
+                                        z-index: 1;
+                                    }
+                                    img {
+                                        width: 100%;
+                                    }
+                                    figcaption {
+                                        .icon-list {
+                                            position: absolute;
+                                            bottom: 10px;
+                                            text-align: center;
+                                            width: 100%;
+                                            z-index: 2;
+                                            li {
+                                                color: #fff;
+                                            }
+                                        }
+                                    }
+                                }
+                                .details {
+                                    text-align: center;
+                                    padding-top: 15px;
+                                    h4 {
+                                        font-size: 11px;
+                                        color: #333;
+                                        font-weight: 400;
+                                        line-height: 14px;
+                                    }
+                                    .icon-list {
+                                        margin-top: 10px;
+                                    }
+                                    p {
+                                        font-size: 10px;
+                                        color: #999;
+                                        line-height: 13px;
+                                        font-weight: 300;
+                                        margin-bottom: 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .table-wrap {
+                    border: 0;
+                    .table {
+                        table-layout: fixed;
+                        margin: 0;
+                        border: 0;
+                        thead {
+                            tr {
+                                th {
+                                    padding: 5px;
+                                    border: 0;
+                                    color: #fff;
+                                    font-weight: 400;
+                                    font-size: 10px;
+                                    vertical-align: middle;
+                                    text-align: center;
+                                    background-color: #acacac;
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    font-size: 10px;
+                                    color: #666;
+                                    padding: 10px;
+                                    border: 0;
+                                    text-align: center;
+                                    background-color: #fff;
+                                    border-bottom: 1px solid #cfcfcf;
+                                    a {
+                                        text-align: left;
+                                        color: #666;
+                                        display: block;
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                    }
+                                    &.date {
+                                        @include roboto();
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .paging {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

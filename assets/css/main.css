@@ -67,7 +67,7 @@ ul, ol {
       padding-right: 5px; }
 
 body {
-  padding-top: 135px; }
+  padding-top: 135px !important; }
 
 #content {
   padding: 10px 5px; }
