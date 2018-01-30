@@ -14,18 +14,8 @@
 .sample-explain section .section-header .btn-area {
     margin-top: 10px;
 }
-.sample-explain section .section-header .btn-area p .btn {
-    font-size: 11px;
-}
-.sample-explain section .section-header .btn-area p .btn.btn-gray {
-    line-height: 28px;
-    color: #fff;
-    font-weight: bold;
-    border: 1px solid #b3b3b3;
-    background-color: #b3b3b3;
-}
 .sample-explain section .section-content .info-wrap h5 {
-    font-size: 12px;
+    font-size: 14px;
     padding-bottom: 10px;
     font-weight: 500;
 }
@@ -46,10 +36,7 @@
 .sample-explain section .section-content .info-wrap .member-info.member .btn-area p .btn-gray {
     background-color: #7da7d9;
 }
-.sample-explain section .section-content .info-wrap .member-info .btn-area p .btn {
-    font-size: 11px;
-    font-weight: bold;
-}
+
 /* 샘플팩 폰트 공통 */
 .samplepack b {
     font-weight: 500;
@@ -72,14 +59,14 @@
     float: left;
     clear: both;
     width: 60px;
-    font-size: 10px;
-    line-height: 21px;
+    font-size: 12px;
+    line-height: 23px;
     color: #666;
 }
 .sample-explain section .section-content .info-wrap .member-info .details dl dd {
     float: left;
-    font-size: 10px;
-    line-height: 21px;
+    font-size: 12px;
+    line-height: 23px;
     color: #999;
 }
 .sample-explain section .section-content .info-wrap .member-info .details dl dd > ol > li > a {
@@ -163,10 +150,12 @@
     clear: both;
     width: 70px;
     line-height: 23px;
+    font-size: 12px;
 }
 .sample-view .info .details dl dd {
     color: #999;
     line-height: 23px;
+    font-size: 12px;
 }
 .sample-view .info .details dl dd a {
     color: #999;
