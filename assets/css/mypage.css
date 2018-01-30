@@ -19,10 +19,13 @@
     margin-top: 40px;
 }
 */
+.message-view .table-wrap {
+    margin-top: 20px;
+}
 .message-view .table-wrap h5 {
     font-size: 13px;
     color: #333;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .message-view .table-wrap .btn-area {
     margin-top: 31px;
