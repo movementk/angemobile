@@ -1,10 +1,17 @@
+@charset "UTF-8";
 @import url("https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css");
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 @import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+html {
+  width: 100%;
+  height: 100%; }
+
 body {
+  position: relative;
   padding-top: 175px;
   min-width: 320px;
-  font-size: 10px;
+  height: 100%;
+  font-size: 11px;
   color: #666;
   font-weight: 300;
   font-family: 'Noto Sans KR', sans-serif;
@@ -114,7 +121,7 @@ button {
     margin-top: 10px; }
 
 .section-title {
-  font-size: 12px;
+  font-size: 13px;
   color: #333;
   font-weight: 500; }
 
@@ -139,123 +146,134 @@ button {
   padding: 0;
   border: 0;
   box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
-  z-index: 10; }
+  z-index: 100; }
   .page-header .page-title {
     position: relative;
     width: 100%;
     height: 40px;
     background-color: #fff; }
     .page-header .page-title h2 {
-      font-size: 13px;
+      font-size: 14px;
       color: #333;
       line-height: 40px; }
-    .page-header .page-title > .btn-controls > a {
-      position: absolute;
-      top: 50%;
-      font-size: 13px;
-      color: #666;
-      margin-top: -7px; }
-      .page-header .page-title > .btn-controls > a > i:before {
-        vertical-align: top; }
-      .page-header .page-title > .btn-controls > a.prev {
-        left: 15px; }
-      .page-header .page-title > .btn-controls > a.next {
-        right: 15px; }
-  .page-header .drop-open-btn {
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    margin-left: -10px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #fff;
-    background-image: url(../images/sub/dorop_btn.jpg);
-    background-repeat: no-repeat;
-    background-size: 8px auto;
-    background-position: 50% 70%;
-    z-index: 1; }
-  .page-header .dropdowns-menu {
+    .page-header .page-title > .btn-controls {
+      /* 페이지 이동 버튼 X 업체 요청사항 */
+      display: none; }
+      .page-header .page-title > .btn-controls > a {
+        position: absolute;
+        top: 50%;
+        font-size: 13px;
+        color: #666;
+        margin-top: -7px; }
+        .page-header .page-title > .btn-controls > a > i:before {
+          vertical-align: top; }
+        .page-header .page-title > .btn-controls > a.prev {
+          left: 15px; }
+        .page-header .page-title > .btn-controls > a.next {
+          right: 15px; }
+
+.drop-open-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -12px;
+  margin-bottom: -12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  padding: 0;
+  border: 0;
+  background-color: #fff;
+  background-image: url(../images/sub/dorop_btn.jpg);
+  background-repeat: no-repeat;
+  background-size: 9px auto;
+  background-position: 50% 70%; }
+
+.drop-close-btn {
+  display: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #fff;
+  background-image: url(../images/sub/dorop_on_btn.jpg);
+  background-repeat: no-repeat;
+  background-size: 9px auto;
+  background-position: 50% 70%; }
+
+body .dropdowns-menu {
+  display: none; }
+
+.open-dropdown {
+  position: relative;
+  overflow: hidden; }
+  .open-dropdown .page-header {
+    box-shadow: none;
+    border-bottom: 1px solid #dfdfdf; }
+  .open-dropdown .drop-close-btn {
     position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: -12px; }
+  .open-dropdown .drop-open-btn {
+    display: none; }
+  .open-dropdown .dropdowns-menu {
+    display: block;
+    position: fixed;
+    top: 175px;
+    left: 0;
     width: 100%;
     height: 100%;
-    z-index: 2;
-    display: none; }
-    .page-header .dropdowns-menu .drop-container > ul {
-      text-align: left;
-      background-color: #fff; }
-      .page-header .dropdowns-menu .drop-container > ul > li > a {
-        position: relative;
-        display: block;
-        font-size: 11px;
-        color: #999;
-        font-weight: 500;
-        text-decoration: none;
-        line-height: 40px;
-        padding-left: 20px;
-        padding-right: 15px;
-        border-bottom: 1px solid #dfdfdf;
-        z-index: 3; }
-      .page-header .dropdowns-menu .drop-container > ul > li:first-child > a {
-        border-top: 1px solid #dfdfdf; }
-      .page-header .dropdowns-menu .drop-container > ul > li:last-child > a {
-        border-bottom: 0; }
-      .page-header .dropdowns-menu .drop-container > ul > li.has-child > a:after {
-        float: right;
-        content: "\E81A";
-        font-family: "fontello"; }
-      .page-header .dropdowns-menu .drop-container > ul > li.active > a {
-        color: #fff;
-        background-color: #7da7d9; }
-      .page-header .dropdowns-menu .drop-container > ul > li.active > ul {
-        display: block; }
-      .page-header .dropdowns-menu .drop-container > ul > li > ul {
-        position: relative;
-        z-index: 3;
-        display: none;
-        padding: 5px 0;
-        background-color: #f1f2f6;
-        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1) inset; }
-        .page-header .dropdowns-menu .drop-container > ul > li > ul > li > a {
-          font-size: 10px;
-          color: #999;
-          padding-left: 20px;
-          line-height: 26px;
-          text-decoration: none; }
-          .page-header .dropdowns-menu .drop-container > ul > li > ul > li > a:before {
-            content: "- "; }
-          .page-header .dropdowns-menu .drop-container > ul > li > ul > li > a:hover, .page-header .dropdowns-menu .drop-container > ul > li > ul > li > a:focus {
-            color: #333;
-            text-decoration: underline; }
-      .page-header .dropdowns-menu .drop-container > ul .has-child.active > a:after {
-        content: "\E823"; }
-  .page-header.dropdown-open {
-    height: 100%;
+    overflow: auto;
+    z-index: 1;
+    padding-bottom: 175px;
     background-color: rgba(0, 0, 0, 0.8); }
-    .page-header.dropdown-open .dorop-open-btn {
-      display: none; }
-    .page-header.dropdown-open .dropdowns-menu {
-      display: block; }
-      .page-header.dropdown-open .dropdowns-menu .drop-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        padding-bottom: 180px; }
-      .page-header.dropdown-open .dropdowns-menu .drop-close-btn {
-        position: relative;
-        width: 20px;
-        height: 20px;
-        margin-top: -10px;
-        border-radius: 50%;
-        background-color: #fff;
-        background-image: url(../images/sub/dorop_on_btn.jpg);
-        background-repeat: no-repeat;
-        background-size: 8px auto;
-        background-position: 50% 70%;
-        z-index: 2; }
+    .open-dropdown .dropdowns-menu .drop-container {
+      box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1); }
+      .open-dropdown .dropdowns-menu .drop-container > ul {
+        display: block;
+        text-align: left;
+        background-color: #fff; }
+        .open-dropdown .dropdowns-menu .drop-container > ul > li > a {
+          position: relative;
+          display: block;
+          font-size: 13px;
+          color: #999;
+          font-weight: 400;
+          text-decoration: none;
+          line-height: 40px;
+          padding-left: 20px;
+          padding-right: 15px;
+          border-bottom: 1px solid #dfdfdf;
+          z-index: 3; }
+        .open-dropdown .dropdowns-menu .drop-container > ul > li:last-child > a {
+          border-bottom: 0; }
+        .open-dropdown .dropdowns-menu .drop-container > ul > li.has-child > a:after {
+          float: right;
+          content: "\E81A";
+          font-family: "fontello"; }
+        .open-dropdown .dropdowns-menu .drop-container > ul > li.active > a {
+          color: #fff;
+          background-color: #7da7d9; }
+        .open-dropdown .dropdowns-menu .drop-container > ul > li.active > ul {
+          display: block; }
+        .open-dropdown .dropdowns-menu .drop-container > ul > li > ul {
+          position: relative;
+          display: none;
+          padding: 5px 0;
+          background-color: #f1f2f6;
+          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1) inset;
+          z-index: 1; }
+          .open-dropdown .dropdowns-menu .drop-container > ul > li > ul > li > a {
+            font-size: 12px;
+            color: #999;
+            padding-left: 20px;
+            line-height: 26px;
+            text-decoration: none; }
+            .open-dropdown .dropdowns-menu .drop-container > ul > li > ul > li > a:before {
+              content: "- "; }
+            .open-dropdown .dropdowns-menu .drop-container > ul > li > ul > li > a:hover, .open-dropdown .dropdowns-menu .drop-container > ul > li > ul > li > a:focus {
+              color: #333;
+              text-decoration: underline; }
 
 .step-list {
   overflow: hidden;
@@ -325,7 +343,7 @@ button {
         margin-top: 0; }
       .tab-list > ul > li > a {
         display: block;
-        font-size: 10px;
+        font-size: 11px;
         color: #999;
         text-align: center;
         line-height: 16px;
@@ -346,7 +364,7 @@ button {
       text-align: center;
       width: 1%; }
       .tab-menu .tab-list-2 > ul > li > a {
-        font-size: 11px;
+        font-size: 12px;
         color: #666;
         font-weight: 400;
         display: block;
@@ -381,13 +399,13 @@ button {
   background-size: 50px auto;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
   .authentication > b {
-    font-size: 12px;
+    font-size: 13px;
     color: #333;
     font-weight: 400;
     line-height: 18px;
     display: inline-block; }
   .authentication > p {
-    font-size: 10px;
+    /*font-size: 11px;*/
     color: #8f8f8f;
     font-weight: 300;
     line-height: 16px;
@@ -400,7 +418,7 @@ button {
       border: 1px solid #ccc;
       line-height: 33px;
       text-align: center;
-      font-size: 10px;
+      font-size: 12px;
       color: #666; }
     .authentication > .form .form-group {
       font-size: 0; }
@@ -408,13 +426,13 @@ button {
         display: inline-block;
         width: 170px;
         height: 35px;
-        font-size: 10px;
+        font-size: 12px;
         border-radius: 30px; }
       .authentication > .form .form-group .btn-gray {
         vertical-align: top;
         width: 80px;
         color: #fff;
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
         display: inline-block;
         margin-left: 10px;
@@ -507,7 +525,7 @@ button {
     border-bottom: 1px solid #e5e5e5;
     background-color: #f8f8f8; }
     .board-view .article-header h4 {
-      font-size: 12px;
+      font-size: 13px;
       color: #333;
       font-weight: 400;
       line-height: 17px;
@@ -520,14 +538,12 @@ button {
         .board-view .article-header .icon-list li:last-child {
           float: right; }
   .board-view .article-content .view-content {
-    font-size: 10px;
     font-weight: 300;
     line-height: 16px;
     color: #666;
     padding: 25px 10px 30px;
     background-color: #fff; }
     .board-view .article-content .view-content p {
-      font-size: 10px;
       font-weight: 300;
       line-height: 16px;
       color: #666;
@@ -540,7 +556,7 @@ button {
     .board-view .article-content .attach dt {
       float: left;
       clear: both;
-      font-size: 10px;
+      /*font-size: 10px;*/
       color: #666;
       font-weight: 300;
       line-height: 16px; }
@@ -566,7 +582,7 @@ button {
       .board-view .article-content .btn-area p .btn-xs {
         display: inline-block;
         width: 70px;
-        font-size: 10px;
+        /*font-size: 10px;*/
         margin-right: 10px;
         border-radius: 30px; }
         .board-view .article-content .btn-area p .btn-xs:last-child {
@@ -574,13 +590,13 @@ button {
         .board-view .article-content .btn-area p .btn-xs.btn-white {
           float: left;
           color: #666;
-          line-height: 28px;
+          /*line-height: 28px;*/
           background-color: #fff;
           border: 1px solid #ccc; }
         .board-view .article-content .btn-area p .btn-xs.btn-pink {
           float: right;
           color: #fff;
-          line-height: 30px;
+          /*line-height: 30px;*/
           background-color: #ff7875; }
 
 .page-link {
@@ -588,7 +604,7 @@ button {
   border-bottom: 1px solid #ccc; }
   .page-link > ul > li > a {
     position: relative;
-    font-size: 10px;
+    /*font-size:10px;*/
     color: #666;
     font-weight: 300;
     display: block;
@@ -625,7 +641,7 @@ button {
     border-radius: 5px;
     border: 1px solid #ccc; }
   .review-write .article-header h4, .review-write .write-header h4 {
-    font-size: 11px;
+    font-size: 12px;
     color: #303030;
     font-weight: 500;
     margin-bottom: 10px; }
@@ -633,9 +649,9 @@ button {
     margin-top: 10px; }
     .review-write .article-header .btn-register .btn-lg, .review-write .write-header .btn-register .btn-lg {
       width: 100%;
-      font-size: 10px;
+      font-size: 12px;
       color: #333;
-      line-height: 25px;
+      line-height: 30px;
       border-radius: 5px;
       background-color: #f5f5f5; }
   .review-write .article-content, .review-write .write-content {
@@ -643,7 +659,7 @@ button {
     .review-write .article-content .inform, .review-write .write-content .inform {
       display: block;
       width: 100%;
-      font-size: 10px;
+      font-size: 11px;
       color: #707070; }
       .review-write .article-content .inform b, .review-write .write-content .inform b {
         color: #eb3e3e; }
@@ -660,7 +676,7 @@ button {
     padding-right: 55px;
     margin-bottom: 10px; }
     .review-list > li .writer-info h5 {
-      font-size: 11px;
+      font-size: 12px;
       color: #3d3d3d;
       font-weight: 500; }
     .review-list > li .writer-info .date {
@@ -672,7 +688,7 @@ button {
       font-weight: 400;
       font-family: 'Roboto', sans-serif; }
   .review-list > li .review-content p {
-    font-size: 10px;
+    font-size: 11px;
     color: #515151;
     line-height: 14px; }
   .review-list > li .review-content .btn-more {
@@ -707,7 +723,7 @@ button {
     background-position: 10px 10px; }
     .review-list > li .reply .reply-content {
       margin-top: 10px;
-      font-size: 10px;
+      font-size: 11px;
       color: #515151;
       line-height: 14px; }
   .review-list > li .firstreply2 {
@@ -765,7 +781,7 @@ button {
       text-decoration: none; }
       .board-type-1 > ul > li a .list-header h4 {
         display: block;
-        font-size: 12px;
+        font-size: 13px;
         color: #333;
         font-weight: 500;
         overflow: hidden;
@@ -790,9 +806,9 @@ button {
           vertical-align: top;
           display: table-cell;
           padding-left: 20px;
-          font-size: 10px;
+          font-size: 11px;
           color: #666;
-          line-height: 13px;
+          line-height: 14px;
           font-weight: 300;
           word-break: keep-all; }
 
@@ -807,7 +823,7 @@ button {
     .board-type-2 > ul > li a {
       text-decoration: none; }
       .board-type-2 > ul > li a h4 {
-        font-size: 11px;
+        font-size: 12px;
         color: #666;
         font-weight: 500; }
       .board-type-2 > ul > li a .icon-list {
@@ -849,18 +865,19 @@ button {
       font-size: 13px;
       color: #fff;
       font-weight: 300;
-      line-height: 25px; }
+      line-height: 30px; }
     .table-wrap .table caption .btn-link {
       float: right; }
       .table-wrap .table caption .btn-link .btn-default {
-        width: 80px;
-        font-size: 10px;
+        width: 90px;
+        font-size: 12px;
         color: #999;
         text-align: center;
-        line-height: 25px;
+        line-height: 30px;
         border-radius: 30px;
         background-color: #fff; }
   .table-wrap .table tbody tr th {
+    font-size: 11px !important;
     border: 0; }
     .table-wrap .table tbody tr th.v-top {
       vertical-align: top !important;
@@ -869,6 +886,7 @@ button {
       color: #e25371;
       content: " *"; }
   .table-wrap .table tbody tr td {
+    font-size: 11px !important;
     vertical-align: middle;
     border: 0; }
     .table-wrap .table tbody tr td label input {
@@ -883,7 +901,7 @@ button {
         position: absolute;
         top: 0;
         right: 0;
-        font-size: 10px;
+        font-size: 11px;
         color: #999;
         line-height: 28px;
         text-align: center;
@@ -1185,7 +1203,7 @@ button {
   .attention-box strong {
     position: relative;
     display: block;
-    font-size: 12px;
+    font-size: 13px;
     color: #e25371;
     font-weight: 500;
     margin-bottom: 15px;
@@ -1199,8 +1217,9 @@ button {
   .attention-box .decimal-list {
     padding-left: 10px; }
     .attention-box .decimal-list li {
-      font-size: 10px;
+      font-size: 11px;
       color: #999;
+      line-height: 16px;
       list-style: decimal;
       list-style-position: outside; }
 
@@ -1210,30 +1229,30 @@ button {
     font-size: 0; }
     .btn-area p .btn {
       display: inline-block;
-      font-size: 10px;
+      font-size: 12px;
       text-align: center;
       margin-right: 10px;
       border-radius: 30px; }
       .btn-area p .btn:last-child {
         margin-right: 0; }
       .btn-area p .btn.btn-white {
-        line-height: 28px;
+        line-height: 32px;
         color: #666;
         border: 1px solid #ccc;
         background-color: #fff; }
       .btn-area p .btn.btn-pink {
-        line-height: 30px;
+        line-height: 34px;
         border: 0;
         color: #fff;
         background-color: #ff7875; }
       .btn-area p .btn.btn-gray {
-        line-height: 30px;
+        line-height: 34px;
         border: 0;
         color: #fff;
         background-color: #b3b3b3; }
     .btn-area p .btn-xs {
       width: 70px;
-      height: 30px; }
+      height: 34px; }
     .btn-area p .btn-sm {
       width: 100px; }
     .btn-area p .btn-md {
@@ -1276,12 +1295,20 @@ button {
     margin-top: 10px; }
   .join-write .section-content article .table-wrap .table tbody tr td .form-group.outside {
     position: relative;
-    padding-left: 60px; }
+    margin-top: 10px; }
     .join-write .section-content article .table-wrap .table tbody tr td .form-group.outside label {
       position: absolute;
       top: 0;
       left: 0;
       line-height: 30px; }
+    .join-write .section-content article .table-wrap .table tbody tr td .form-group.outside dl dt {
+      margin-bottom: 10px; }
+    .join-write .section-content article .table-wrap .table tbody tr td .form-group.outside dl dd .form-group .form-control {
+      display: inline-block !important;
+      width: 31%;
+      margin-right: 1%; }
+      .join-write .section-content article .table-wrap .table tbody tr td .form-group.outside dl dd .form-group .form-control:last-child {
+        margin-right: 0; }
   .join-write .section-content article .table-wrap .table tbody tr td .form-group.inside {
     position: relative;
     padding-right: 90px; }
@@ -1294,13 +1321,16 @@ button {
       .join-write .section-content article .table-wrap .table tbody tr td .form-group.inside > div label {
         line-height: 30px; }
   .join-write .section-content article .table-wrap .table tbody tr td.birthday .form-group {
-    position: relative;
-    padding-left: 70px; }
+    padding-right: 0; }
+    .join-write .section-content article .table-wrap .table tbody tr td.birthday .form-group > div {
+      display: block;
+      margin-bottom: 10px; }
     .join-write .section-content article .table-wrap .table tbody tr td.birthday .form-group select {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 60px; }
+      display: inline-block !important;
+      width: 30%;
+      margin-right: 1%; }
+      .join-write .section-content article .table-wrap .table tbody tr td.birthday .form-group select:last-child {
+        margin-right: 0; }
   .join-write .section-content article .table-wrap .table tbody tr td.addr .form-group .form-control ~ .form-control {
     margin-top: 10px; }
   .join-write .section-content article .table-wrap .table tbody tr td.avatar .avatar-add {
@@ -1318,10 +1348,72 @@ button {
       background: #fff !important; }
       .join-write .section-content article .table-wrap .table tbody tr td.avatar .avatar-add .btn-default:last-child {
         margin-right: 0; }
+  .join-write .section-content article .table-wrap .table tbody tr td.mail .form-group input[type="text"] {
+    width: 44% !important;
+    display: inline-block !important; }
+    .join-write .section-content article .table-wrap .table tbody tr td.mail .form-group input[type="text"]:nth-of-type(1) {
+      margin-right: 2%; }
+    .join-write .section-content article .table-wrap .table tbody tr td.mail .form-group input[type="text"]:nth-of-type(2) {
+      margin-left: 2%; }
+  .join-write .section-content article .table-wrap .table tbody tr td.mail .form-group select {
+    width: 100% !important;
+    margin-top: 10px;
+    display: block !important; }
+  .join-write .section-content article .table-wrap .table tbody tr td.consent > p {
+    margin-bottom: 10px; }
+  .join-write .section-content article .table-wrap .table tbody tr td.marital-status .form-group {
+    padding-right: 0;
+    padding-left: 0; }
+    .join-write .section-content article .table-wrap .table tbody tr td.marital-status .form-group .form-control {
+      width: 30% !important;
+      margin-right: 1%;
+      display: inline-block !important; }
+      .join-write .section-content article .table-wrap .table tbody tr td.marital-status .form-group .form-control:last-child {
+        margin-right: 0; }
+  .join-write .section-content article .table-wrap .table tbody tr td.whether > div {
+    display: block;
+    width: 100%; }
+    .join-write .section-content article .table-wrap .table tbody tr td.whether > div.due-day dl dt {
+      margin-top: 10px; }
+    .join-write .section-content article .table-wrap .table tbody tr td.whether > div.due-day dl dd .form-group {
+      margin-top: 10px; }
+      .join-write .section-content article .table-wrap .table tbody tr td.whether > div.due-day dl dd .form-group .form-control {
+        display: inline-block !important;
+        width: 30% !important;
+        margin-right: 1%; }
+        .join-write .section-content article .table-wrap .table tbody tr td.whether > div.due-day dl dd .form-group .form-control:last-child {
+          margin-right: 0; }
+  .join-write .section-content article .table-wrap .table tbody tr td.kids-info ul li ~ li {
+    margin-top: 20px; }
+  .join-write .section-content article .table-wrap .table tbody tr td.kids-info ul li > div {
+    display: block;
+    width: 100%; }
+    .join-write .section-content article .table-wrap .table tbody tr td.kids-info ul li > div.kids-name {
+      margin-bottom: 5px; }
+      .join-write .section-content article .table-wrap .table tbody tr td.kids-info ul li > div.kids-name .form-group .form-control {
+        display: inline-block !important;
+        margin-right: 10px;
+        width: 45% !important; }
+        .join-write .section-content article .table-wrap .table tbody tr td.kids-info ul li > div.kids-name .form-group .form-control label {
+          line-height: 30xp; }
+    .join-write .section-content article .table-wrap .table tbody tr td.kids-info ul li > div.kids-birth dl dt {
+      font-size: 10px;
+      color: #999;
+      margin-bottom: 5px;
+      font-weight: 300; }
+    .join-write .section-content article .table-wrap .table tbody tr td.kids-info ul li > div.kids-birth dl dd .form-group .form-control {
+      display: inline-block !important;
+      margin-right: 1%;
+      width: 29% !important; }
   .join-write .section-content article .table-wrap .table tbody tr td .child-info ~ .child-info {
     margin-top: 10px; }
   .join-write .section-content article .table-wrap .table tbody tr td .child-info .form-group ~ .form-group {
     margin-top: 5px; }
+  .join-write .section-content article .table-wrap .table tbody tr .usr-id .form-group, .join-write .section-content article .table-wrap .table tbody tr .usr-pw .form-group, .join-write .section-content article .table-wrap .table tbody tr .nick-name .form-group, .join-write .section-content article .table-wrap .table tbody tr .usr-name .form-group {
+    padding-right: 0; }
+  .join-write .section-content article .table-wrap .table tbody tr .usr-id .overlap-confirm, .join-write .section-content article .table-wrap .table tbody tr .usr-pw .overlap-confirm, .join-write .section-content article .table-wrap .table tbody tr .nick-name .overlap-confirm, .join-write .section-content article .table-wrap .table tbody tr .usr-name .overlap-confirm {
+    margin-top: 10px;
+    display: block; }
   .join-write .section-content article .summary {
     margin-top: 15px;
     line-height: 16px;
@@ -1444,7 +1536,7 @@ button {
     background: none !important; }
     .tab-accordion .panel-group .panel .panel-heading a {
       display: block;
-      font-size: 12px;
+      font-size: 13px;
       color: #fff;
       padding: 10px 20px;
       border: 1px solid #999;
@@ -1839,5 +1931,8 @@ button {
           font-family: 'Roboto', sans-serif; }
   .search-result .section-content article .article-content .paging {
     margin-top: 20px; }
+
+.mypage .modify .section-content {
+  margin-top: 0; }
 
 /*# sourceMappingURL=sub.css.map */

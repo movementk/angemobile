@@ -2,7 +2,7 @@
 <link href="/assets/css/sub.css" rel="stylesheet">
 <link href="/assets/css/e_magazine.css" rel="stylesheet">
 </head>
-<body class="sub mypage"><!-- 폴더별 클래스명 추가 -->
+<body class="sub e-magazine"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
     <!-- pgae-header -->
     <div class="page-header">

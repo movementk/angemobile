@@ -55,7 +55,7 @@ button {
     }
 }
 .section-title {
-    font-size: 12px;
+    font-size: 13px;
     color: #333;
     font-weight: 500;
 }
@@ -87,18 +87,20 @@ button {
     padding: 0;
     border: 0;
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
-    z-index: 10;
+    z-index: 100;
     .page-title {
         position: relative;
         width: 100%;
         height: 40px;
         background-color: #fff;
         h2 {
-            font-size: 13px;
+            font-size: 14px;
             color: #333;
             line-height: 40px;
         }
         > .btn-controls {
+            /* 페이지 이동 버튼 X 업체 요청사항 */
+            display: none;
             > a {
                 position: absolute;
                 top: 50%;
@@ -119,49 +121,89 @@ button {
             }
         }
     }
+}
+
+.drop-open-btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -12px;
+    margin-bottom: -12px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 0;
+    border: 0;
+    background-color: #fff;
+    background-image: url(../images/sub/dorop_btn.jpg);
+    background-repeat: no-repeat;
+    background-size: 9px auto;
+    background-position: 50% 70%;
+}
+.drop-close-btn {
+    display: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url(../images/sub/dorop_on_btn.jpg);
+    background-repeat: no-repeat;
+    background-size: 9px auto;
+    background-position: 50% 70%;
+}
+
+
+body {
+    .dropdowns-menu {
+        display: none;
+    }
+}
+.open-dropdown {
+    position: relative;
+    overflow: hidden;
+    .page-header {
+        box-shadow: none;
+        border-bottom: 1px solid #dfdfdf;
+    }
+    .drop-close-btn {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-top: -12px;
+    }
     .drop-open-btn {
-        position: absolute;
-        bottom: -10px;
-        left: 50%;
-        margin-left: -10px;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background-color: #fff;
-        background-image: url(../images/sub/dorop_btn.jpg);
-        background-repeat: no-repeat;
-        background-size: 8px auto;
-        background-position: 50% 70%;
-        z-index: 1;
+        display: none;
     }
     .dropdowns-menu {
-        position: relative;
+        display: block;
+        position: fixed;
+        top: 175px;
+        left: 0;
         width: 100%;
         height: 100%;
-        z-index: 2;
-        display: none;
+        overflow: auto;
+        z-index: 1;
+        padding-bottom: 175px;
+        background-color: rgba(0, 0, 0, 0.8);
         .drop-container {
+            box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
             > ul {
+                display: block;
                 text-align: left;
                 background-color: #fff;
                 > li {
                     > a {
                         position: relative;
                         display: block;
-                        font-size: 11px;
+                        font-size: 13px;
                         color: #999;
-                        font-weight: 500;
+                        font-weight: 400;
                         text-decoration: none;
                         line-height: 40px;
                         padding-left: 20px;
                         padding-right: 15px;
                         border-bottom: 1px solid #dfdfdf;
                         z-index: 3;
-                    }
-                    &:first-child {
-                        > a {
-                            border-top: 1px solid #dfdfdf;
-                        }
                     }
                     &:last-child {
                         > a {
@@ -188,14 +230,14 @@ button {
                     }
                     > ul {
                         position: relative;
-                        z-index: 3;
                         display: none;
                         padding: 5px 0;
                         background-color: #f1f2f6;
                         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1) inset; 
+                        z-index: 1;
                         > li {
                             > a {
-                                font-size: 10px;
+                                font-size: 12px;
                                 color: #999;
                                 padding-left: 20px;
                                 line-height: 26px;
@@ -211,60 +253,10 @@ button {
                         }
                     }
                 }
-                .has-child.active {
-                    > a {
-                        &:after {
-                            content: "\E823";
-                        }
-                    }
-                }
-            }
-        }
-    }
-    &.dropdown-open {
-        height: 100%;
-        background-color: rgba(0, 0, 0, .8);
-        .dorop-open-btn {
-            display: none;
-        }
-        .dropdowns-menu {
-            display: block;
-            .drop-container {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                padding-bottom: 180px;
-            }
-            .drop-close-btn {
-                position: relative;
-                width: 20px;
-                height: 20px;
-                margin-top: -10px;
-                border-radius: 50%;
-                background-color: #fff;
-                background-image: url(../images/sub/dorop_on_btn.jpg);
-                background-repeat: no-repeat;
-                background-size: 8px auto;
-                background-position: 50% 70%;
-                z-index: 2;
             }
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 // step list
 .step-list {
@@ -364,7 +356,7 @@ button {
             } 
             > a {
                 display: block;
-                font-size: 10px;
+                font-size: 11px;
                 color: #999;
                 text-align: center;
                 line-height: 16px;
@@ -393,7 +385,7 @@ button {
                 text-align: center;
                 width: 1%;
                 > a {
-                    font-size: 11px;
+                    font-size: 12px;
                     color: #666;
                     font-weight: 400;
                     display: block;
@@ -438,14 +430,14 @@ button {
     background-size: 50px auto;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
     > b {
-        font-size: 12px;
+        font-size: 13px;
         color: #333;
         font-weight: 400;
         line-height: 18px;
         display: inline-block;
     }
     > p {
-        font-size: 10px;
+        /*font-size: 11px;*/
         color: #8f8f8f;
         font-weight: 300;
         line-height: 16px;
@@ -460,7 +452,7 @@ button {
                 border: 1px solid #ccc;
                 line-height: 33px;
                 text-align: center;
-                font-size: 10px;
+                font-size: 12px;
                 color: #666;
             }
         }
@@ -470,14 +462,14 @@ button {
                 display: inline-block;
                 width: 170px;
                 height: 35px;
-                font-size: 10px;
+                font-size: 12px;
                 border-radius: 30px;
             }
             .btn-gray {
                 vertical-align: top;
                 width: 80px;
                 color: #fff;
-                font-size: 10px;
+                font-size: 12px;
                 text-align: center;
                 display: inline-block;
                 margin-left: 10px;
@@ -602,7 +594,7 @@ button {
         border-bottom: 1px solid #e5e5e5;
         background-color: #f8f8f8;
         h4 {
-            font-size: 12px;
+            font-size: 13px;
             color: #333;
             font-weight: 400;
             line-height: 17px;
@@ -621,14 +613,12 @@ button {
     }
     .article-content {
         .view-content {
-            font-size: 10px;
             font-weight: 300;
             line-height: 16px;
             color: #666;
             padding: 25px 10px 30px;
             background-color: #fff;
             p {
-                font-size: 10px;
                 font-weight: 300;
                 line-height: 16px;
                 color: #666;
@@ -643,7 +633,7 @@ button {
             dt {
                 float: left;
                 clear: both;
-                font-size: 10px;
+                /*font-size: 10px;*/
                 color: #666;
                 font-weight: 300;
                 line-height: 16px;
@@ -675,7 +665,7 @@ button {
                 .btn-xs {
                     display: inline-block;
                     width: 70px;
-                    font-size: 10px;
+                    /*font-size: 10px;*/
                     margin-right: 10px;
                     border-radius: 30px;
                     &:last-child {
@@ -684,14 +674,14 @@ button {
                     &.btn-white {
                         float: left;
                         color: #666;
-                        line-height: 28px;
+                        /*line-height: 28px;*/
                         background-color: #fff;
                         border: 1px solid #ccc;
                     }
                     &.btn-pink {
                         float: right;
                         color: #fff;
-                        line-height: 30px;
+                        /*line-height: 30px;*/
                         background-color: #ff7875;
                     }
                 }
@@ -707,7 +697,7 @@ button {
         > li {
             > a {
                 position: relative;
-                font-size:10px;
+                /*font-size:10px;*/
                 color: #666;
                 font-weight: 300;
                 display: block;
@@ -763,7 +753,7 @@ button {
     }
     .article-header, .write-header {
         h4 {
-            font-size: 11px;
+            font-size: 12px;
             color: #303030;
             font-weight: 500;
             margin-bottom: 10px;
@@ -772,9 +762,9 @@ button {
             margin-top: 10px;
             .btn-lg {
                 width: 100%;
-                font-size: 10px;
+                font-size: 12px;
                 color: #333;
-                line-height: 25px;
+                line-height: 30px;
                 border-radius: 5px;
                 background-color: #f5f5f5;
             }
@@ -785,7 +775,7 @@ button {
         .inform {
             display: block;
             width: 100%;
-            font-size: 10px;
+            font-size: 11px;
             color: #707070;
             b {
                 color: #eb3e3e;
@@ -809,7 +799,7 @@ button {
             padding-right: 55px;
             margin-bottom: 10px;
             h5 {
-                font-size: 11px;
+                font-size: 12px;
                 color: #3d3d3d;
                 font-weight: 500;
             }
@@ -825,7 +815,7 @@ button {
         }
         .review-content {
             p {
-                font-size: 10px;
+                font-size: 11px;
                 color: #515151;
                 line-height: 14px;
             }
@@ -867,7 +857,7 @@ button {
             background-position: 10px 10px;
             .reply-content {
                 margin-top: 10px;
-                font-size: 10px;
+                font-size: 11px;
                 color: #515151;
                 line-height: 14px;
             }
@@ -954,7 +944,7 @@ button {
                 .list-header {
                     h4 {
                         display: block;
-                        font-size: 12px;
+                        font-size: 13px;
                         color: #333;
                         font-weight: 500;
                         overflow: hidden;
@@ -988,9 +978,9 @@ button {
                         vertical-align: top;
                         display: table-cell;
                         padding-left: 20px;
-                        font-size: 10px;
+                        font-size: 11px;
                         color: #666;
-                        line-height: 13px;
+                        line-height: 14px;
                         font-weight: 300;
                         word-break: keep-all;
                     }
@@ -1012,7 +1002,7 @@ button {
             a {
                 text-decoration: none;
                 h4 {
-                    font-size: 11px;
+                    font-size: 12px;
                     color: #666;
                     font-weight: 500;
                 }
@@ -1068,16 +1058,16 @@ button {
                 font-size: 13px;
                 color: #fff;
                 font-weight: 300;
-                line-height: 25px;
+                line-height: 30px;
             }
             .btn-link {
                 float: right;
                 .btn-default {
-                    width: 80px;
-                    font-size: 10px;
+                    width: 90px;
+                    font-size: 12px;
                     color: #999;
                     text-align: center;
-                    line-height: 25px;
+                    line-height: 30px;
                     border-radius: 30px;
                     background-color: #fff;
                 }
@@ -1086,6 +1076,7 @@ button {
         tbody {
             tr {
                 th {
+                    font-size: 11px !important;
                     border: 0;
                     &.v-top {
                         vertical-align: top !important;
@@ -1099,6 +1090,7 @@ button {
                     }
                 }
                 td {
+                    font-size: 11px !important;
                     vertical-align: middle;
                     border: 0;
                     label {
@@ -1117,7 +1109,7 @@ button {
                                 position: absolute;
                                 top: 0;
                                 right: 0;
-                                font-size: 10px;
+                                font-size: 11px;
                                 color: #999;
                                 line-height: 28px;
                                 text-align: center;
@@ -1552,7 +1544,7 @@ button {
     strong {
         position: relative;
         display: block;
-        font-size: 12px;
+        font-size: 13px;
         color: #e25371;
         font-weight: 500;
         margin-bottom: 15px;
@@ -1569,8 +1561,9 @@ button {
     .decimal-list {
         padding-left: 10px;
         li {
-            font-size: 10px;
+            font-size: 11px;
             color: #999;
+            line-height: 16px;
             list-style: decimal;
             list-style-position: outside;
         }
@@ -1584,7 +1577,7 @@ button {
         font-size: 0;
         .btn {
             display: inline-block;
-            font-size: 10px;
+            font-size: 12px;
             text-align: center;
             margin-right: 10px;
             border-radius: 30px;
@@ -1592,19 +1585,19 @@ button {
                 margin-right: 0;
             }
             &.btn-white {
-                line-height: 28px;
+                line-height: 32px;
                 color: #666;
                 border: 1px solid #ccc;
                 background-color: #fff;
             }
             &.btn-pink {
-                line-height: 30px;
+                line-height: 34px;
                 border: 0;
                 color: #fff;
                 background-color: #ff7875;
             }
             &.btn-gray {
-                line-height: 30px;
+                line-height: 34px;
                 border: 0;
                 color: #fff;
                 background-color: #b3b3b3;
@@ -1612,7 +1605,7 @@ button {
         }
         .btn-xs {
             width: 70px;
-            height: 30px;
+            height: 34px;
         }
         .btn-sm {
             width: 100px;
@@ -1680,12 +1673,29 @@ button {
                                     }
                                     &.outside {
                                         position: relative;
-                                        padding-left: 60px;
+                                        margin-top: 10px;
                                         label {
                                             position: absolute;
                                             top: 0;
                                             left: 0;
                                             line-height: 30px;
+                                        }
+                                        dl {
+                                            dt {
+                                                margin-bottom: 10px;
+                                            }
+                                            dd {
+                                                .form-group {
+                                                    .form-control {
+                                                        display: inline-block !important;
+                                                        width: 31%;
+                                                        margin-right: 1%;
+                                                        &:last-child {
+                                                            margin-right: 0;
+                                                        }
+                                                    }
+                                                }
+                                            }
                                         }
                                     }
                                     &.inside {
@@ -1705,13 +1715,18 @@ button {
                                 }
                                 &.birthday {
                                     .form-group {
-                                        position: relative;
-                                        padding-left: 70px;
+                                        padding-right: 0;
+                                        > div {
+                                            display: block;
+                                            margin-bottom: 10px;
+                                        }
                                         select {
-                                            position: absolute;
-                                            top: 0;
-                                            left: 0;
-                                            width: 60px;
+                                            display: inline-block !important;
+                                            width: 30%;
+                                            margin-right: 1%;
+                                            &:last-child {
+                                                margin-right: 0;
+                                            }
                                         }
                                     }
                                 }
@@ -1744,6 +1759,115 @@ button {
                                         }
                                     }
                                 }
+                                &.mail {
+                                    .form-group {
+                                        input[type="text"] {
+                                            width: 44% !important;
+                                            display: inline-block !important;
+                                            &:nth-of-type(1) {
+                                                margin-right: 2%;
+                                            }
+                                            &:nth-of-type(2) {
+                                                margin-left: 2%;
+                                            }
+                                        }
+                                        select {
+                                            width: 100% !important;
+                                            margin-top: 10px;
+                                            display: block !important;
+                                        }
+                                    }
+                                }
+                                &.consent {
+                                    > p {
+                                        margin-bottom: 10px;
+                                    }
+                                }
+                                &.marital-status {
+                                    .form-group {
+                                        padding-right: 0;
+                                        padding-left: 0;
+                                        .form-control {
+                                            width: 30% !important;
+                                            margin-right: 1%;
+                                            display: inline-block !important;
+                                            &:last-child {
+                                                margin-right: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.whether {
+                                    > div {
+                                        display: block;
+                                        width: 100%;
+                                        &.due-day {
+                                            dl {
+                                                dt {
+                                                    margin-top: 10px;
+                                                }
+                                                dd {
+                                                    .form-group {
+                                                        margin-top: 10px;
+                                                        .form-control {
+                                                            display: inline-block !important;
+                                                            width: 30% !important;
+                                                            margin-right: 1%;
+                                                            &:last-child {
+                                                                margin-right: 0;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &.kids-info {
+                                    ul {
+                                        li {
+                                            & ~ li {
+                                                margin-top: 20px;
+                                            }
+                                            > div {
+                                                display: block;
+                                                width: 100%;
+                                                &.kids-name {
+                                                    margin-bottom: 5px;
+                                                    .form-group {
+                                                        .form-control {
+                                                            display: inline-block !important;
+                                                            margin-right: 10px;
+                                                            width: 45% !important;
+                                                            label {
+                                                                line-height: 30xp;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                &.kids-birth {
+                                                    dl {
+                                                        dt {
+                                                            font-size: 10px;
+                                                            color: #999;
+                                                            margin-bottom: 5px;
+                                                            font-weight: 300;
+                                                        }
+                                                        dd {
+                                                            .form-group {
+                                                                .form-control {
+                                                                    display: inline-block !important;
+                                                                    margin-right: 1%;
+                                                                    width: 29% !important;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                                 .child-info {
                                     & ~ .child-info {
                                         margin-top: 10px;
@@ -1753,6 +1877,15 @@ button {
                                             margin-top: 5px;
                                         }
                                     }
+                                }
+                            }
+                            .usr-id, .usr-pw, .nick-name, .usr-name {
+                                .form-group {
+                                    padding-right: 0;
+                                }
+                                .overlap-confirm {
+                                    margin-top: 10px;
+                                    display: block;
                                 }
                             }
                         }
@@ -1953,7 +2086,7 @@ button {
                 background: none !important;
                 a {
                     display: block;
-                    font-size: 12px;
+                    font-size: 13px;
                     color: #fff;
                     padding: 10px 20px;
                     border: 1px solid #999;
@@ -2508,58 +2641,10 @@ button {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.mypage {
+    .modify {
+        .section-content {
+            margin-top: 0;
+        }
+    }
+}

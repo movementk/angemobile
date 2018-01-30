@@ -1,11 +1,10 @@
 (function($) {
     // 드랍다운 메뉴 관련
     $(document).on('click', '.page-header .drop-open-btn', function() {
-        console.log('a')
-        $('.page-header').addClass('dropdown-open');
+        $('body').addClass('open-dropdown');
     });
-    $(document).on('click', '.page-header .dropdowns-menu .drop-close-btn', function() {
-        $('.page-header').removeClass('dropdown-open');
+    $(document).on('click', '.dropdowns-menu .drop-close-btn', function() {
+        $('body').removeClass('open-dropdown');
     });
     // 하위 메뉴 활성화 관련
     $(document).on("click", ".dropdowns-menu > .drop-container > ul > .has-child > a", function(e) {		

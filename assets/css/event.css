@@ -439,7 +439,7 @@
     text-align: center !important;
 }
 .reader-view .section-content .btn-area p .btn-md {
-    width: 50%;
+    width: 48%;
 }
 
 
@@ -666,7 +666,7 @@
     padding-top: 20px;
 }
 .experience-event .section-content .list-wrap .event-list .event-item a .details .title {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
     color: #333;
     font-weight: 400;
@@ -683,7 +683,7 @@
 .experience-event .section-content .list-wrap .event-list .event-item a .details .event-information ul li {
     display: inline-block;
     margin-right: 20px;
-    font-size: 9px;
+    font-size: 11px;
     font-family: 'Roboto', sans-serif;
     color: #999;
 }
