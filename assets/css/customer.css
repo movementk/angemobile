@@ -233,9 +233,11 @@
 .inquiry-list section .section-header .search-form {
     margin: 15px 0;
 }
+.inquiry-list section .section-content .board-type-2 .btn-area {
+    margin-top: 20px;
+}
 .inquiry-list section .section-content .board-type-2 .paging {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
 }
 .inquiry-list section .section-content .board-type-2 .btn-area {
     text-align: right;
