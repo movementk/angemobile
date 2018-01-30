@@ -826,7 +826,10 @@ body .dropdowns-menu {
       .board-type-2 > ul > li a h4 {
         font-size: 12px;
         color: #666;
-        font-weight: 500; }
+        font-weight: 400;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
       .board-type-2 > ul > li a .icon-list {
         margin-top: 8px; }
 
@@ -1350,7 +1353,7 @@ body .dropdowns-menu {
       .join-write .section-content article .table-wrap .table tbody tr td.avatar .avatar-add .btn-default:last-child {
         margin-right: 0; }
   .join-write .section-content article .table-wrap .table tbody tr td.mail .form-group input[type="text"] {
-    width: 44% !important;
+    width: 43% !important;
     display: inline-block !important; }
     .join-write .section-content article .table-wrap .table tbody tr td.mail .form-group input[type="text"]:nth-of-type(1) {
       margin-right: 2%; }

@@ -756,14 +756,14 @@
                 > li {
                     display: inline-block;
                     a {
-                        font-size: 10px;
+                        font-size: 11px;
                         color: #999;
                         text-decoration: none;
                     }
                     &:after {
                         font-size: 10px;
                         content: "·";
-                        margin: 0 10px;
+                        margin: 0 5px;
                     }
                     &:last-child {
                         &:after {

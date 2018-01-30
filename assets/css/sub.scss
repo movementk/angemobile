@@ -1005,7 +1005,10 @@ body {
                 h4 {
                     font-size: 12px;
                     color: #666;
-                    font-weight: 500;
+                    font-weight: 400;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
                 .icon-list {
                     margin-top: 8px;
@@ -1763,7 +1766,7 @@ body {
                                 &.mail {
                                     .form-group {
                                         input[type="text"] {
-                                            width: 44% !important;
+                                            width: 43% !important;
                                             display: inline-block !important;
                                             &:nth-of-type(1) {
                                                 margin-right: 2%;
