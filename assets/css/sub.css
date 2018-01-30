@@ -1488,10 +1488,16 @@ body .dropdowns-menu {
     content: "\E808";
     margin-right: 5px; }
 
-.event-list > li ~ li {
-  margin-top: 30px; }
-.event-list > li > a {
-  text-decoration: none; }
+.event-list > li {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc; }
+  .event-list > li ~ li {
+    margin-top: 30px; }
+  .event-list > li > a {
+    text-decoration: none; }
+  .event-list > li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0; }
 
 .event-item .item {
   position: relative; }

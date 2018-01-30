@@ -2011,11 +2011,17 @@ body {
 // 이벤트 아이템
 .event-list {
     > li {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #ccc;
         & ~ li {
             margin-top: 30px;
         }
         > a {
             text-decoration: none;
+        }
+        &:last-child {
+            border-bottom: 0;
+            padding-bottom: 0;
         }
     }
 }

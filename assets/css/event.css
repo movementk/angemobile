@@ -391,6 +391,14 @@
     color: #666;
     line-height: 15px;
 }
+.reader-view .section-header .attention {
+    font-size: 10px;
+    color: #999;
+    margin-top: 10px;
+}
+.reader-view .section-header .attention:before {
+    content: "*";
+}
 .reader-view .section-content .info {
     margin-top: 20px;
 }
@@ -607,13 +615,13 @@
     position: relative;
     overflow: hidden;
     border-radius: 5px;
-    padding-left: 70px;
+    padding-left: 95px;
 }
 .experience-event .section-header .prizewinner dt {
     position: absolute;
     top: 0;
     left: 0;
-    width: 70px;
+    width: 95px;
     color: #fff;
     font-size: 10px;
     padding-left: 10px;
@@ -662,6 +670,17 @@
 .experience-event .section-content .list-wrap {
     margin-top: 15px;
 }
+/*.experience-event .section-content .list-wrap .event-list > li {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.experience-event .section-content .list-wrap .event-list > li ~ .experience-event .section-content .list-wrap .event-list > li {
+    margin-top: 20px;
+}
+.experience-event .section-content .list-wrap .event-list > li:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+}*/
 .experience-event .section-content .list-wrap .event-list .event-item a .details {
     padding-top: 20px;
 }
