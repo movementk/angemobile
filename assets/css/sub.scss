@@ -625,6 +625,35 @@ body {
                 color: #666;
                 word-break: break-all;
             }
+            .reply {
+                margin-top: 55px;
+                padding: 25px 20px;
+                border-radius: 5px;
+                border: 1px solid #ececec;
+                background-color: #f7f7f7;
+                .reply-title {
+                    position: relative;
+                    font-size: 11px;
+                    color: #333;
+                    font-weight: 400;
+                    padding-right: 80px;
+                    small {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        font-size: 10px;
+                        font-weight: 300;
+                        color: #999;
+                    }
+                }
+                .content {
+                    margin-top: 20px;
+                    font-size: 10px;
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 16px;
+                }
+            }
         }
         .attach {
             overflow: hidden;

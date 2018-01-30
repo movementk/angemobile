@@ -341,6 +341,10 @@
 .prizewinner-list .section-content .board-type-2 .paging {
     margin-top: 20px;
 }
+.prizewinner-list .section-content .board-type-2 .btn-area {
+    text-align: right;
+    margin-top: 20px;
+}
 
 /* 당첨자발표 보기 */
 .prizewinner-view section > h3 {
