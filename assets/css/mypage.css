@@ -9,14 +9,18 @@
 }
 .message-list .board-type-2 .btn-area {
     margin-top: 20px;
+    text-align: right;
 }
 
 /* 쪽지 뷰 */
+
+/* 
 .message-view .table-wrap {
     margin-top: 40px;
 }
+*/
 .message-view .table-wrap h5 {
-    font-size: 12px;
+    font-size: 13px;
     color: #333;
     margin-bottom: 15px;
 }
@@ -27,6 +31,16 @@
 .message-view .table-wrap .btn-area p > .btn{
     width: 90px;
 }
+.message-view .table-wrap .table tbody tr td .search-form {
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+.message-view .table-wrap .table tbody tr td .search-form .btn-search {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+}
+
 /* 비밀번호 확인*/
 .pw-confirm .container > article {
     padding: 35px 20px;
@@ -67,7 +81,7 @@
 
 /* 내가 쓴 글 */
 .my-history .my-board h3 {
-    font-size: 12px;
+    font-size: 13px;
     color: #333;
 }
 .my-history .my-board .search-form {
@@ -89,19 +103,23 @@
     margin-top: 20px;
 }
 .my-history .my-comment .board-type-3 .article-header ul li.date {
-    width: 70px;
+    width: 80px;
 }
 .my-history .my-comment .board-type-3 .article-content .table-wrap .table tbody tr td {
     border-color: #dfdfdf;
 }
 
 .my-history .my-comment .board-type-3 .article-content .table-wrap .table tbody tr td.date {
-    width: 70px;
+    width: 80px;
     color: #999;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 .my-history .my-comment .board-type-3 .article-content .paging {
     margin-top: 20px;
+}
+.my-history .my-board .section-content .board-type-2 #dataList1 li .icon-list {
+    margin-top: 10px;
 }
 
 /* 회원탈퇴 동의 */
@@ -118,7 +136,7 @@
     width: 100%;
 }
 .member-leave article p {
-    font-size: 11px;
+    font-size: 12px;
     color: #8f8f8f;
     text-align: center;
     line-height: 16px;
@@ -130,11 +148,12 @@
     width: 100%;
     color: #666;
     font-weight: 300;
+    font-size: 12px;
 }
 .member-leave input {
-    font-size: 11px;
+    font-size: 12px;
     position: relative;
-    top: 3px;
+    top: 2px;
     margin-right: 7px;
 }
 .member-leave .btn-area {
@@ -150,12 +169,12 @@
 }
 .success .container > article h4 {
     font-weight: 400;
-    font-size: 13px;
+    font-size: 15px;
     color: #333;
     text-align: center;
 }
 .success .container > article .summary {
-    font-size: 11px;
+    font-size: 12px;
     color: #8f8f8f;
     line-height: 16px;
     text-align: center;
@@ -195,7 +214,7 @@
 }
 .mileage .mileage-view dl dd {
     float: right;
-    font-size: 11px;
+    font-size: 12px;
     color: #e25371;
     font-weight: 500;
     line-height: 30px;
@@ -234,7 +253,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 30px;
     color: #333;
 }
@@ -245,13 +264,6 @@
 .mileage .mileage-check .search-date .form-group dl dd .form-control {
     border-radius: 30px;
 }
-
-
-
-
-
-
-
 .mileage .mileage-check .board-type-3 .article-content .table-wrap .table tbody tr td {
     font-size: 9px;
     border-bottom: 1px solid #dfdfdf;
