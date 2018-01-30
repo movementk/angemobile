@@ -51,13 +51,13 @@
     padding-bottom: 20px;
 }
 .event .information .info-head .subject {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     color: #333;
     margin-bottom: 15px;
 }
 .event .information .info-head p {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 15px;
     color: #666;
 }
@@ -137,19 +137,19 @@
     position: relative;
 }
 .event-applicant .section-content .tab-content .review li .review-content .user-info .user-name {
-    font-size: 11px;
+    font-size: 12px;
     color: #3d3d3d;
 }
 .event-applicant .section-content .tab-content .review li .review-content .user-info .date {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 9px;
+    font-size: 10px;
     color: #999;
     font-family: 'Roboto', sans-serif;
 }
 .event-applicant .section-content .tab-content .review li .review-content .comment {
-    font-size: 10px;
+    font-size: 11px;
     line-height: 14px;
     color: #515151;
     margin-top: 10px;

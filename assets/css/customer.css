@@ -171,7 +171,7 @@
 
 /* 고객센터 title 공통 */
 .customer .title {
-    font-size: 12px;
+    font-size: 13px;
     color: #333;
 }
 
@@ -234,8 +234,13 @@
     margin: 15px 0;
 }
 .inquiry-list section .section-content .board-type-2 .paging {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+.inquiry-list section .section-content .board-type-2 .btn-area {
+    text-align: right;
+}
+
 
 /* 회원문의 보기 */
 .inquiry-view section .title {
