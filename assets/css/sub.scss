@@ -1104,6 +1104,17 @@ body {
                             margin-right: 2px;
                         }
                     }
+                    &.contact {
+                        .form-group {
+                            .form-control {
+                                width: 30% !important;
+                                margin-right: 1%;
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
                     &.file {
                         .form-group {
                             position: relative;

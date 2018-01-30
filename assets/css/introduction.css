@@ -308,21 +308,27 @@
 }
 .affiliates .section-content .table-wrap .table tbody tr td.mail .form-group input[type="text"] {
     display: inline-block !important;
-    width: 44% !important;
+    width: 43% !important;
 }
 .affiliates .section-content .table-wrap .table tbody tr td.mail .form-group input[type="text"]:nth-of-type(1) {
     margin-right: 2%;
 }
 .affiliates .section-content .table-wrap .table tbody tr td.mail .form-group input[type="text"]:nth-of-type(2) {
-    margin-right: 2%;
+    margin-left: 2%;
 }
 .affiliates .section-content .table-wrap .table tbody tr td.mail .form-group select {
     width: 100% !important;
     margin-top: 10px;
 }
-
-
-
+/*
+.affiliates .section-content .table-wrap .table tbody tr td.contact .form-group .form-control {
+    margin-right: 1%;
+    width: 30% !important;
+} 
+.affiliates .section-content .table-wrap .table tbody tr td.contact .form-group .form-control:last-child {
+    margin-right: 0;
+}
+*/
 
 
 
