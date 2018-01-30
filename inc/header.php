@@ -243,15 +243,15 @@
                 <button type="button" class="btn btn-close">
                     <img src="/assets/images/nav_btn_close.png" alt="네비 닫기">
                 </button>
-                <!-- 로그인 일때
+                <!-- 로그인 일때 -->
                 <div class="user-info">
                     <h2>
                         무브먼트 <small>님</small>
-                        <a href="#" class="logout-btn" role="button">
+                        <!--<a href="#" class="logout-btn" role="button">
                             <i class="icon-off">
                                 <span class="sr-only">로그아웃하기</span>
                             </i>
-                        </a>
+                        </a>-->
                     </h2>
                     <div class="user-profile">
                         <div class="profile">
@@ -273,8 +273,8 @@
                         </div>
                     </div>
                 </div>
-                -->
-                <!-- 로그아웃 일때 -->
+                
+                <!-- 로그아웃 일때 
                 <div class="member-login">
                     <h2>로그인</h2>
                     <form action="#">
@@ -293,7 +293,7 @@
                         </ul>
                     </form>
                 </div>
-                
+                -->
             </div>
             <div class="ange-event">
                 <a href="#">

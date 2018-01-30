@@ -217,10 +217,13 @@
 .article_previewwrap {
     display: inline-block;
     width: 100%;
-    padding-top:20px;
+    padding: 0;
+    padding-top: 10px;
     background-color: #FFF;
 }
-
+.article_previewwrap h3 {
+    font-size: 15px;
+}
 .article_previewwrap img{
     float: left;
     width:100%;
@@ -253,14 +256,14 @@ subtitle {
 }
 
 maintitle {
-    float:left;
-    width:100%;
-    font-size: 20pt;
+    float: left;
+    width: 100%;
+    font-size: 13pt;
     font-weight: 600;
-    line-height:24pt;
-    text-align : center;
+    line-height: 18pt;
+    text-align: center;
     padding: 5px 0 40px 0;
-    color:#000;
+    color: #333;
 }
 
 preface {
@@ -290,7 +293,7 @@ sectionmain {
 sectionsub {
     float:left;
     width:100%;
-    font-size: 14pt;
+    font-size: 10pt;
     line-height: 17pt;
     margin-bottom: 19px;
     font-weight: bold;
@@ -310,7 +313,7 @@ bodyscript {
     white-space: pre;
     white-space: pre-wrap;
     */
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     line-height: 17pt;
     /* padding: 0 10px 0 10px; */
 }

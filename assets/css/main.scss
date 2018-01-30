@@ -21,13 +21,13 @@ body {
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
         display: block;
         strong {
-            font-size: 12px;
+            font-size: 13px;
             color: #e96d7b;
             @include roboto();
         }
         p {
-            font-size: 12px;
-            color: #666;
+            font-size: 13px;
+            color: #333;
             margin-top: 8px;
         }
     }
@@ -145,8 +145,8 @@ body {
     padding-bottom: 10px;
     border-bottom: 1px solid #dfdfdf;
     h3 {
-        font-size: 12px;
-        color: #333;
+        font-size: 13px;
+        color: #000;
         font-weight: 500;
         float: left;
     }
@@ -218,8 +218,8 @@ body {
                         white-space: nowrap;
                         overflow: hidden;
                         text-overflow: ellipsis;
-                        font-size: 11px;
-                        color: #666;
+                        font-size: 12px;
+                        color: #333;
                         font-weight: 300;
                         line-height: 20px;
                         padding-left: 16px;
@@ -252,11 +252,17 @@ body {
                             width: 100%;
                         }
                         figcaption {
-                            font-size: 10px;
-                            color: #666;
+                            font-size: 12px;
+                            color: #333;
+                            text-align: left;
                             line-height: 13px;
                             margin-top: 10px;
+                            word-break: break-all;
                             letter-spacing: -.5px;
+                            height: 28px;
+                            p {
+                                line-height: 14px;
+                            }
                             em {
                                 font-style: normal !important;
                             }
@@ -287,7 +293,7 @@ body {
                     font-size: 11px;
                     color: #888;
                     text-align: center;
-                    line-height: 16px;
+                    line-height: 26px;
                     border-radius: 30px;
                 }
                 &.active {
@@ -316,10 +322,11 @@ body {
                         }
                         figcaption {
                             font-size: 12px;
-                            color: #666;
+                            color: #333;
                             line-height: 14px;
                             margin-top: 10px;
-                            word-break: keep-all;
+                            text-align: left;
+                            word-break: break-all;
                             height: 28px;
                         }
                     }
@@ -362,10 +369,13 @@ body {
                         }
                     }
                     .details {
-                        font-size: 10px;
-                        color: #555;
+                        font-size: 12px;
+                        color: #333;
+                        height: 34px;
                         letter-spacing: -.5px;
                         margin-top: 5px;
+                        text-align: left;
+                        word-break: break-all;
                     }
                 }
                 &:nth-of-type(4n + 1) {
@@ -474,7 +484,7 @@ section {
             background-color: #e96d7b;
         }
         h3 {
-            font-size: 12px;
+            font-size: 13px;
             color: #e96d7b;
             font-weight: 500;
             a {
@@ -499,8 +509,8 @@ section {
                 a {
                     display: block;
                     line-height: 22px;
-                    font-size: 11px;
-                    color: #666;
+                    font-size: 12px;
+                    color: #333;
                     overflow: hidden;
                     text-overflow: ellipsis;
                     white-space: nowrap;
@@ -528,8 +538,8 @@ section {
                     position: relative;
                     display: block;
                     line-height: 22px;
-                    font-size: 11px;
-                    color: #666;
+                    font-size: 12px;
+                    color: #555;
                     overflow: hidden;
                     text-overflow: ellipsis;
                     white-space: nowrap;
@@ -588,7 +598,7 @@ section {
                     box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.05) inset;
                 }
                 p {
-                    font-size: 12px;
+                    font-size: 13px;
                     color: #333;
                     font-weight: 400;
                     margin-top: 10px;

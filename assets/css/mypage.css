@@ -96,6 +96,23 @@
 .my-history .my-board .board-type-2 > ul > li {
     border-bottom: 1px solid #dfdfdf;
 }
+.my-history .my-board .board-type-2 > ul > li > .btn-area {
+    text-align: left;
+    margin-top: 10px;
+}
+.my-history .my-board .board-type-2 > ul > li > .btn-area p .btn-white {
+    text-align: center;
+    width: 60px;
+    font-size: 10px;
+    color: #666;
+    line-height: 20px;
+    height: 22px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+
 .my-history .my-comment h5 {
     font-size: 13px;
     color: #333;

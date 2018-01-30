@@ -430,6 +430,10 @@ ul, ol {
     border-radius: 0;
     box-shadow: none;
     background: none; }
+    .magazine-view .section-content article .article-content .review-write .review-list .review-content .btn-more .btn-gray {
+      margin-right: 6px; }
+      .magazine-view .section-content article .article-content .review-write .review-list .review-content .btn-more .btn-gray:last-child {
+        margin-right: 0; }
   .magazine-view .section-content article .article-content .paging {
     margin-top: 20px; }
 

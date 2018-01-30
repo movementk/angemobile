@@ -88,12 +88,12 @@ body {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
   display: block; }
   .hot-issue a strong {
-    font-size: 12px;
+    font-size: 13px;
     color: #e96d7b;
     font-family: 'Roboto', sans-serif; }
   .hot-issue a p {
-    font-size: 12px;
-    color: #666;
+    font-size: 13px;
+    color: #333;
     margin-top: 8px; }
 
 .jumbo {
@@ -171,8 +171,8 @@ body {
   padding-bottom: 10px;
   border-bottom: 1px solid #dfdfdf; }
   .article-header h3 {
-    font-size: 12px;
-    color: #333;
+    font-size: 13px;
+    color: #000;
     font-weight: 500;
     float: left; }
   .article-header .btn-controls {
@@ -237,8 +237,8 @@ body {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        font-size: 11px;
-        color: #666;
+        font-size: 12px;
+        color: #333;
         font-weight: 300;
         line-height: 20px;
         padding-left: 16px;
@@ -259,11 +259,16 @@ body {
     .parenting-learn .article-content > ul > li a figure img {
       width: 100%; }
     .parenting-learn .article-content > ul > li a figure figcaption {
-      font-size: 10px;
-      color: #666;
+      font-size: 12px;
+      color: #333;
+      text-align: left;
       line-height: 13px;
       margin-top: 10px;
-      letter-spacing: -.5px; }
+      word-break: break-all;
+      letter-spacing: -.5px;
+      height: 28px; }
+      .parenting-learn .article-content > ul > li a figure figcaption p {
+        line-height: 14px; }
       .parenting-learn .article-content > ul > li a figure figcaption em {
         font-style: normal !important; }
 
@@ -285,7 +290,7 @@ body {
         font-size: 11px;
         color: #888;
         text-align: center;
-        line-height: 16px;
+        line-height: 26px;
         border-radius: 30px; }
       .subject-content .article-header ul li.active a {
         color: #fff;
@@ -299,10 +304,11 @@ body {
       width: 100%; }
     .subject-content .article-content ul li a figure figcaption {
       font-size: 12px;
-      color: #666;
+      color: #333;
       line-height: 14px;
       margin-top: 10px;
-      word-break: keep-all;
+      text-align: left;
+      word-break: break-all;
       height: 28px; }
   .subject-content .article-content ul li:nth-of-type(3n + 1) {
     clear: both; }
@@ -326,10 +332,13 @@ body {
       .brand-strory .article-content ul li a .product-item img {
         width: 100%; }
     .brand-strory .article-content ul li a .details {
-      font-size: 10px;
-      color: #555;
+      font-size: 12px;
+      color: #333;
+      height: 34px;
       letter-spacing: -.5px;
-      margin-top: 5px; }
+      margin-top: 5px;
+      text-align: left;
+      word-break: break-all; }
   .brand-strory .article-content ul li:nth-of-type(4n + 1) {
     clear: both; }
   .brand-strory .article-content ul li:nth-of-type(2) a, .brand-strory .article-content ul li:nth-of-type(3) a, .brand-strory .article-content ul li:nth-of-type(4) a {
@@ -404,7 +413,7 @@ section {
       display: block;
       background-color: #e96d7b; }
     section .section-header h3 {
-      font-size: 12px;
+      font-size: 13px;
       color: #e96d7b;
       font-weight: 500; }
       section .section-header h3 a {
@@ -423,8 +432,8 @@ section {
     section .section-content .poll-list > li a {
       display: block;
       line-height: 22px;
-      font-size: 11px;
-      color: #666;
+      font-size: 12px;
+      color: #333;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap; }
@@ -446,8 +455,8 @@ section {
         position: relative;
         display: block;
         line-height: 22px;
-        font-size: 11px;
-        color: #666;
+        font-size: 12px;
+        color: #555;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -487,7 +496,7 @@ section {
           background-color: #eeeff4;
           box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.05) inset; }
         .ange-company > ul > li a p {
-          font-size: 12px;
+          font-size: 13px;
           color: #333;
           font-weight: 400;
           margin-top: 10px; }
