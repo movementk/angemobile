@@ -88,7 +88,8 @@ ul, ol {
 .share-list {
   position: relative;
   text-align: center;
-  font-size: 0; }
+  font-size: 0;
+  margin-bottom: 20px; }
   .share-list li {
     display: inline-block; }
     .share-list li a {

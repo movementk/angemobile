@@ -272,8 +272,8 @@
                         }
                         > a {
                             display: block;
-                            font-size: 12px;
-                            color: #333;
+                            font-size: 14px;
+                            color: #000;
                             font-weight: 400;
                             padding: 15px;
                             text-decoration: none;
@@ -292,9 +292,9 @@
                             > li {
                                 > a {
                                     display: block;
-                                    font-size: 10px;
-                                    color: #999;
-                                    line-height: 30px;
+                                    font-size: 13px;
+                                    color: #333;
+                                    line-height: 34px;
                                     padding-right: 15px;
                                     padding-left: 15px;
                                     text-decoration: none;
@@ -331,9 +331,9 @@
                                             > a {
                                                 position: relative;
                                                 display: inline-block;
-                                                font-size: 10px;
-                                                color: #999 !important;
-                                                line-height: 27px;
+                                                font-size: 12px;
+                                                color: #666 !important;
+                                                line-height: 30px;
                                                 text-decoration: none;
                                                 &:before {
                                                     content: "- ";
@@ -463,13 +463,13 @@
             .user-info {
                 padding-left: 15px;
                 h2 {
-                    font-size: 13px;
-                    color: #333;
+                    font-size: 15px;
+                    color: #000;
                     font-weight: bold;
                     margin-bottom: 15px;
                     small {
                         color: #333;
-                        font-size: 11px;
+                        font-size: 12px;
                         font-weight: 400;
                     }
                     /*.logout-btn {
@@ -489,7 +489,7 @@
                     width: 100%;
                     > div {
                         display: table-cell;
-                        vertical-align: top;
+                        vertical-align: middle;
                         &.profile {
                             width: 54px;
                             figure {
@@ -512,7 +512,7 @@
                                 font-size: 0;
                                 li {
                                     display: inline-block;
-                                    font-size: 10px;
+                                    font-size: 12px;
                                     color: #fff;
                                     font-weight: 400;
                                     @include roboto();
@@ -539,17 +539,17 @@
                                 dt {
                                     float: left;
                                     clear: both;
-                                    font-size: 10px;
+                                    font-size: 12px;
                                     color: #333;
                                     font-weight: 400;
-                                    line-height: 14px;
+                                    line-height: 18px;
                                     margin-right: 5px;
                                 }
                                 dd {
-                                    font-size: 10px;
+                                    font-size: 12px;
                                     font-weight: 400;
                                     color: #333;
-                                    line-height: 14px;
+                                    line-height: 18px;
                                     b {
                                         font-weight: 500;
                                         color: #fff799;
@@ -564,7 +564,7 @@
                     margin-top: 15px;
                     font-size: 0;
                     .btn {
-                        width: 90px;
+                        width: 80px;
                         text-align: center;
                         font-size: 12px;
                         line-height: 26px;
@@ -653,7 +653,7 @@
                 background-color: #ff7875;
                 text-decoration: none;
                 h3 {
-                    font-size: 15px;
+                    font-size: 16px;
                     color: #fff;
                     line-height: 35px;
                     font-weight: 500;
@@ -680,7 +680,7 @@
         }
         .nav-body {
             > div {
-                padding: 25px 15px;
+                padding: 20px 15px;
                 border-top: 1px solid #f8f8f8;
                 border-bottom: 1px solid #ccc;
                 &:first-child {
@@ -697,6 +697,7 @@
                     }
                     > ul {
                         overflow: hidden;
+                        margin-top: 10px;
                         > li {
                             float: left;
                             width: 50%;
@@ -706,8 +707,8 @@
                             a {
                                 display: block;
                                 width: 100%;
-                                font-size: 10px;
-                                color: #666;
+                                font-size: 11px;
+                                color: #333;
                                 text-align: center;
                                 line-height: 24px;
                                 text-decoration: none;
@@ -728,10 +729,16 @@
                         }
                     }
                 }
+                &.my-interest {
+                    > a {
+                        font-size: 14px;
+                        color: #000;
+                    }
+                }
                 .title {
                     display: block;
-                    font-size: 12px;
-                    color: #333;
+                    font-size: 14px;
+                    color: #000;
                     font-weight: 400;
                     /*margin-bottom: 13px;*/
                     text-decoration: none;
@@ -748,14 +755,14 @@
                     li {
                         a {
                             display: block;
-                            font-size: 10px;
-                            color: #666;
-                            line-height: 16px;
+                            font-size: 12px;
+                            color: #333;
+                            line-height: 14px;
                             overflow: hidden;
                             text-overflow: ellipsis;
                             white-space: nowrap;
                             text-decoration: none;
-                            margin-top: 13px;
+                            margin-top: 10px;
                         }
                     }
                 }

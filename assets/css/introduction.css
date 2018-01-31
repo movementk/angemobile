@@ -247,12 +247,16 @@
 }
 
 /* 광고문의 제휴& 광고문의신청 */
-.affiliates .section-header small {
-    text-align: right;
+.affiliates .section-header .btn-area p {
     display: block;
+    text-align: right;
     font-size: 11px;
 }
-.affiliates .section-header small:before {
+.affiliates .section-header .btn-area p .btn-pink {
+    line-height: 25px !important;
+    margin-right: 5px;
+}
+.affiliates .section-header .btn-area p span:before {
     content: " *";
     color: #e25371;
 }
