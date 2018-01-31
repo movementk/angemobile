@@ -248,6 +248,13 @@
                             <figure>
                                 <img src="/assets/images/introduction/img_ange_club.png" alt="">
                             </figure>
+                            <div class="btn-area">
+                                <p>
+                                    <a href="#" class="btn btn-md btn-pink" role="button" target="_blank">
+                                        <i class="icon-export"></i>앙쥬클럽 미디어킷 보기
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                         <div class="article-content">
                             <h6>

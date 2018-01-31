@@ -584,8 +584,8 @@
             .member-login {
                 padding: 0 10px;
                 h2 {
-                    font-size: 13px;
-                    color: #333;
+                    font-size: 14px;
+                    color: #000;
                     margin-bottom: 10px;
                 }
                 .form-group {
@@ -606,9 +606,9 @@
                         height: 30px;
                         line-height: 30px;
                         text-align: center;
-                        font-size: 10px;
+                        font-size: 12px;
                         padding: 0;
-                        color: #666;
+                        color: #333;
                         border-radius: 30px;
                         border: 0;
                         background-color: #fff;
@@ -623,7 +623,7 @@
                             display: inline-block;
                             color: #fff;
                             text-decoration: none;
-                            font-size: 10px;
+                            font-size: 12px;
                             color: #fff;
                         }
                         &:after {

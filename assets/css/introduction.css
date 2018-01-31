@@ -171,8 +171,8 @@
     left: 0;
     content: "* ";
 }
-.introduce .section-content .studio .btn-area p .btn-md {
-    width: 160px;
+.introduce .section-content article .btn-area p .btn-md {
+    width: 180px;
 }
 .introduce .section-content article .btn-area p .btn-md {
     font-weight: 300;
