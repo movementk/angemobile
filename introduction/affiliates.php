@@ -62,7 +62,14 @@
             <section class="affiliates"> <!-- 페이지명 클래스 -->
                 <div class="section-header">
                     <h3 class="section-title">제휴&amp;광고문의신청</h3>
-                    <small>필수 작성 항목입니다</small>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-sm btn-pink" role="button">
+                                <i class="icon-download"></i>미디어킷 다운
+                            </a>
+                            <span class="essential"></span>필수 작성 항목입니다
+                        </p>
+                    </div>
                 </div>
                 <div class="section-content">
                     <form action="#">
