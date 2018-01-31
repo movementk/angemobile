@@ -305,6 +305,12 @@
       "css": "right",
       "code": 61816,
       "src": "fontawesome"
+    },
+    {
+      "uid": "815576dccc008afcfd83a38378a4fdde",
+      "css": "download",
+      "code": 59429,
+      "src": "iconic"
     }
   ]
 }
