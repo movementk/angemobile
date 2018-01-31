@@ -11,8 +11,8 @@ body {
   padding-top: 175px;
   min-width: 320px;
   height: 100%;
-  font-size: 11px;
-  color: #666;
+  font-size: 12px;
+  color: #333;
   font-weight: 300;
   font-family: 'Noto Sans KR', sans-serif;
   background-color: #eeeff4; }
@@ -131,13 +131,13 @@ ul, ol {
         padding: 15px 10px 0;
         /*padding-top: 15px;*/ }
         .list-type-1 > ul > li > a .details small {
-          font-size: 10px;
-          color: #ad9cc4;
+          font-size: 12px;
+          color: #666;
           display: inline-block;
           margin-bottom: 10px; }
         .list-type-1 > ul > li > a .details p {
-          font-size: 11px;
-          color: #333;
+          font-size: 13px;
+          color: #000;
           line-height: 14px;
           font-weight: 400;
           overflow: hidden;
@@ -356,8 +356,8 @@ ul, ol {
 .today-talk .article-content {
   margin-top: 20px; }
   .today-talk .article-content h4 {
-    font-size: 12px;
-    color: #333;
+    font-size: 13px;
+    color: #000;
     margin-bottom: 10px; }
   .today-talk .article-content .write-form {
     position: relative;
@@ -584,28 +584,31 @@ ul, ol {
     .sponsor .sponsor-list > li .details {
       padding-left: 10px; }
       .sponsor .sponsor-list > li .details h3 {
-        font-size: 11px;
-        color: #333;
+        font-size: 13px;
+        color: #000;
         font-weight: 400; }
       .sponsor .sponsor-list > li .details > ul {
         margin-top: 10px; }
-        .sponsor .sponsor-list > li .details > ul > li a {
-          display: block;
-          line-height: 16px;
-          color: #999;
-          font-weight: 400;
-          font-family: 'Roboto', sans-serif; }
-          .sponsor .sponsor-list > li .details > ul > li a:before {
-            font-family: "fontello";
-            margin-right: 5px; }
-        .sponsor .sponsor-list > li .details > ul > li.contact a:before {
-          content: "\E820"; }
-        .sponsor .sponsor-list > li .details > ul > li.home-page a:before {
-          content: "\E821"; }
+        .sponsor .sponsor-list > li .details > ul > li {
+          line-height: 20px; }
+          .sponsor .sponsor-list > li .details > ul > li a {
+            display: block;
+            line-height: 16px;
+            color: #666;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+            word-break: break-all; }
+            .sponsor .sponsor-list > li .details > ul > li a:before {
+              font-family: "fontello";
+              margin-right: 5px; }
+          .sponsor .sponsor-list > li .details > ul > li.contact a:before {
+            content: "\E820"; }
+          .sponsor .sponsor-list > li .details > ul > li.home-page a:before {
+            content: "\E821"; }
       .sponsor .sponsor-list > li .details p {
-        font-size: 10px;
-        color: #999;
-        line-height: 13px;
+        font-size: 12px;
+        color: #333;
+        line-height: 16px;
         margin-top: 20px; }
 .sponsor .paging {
   margin-top: 20px; }
@@ -789,7 +792,7 @@ ul, ol {
       .education-intro .article-content > ul > li .box .details {
         padding-right: 15px; }
         .education-intro .article-content > ul > li .box .details small {
-          font-size: 10px; }
+          font-size: 12px; }
         .education-intro .article-content > ul > li .box .details h3 {
           font-size: 14px;
           color: #333;
@@ -803,7 +806,7 @@ ul, ol {
           padding-left: 10px;
           line-height: 18px;
           font-size: 12px;
-          color: #555; }
+          color: #333; }
           .education-intro .article-content > ul > li .box .details > ul > li:before {
             position: absolute;
             top: 0;
@@ -841,8 +844,8 @@ ul, ol {
       color: #7da7d9;
       font-weight: 500; }
   .club-intro .article-content .summary {
-    font-size: 11px;
-    color: #666;
+    font-size: 12px;
+    color: #333;
     line-height: 20px; }
     .club-intro .article-content .summary i {
       font-style: normal;
@@ -883,8 +886,8 @@ ul, ol {
         .club-intro .spon-company .company-list li .company-logo img {
           display: inline-block; }
       .club-intro .spon-company .company-list li > p {
-        font-size: 10px;
-        color: #666;
+        font-size: 12px;
+        color: #333;
         margin-top: 10px;
         text-align: center; }
       .club-intro .spon-company .company-list li ~ li {
@@ -916,13 +919,13 @@ ul, ol {
       position: relative;
       padding-left: 25px;
       line-height: 20px;
-      font-size: 11px;
+      font-size: 13px;
       color: #666; }
       .club-intro .spon-company .decimal > li ~ li {
         margin-top: 10px; }
       .club-intro .spon-company .decimal > li span {
         position: absolute;
-        top: 0;
+        top: 1px;
         left: 0;
         display: block;
         width: 16px;
@@ -943,7 +946,7 @@ ul, ol {
   .first-visit .article-content .question li h3 {
     position: relative;
     display: block;
-    font-size: 12px;
+    font-size: 13px;
     color: #fff;
     line-height: 28px;
     padding-left: 60px;
@@ -986,15 +989,15 @@ ul, ol {
       margin-bottom: 10px;
       padding-top: 3px; }
     .first-visit .article-content .question li .details p {
-      font-size: 11px;
-      color: #666;
+      font-size: 12px;
+      color: #333;
       font-weight: 400;
       line-height: 18px; }
       .first-visit .article-content .question li .details p i {
         font-style: normal;
         color: #ff7875; }
       .first-visit .article-content .question li .details p span {
-        font-size: 10px;
+        font-size: 11px;
         font-weight: 300; }
   .first-visit .article-content .question li:last-child .details {
     padding-bottom: 0; }
@@ -1019,7 +1022,7 @@ ul, ol {
       font-weight: 400;
       margin-bottom: 15px; }
     .club-member .article-content .member-company .company-info > a {
-      font-size: 10px;
+      font-size: 12px;
       color: #7da7d9;
       display: block;
       text-align: center;
@@ -1031,9 +1034,9 @@ ul, ol {
         font-family: "fontello";
         margin-right: 10px; }
     .club-member .article-content .member-company .company-info .summary {
-      font-size: 12px;
-      line-height: 20px;
-      color: #666;
+      font-size: 13px;
+      line-height: 22px;
+      color: #333;
       margin-top: 20px; }
   .club-member .article-content .member-company .company-item {
     margin-top: 20px;
@@ -1043,16 +1046,16 @@ ul, ol {
     .club-member .article-content .member-company .company-item .item-img {
       margin-bottom: 15px; }
     .club-member .article-content .member-company .company-item h4 {
-      font-size: 13px;
-      color: #333;
+      font-size: 14px;
+      color: #000;
       font-weight: 400;
       margin-bottom: 15px; }
       .club-member .article-content .member-company .company-item h4 ~ h4 {
         margin-top: 20px; }
     .club-member .article-content .member-company .company-item p {
-      font-size: 10px;
-      color: #999;
-      line-height: 18px;
+      font-size: 12px;
+      color: #333;
+      line-height: 20px;
       text-align: justify; }
   .club-member .article-content .member-company.msd .company-info .logo img {
     width: 93px; }

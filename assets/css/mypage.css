@@ -23,8 +23,8 @@
     margin-top: 20px;
 }
 .message-view .table-wrap h5 {
-    font-size: 13px;
-    color: #333;
+    font-size: 14px;
+    color: #000;
     margin-bottom: 10px;
 }
 .message-view .table-wrap .btn-area {
@@ -84,8 +84,8 @@
 
 /* 내가 쓴 글 */
 .my-history .my-board h3 {
-    font-size: 13px;
-    color: #333;
+    font-size: 14px;
+    color: #000;
 }
 .my-history .my-board .search-form {
     margin: 15px 0;
@@ -111,11 +111,9 @@
     border: 1px solid #ccc;
     background-color: #fff;
 }
-
-
 .my-history .my-comment h5 {
-    font-size: 13px;
-    color: #333;
+    font-size: 14px;
+    color: #000;
     margin-top: 40px;
 }
 .my-history .my-comment .board-type-3 {
@@ -157,16 +155,16 @@
 }
 .member-leave article p {
     font-size: 12px;
-    color: #8f8f8f;
+    color: #666;
     text-align: center;
-    line-height: 16px;
+    line-height: 19px;
     word-break: keep-all;
     margin-top: 20px;
 }
 .member-leave label {
     margin-top: 20px;
     width: 100%;
-    color: #666;
+    color: #333;
     font-weight: 300;
     font-size: 12px;
 }
@@ -224,8 +222,8 @@
 }
 .mileage .mileage-view dl dt {
     float: left;
-    font-size: 12px;
-    color: #333;
+    font-size: 13px;
+    color: #000;
     line-height: 30px;
 }
 .mileage .mileage-view dl dt i {
@@ -234,7 +232,7 @@
 }
 .mileage .mileage-view dl dd {
     float: right;
-    font-size: 12px;
+    font-size: 13px;
     color: #e25371;
     font-weight: 500;
     line-height: 30px;
@@ -273,13 +271,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 30px;
-    color: #333;
+    color: #000;
 }
 .mileage .mileage-check .search-date .form-group dl dd {
-    font-size: 11px;
-    color: #999;
+    font-size: 12px;
+    color: #666;
+    margin-left: 5px;
 }
 .mileage .mileage-check .search-date .form-group dl dd .form-control {
     border-radius: 30px;
@@ -294,8 +293,8 @@
 
 /* 주문현황 */
 .order-info .mileage-order h3{
-    font-size: 13px;
-    color: #333;
+    font-size: 14px;
+    color: #000;
     margin-bottom: 10px;
 }
 .order-info .board-type-4 {

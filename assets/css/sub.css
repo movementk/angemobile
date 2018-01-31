@@ -11,8 +11,8 @@ body {
   padding-top: 175px;
   min-width: 320px;
   height: 100%;
-  font-size: 11px;
-  color: #666;
+  font-size: 12px;
+  color: #333;
   font-weight: 300;
   font-family: 'Noto Sans KR', sans-serif;
   background-color: #eeeff4; }
@@ -92,7 +92,7 @@ dl dd {
   .form-group .form-control {
     width: 100%;
     height: 30px;
-    font-size: 10px;
+    font-size: 11px !important;
     color: #999;
     font-weight: 300;
     border: 1px solid #dfdfdf; }
@@ -114,15 +114,15 @@ button {
 .section-header {
   padding-bottom: 20px; }
   .section-header .summary {
-    font-size: 12px;
-    color: #999;
+    font-size: 13px;
+    color: #666;
     font-weight: 300;
     line-height: 16px;
     margin-top: 10px; }
 
 .section-title {
-  font-size: 13px;
-  color: #333;
+  font-size: 14px;
+  color: #000;
   font-weight: 500; }
 
 #content {
@@ -304,12 +304,12 @@ body .dropdowns-menu {
 
 .search-form {
   position: relative;
-  padding-left: 80px; }
+  padding-left: 100px; }
   .search-form .form-group select {
     position: absolute;
     top: 0;
     left: 0;
-    width: 70px !important; }
+    width: 90px !important; }
   .search-form .form-group input {
     padding-right: 30px; }
   .search-form .form-group .form-control {
@@ -345,11 +345,12 @@ body .dropdowns-menu {
         margin-top: 0; }
       .tab-list > ul > li > a {
         display: block;
-        font-size: 11px;
-        color: #999;
+        font-size: 12px;
+        color: #666;
         text-align: center;
-        line-height: 16px;
+        line-height: 26px;
         font-weight: 300;
+        letter-spacing: -.5px;
         text-decoration: none; }
       .tab-list > ul > li.active a {
         color: #fff;
@@ -366,10 +367,11 @@ body .dropdowns-menu {
       text-align: center;
       width: 1%; }
       .tab-menu .tab-list-2 > ul > li > a {
-        font-size: 12px;
-        color: #666;
+        font-size: 13px;
+        color: #333;
         font-weight: 400;
         display: block;
+        letter-spacing: -.5px;
         padding: 15px 0;
         text-decoration: none;
         border-radius: 5px;
@@ -668,8 +670,8 @@ body .dropdowns-menu {
     border-radius: 5px;
     border: 1px solid #ccc; }
   .review-write .article-header h4, .review-write .write-header h4 {
-    font-size: 12px;
-    color: #303030;
+    font-size: 14px;
+    color: #000;
     font-weight: 500;
     margin-bottom: 10px; }
   .review-write .article-header .btn-register, .review-write .write-header .btn-register {
@@ -686,7 +688,7 @@ body .dropdowns-menu {
     .review-write .article-content .inform, .review-write .write-content .inform {
       display: block;
       width: 100%;
-      font-size: 11px;
+      font-size: 12px;
       color: #707070; }
       .review-write .article-content .inform b, .review-write .write-content .inform b {
         color: #eb3e3e; }
@@ -703,21 +705,21 @@ body .dropdowns-menu {
     padding-right: 55px;
     margin-bottom: 10px; }
     .review-list > li .writer-info h5 {
-      font-size: 12px;
-      color: #3d3d3d;
+      font-size: 13px;
+      color: #000;
       font-weight: 500; }
     .review-list > li .writer-info .date {
       position: absolute;
       top: 0;
       right: 0;
-      font-size: 10px;
-      color: #999;
+      font-size: 11px;
+      color: #666;
       font-weight: 400;
       font-family: 'Roboto', sans-serif; }
   .review-list > li .review-content p {
-    font-size: 11px;
+    font-size: 12px;
     color: #515151;
-    line-height: 14px; }
+    line-height: 16px; }
   .review-list > li .review-content .btn-more {
     font-size: 0;
     margin-top: 10px; }
@@ -727,7 +729,7 @@ body .dropdowns-menu {
       color: #fff;
       padding: 0 10px;
       font-weight: 300;
-      margin-right: 10px;
+      margin-right: 8px;
       line-height: 20px;
       border-radius: 30px;
       background-color: #b3b3b3; }
@@ -758,11 +760,18 @@ body .dropdowns-menu {
   .review-list > li .reply2 {
     margin: 15px 0; }
   .review-list > li .btn-write {
+    /* margin-top: 10px;
+       width: 100%;
+       font-size: 10px;
+       color: #333;
+       line-height: 25px;
+       border-radius: 5px;
+       background-color: #f5f5f5;*/
     margin-top: 10px;
     width: 100%;
-    font-size: 10px;
+    font-size: 12px;
     color: #333;
-    line-height: 25px;
+    line-height: 30px;
     border-radius: 5px;
     background-color: #f5f5f5; }
 
@@ -809,8 +818,8 @@ body .dropdowns-menu {
       .board-type-1 > ul > li a .list-header h4 {
         display: block;
         font-size: 13px;
-        color: #333;
-        font-weight: 500;
+        color: #000;
+        font-weight: 400;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap; }
@@ -833,9 +842,9 @@ body .dropdowns-menu {
           vertical-align: top;
           display: table-cell;
           padding-left: 20px;
-          font-size: 11px;
-          color: #666;
-          line-height: 14px;
+          font-size: 12px;
+          color: #333;
+          line-height: 16px;
           font-weight: 300;
           word-break: keep-all; }
 
@@ -850,8 +859,8 @@ body .dropdowns-menu {
     .board-type-2 > ul > li a {
       text-decoration: none; }
       .board-type-2 > ul > li a h4 {
-        font-size: 12px;
-        color: #666;
+        font-size: 13px;
+        color: #333;
         font-weight: 400;
         white-space: nowrap;
         overflow: hidden;
@@ -907,7 +916,7 @@ body .dropdowns-menu {
         border-radius: 30px;
         background-color: #fff; }
   .table-wrap .table tbody tr th {
-    font-size: 11px !important;
+    font-size: 12px !important;
     border: 0; }
     .table-wrap .table tbody tr th.v-top {
       vertical-align: top !important;
@@ -916,7 +925,7 @@ body .dropdowns-menu {
       color: #e25371;
       content: " *"; }
   .table-wrap .table tbody tr td {
-    font-size: 11px !important;
+    font-size: 12px !important;
     vertical-align: middle;
     border: 0; }
     .table-wrap .table tbody tr td label input {
@@ -978,7 +987,7 @@ body .dropdowns-menu {
             border-right: 0; }
   .table-wrap .table.type-1 tbody tr th {
     width: 100px;
-    font-size: 10px;
+    font-size: 12px;
     color: #666;
     font-weight: 400;
     padding: 10px;
@@ -986,7 +995,7 @@ body .dropdowns-menu {
     background-color: #f8f8f8;
     border-bottom: 1px solid #e5e5e5; }
   .table-wrap .table.type-1 tbody tr td {
-    font-size: 10px;
+    font-size: 12px;
     color: #999;
     font-weight: 300;
     height: 50px;
@@ -999,7 +1008,7 @@ body .dropdowns-menu {
   .table-wrap .table.table-write tbody tr td textarea {
     height: 130px; }
   .table-wrap .table.type-2 tbody tr td {
-    font-size: 10px;
+    font-size: 12px;
     color: #999; }
     .table-wrap .table.type-2 tbody tr td.title a {
       color: #999;
@@ -1027,7 +1036,7 @@ body .dropdowns-menu {
         display: table-cell;
         color: #fff;
         text-align: center;
-        font-size: 11px;
+        font-size: 12px;
         padding: 15px 0 15px; }
         .board-type-3 .article-header ul li.mileage {
           width: 60px; }
@@ -1119,7 +1128,7 @@ body .dropdowns-menu {
         right: 0; }
         .board-type-4 > ul > li .details-info .btn-area .btn {
           display: block;
-          font-size: 10px;
+          font-size: 12px;
           text-align: center;
           border-radius: 30px; }
           .board-type-4 > ul > li .details-info .btn-area .btn ~ .btn {
@@ -1154,14 +1163,14 @@ body .dropdowns-menu {
     margin-top: 15px;
     padding: 0 10px; }
     .board-type-5 > ul > li > a .details p {
-      font-size: 11px;
+      font-size: 13px;
       color: #333;
       word-break: keep-all;
       font-weight: 400;
-      line-height: 14px; }
+      line-height: 16px; }
     .board-type-5 > ul > li > a .details small {
       display: block;
-      font-size: 10px;
+      font-size: 12px;
       color: #ff7875;
       font-weight: 400;
       font-family: 'Roboto', sans-serif;
@@ -1210,8 +1219,8 @@ body .dropdowns-menu {
         line-height: 16px;
         font-family: 'Roboto', sans-serif; }
     .board-type-6 > ul > li > div .subject {
-      font-size: 11px;
-      color: #666;
+      font-size: 13px;
+      color: #000;
       line-height: 15px;
       word-break: keep-all; }
       .board-type-6 > ul > li > div .subject a {
@@ -1253,9 +1262,9 @@ body .dropdowns-menu {
   .attention-box .decimal-list {
     padding-left: 10px; }
     .attention-box .decimal-list li {
-      font-size: 11px;
-      color: #999;
-      line-height: 16px;
+      font-size: 12px;
+      color: #555;
+      line-height: 17px;
       list-style: decimal;
       list-style-position: outside; }
 
@@ -1628,6 +1637,8 @@ body .dropdowns-menu {
         line-height: 20px;
         font-weight: 400;
         padding-left: 20px; }
+        .view-details .product a .item-title a {
+          color: #333; }
     .view-details .product dl {
       overflow: hidden;
       margin-top: 15px;
@@ -1656,8 +1667,8 @@ body .dropdowns-menu {
       .view-details .total > ul > li {
         position: relative;
         display: inline-block;
-        font-size: 11px;
-        color: #999;
+        font-size: 12px;
+        color: #666;
         line-height: 18px;
         margin-right: 30px; }
         .view-details .total > ul > li:after {
@@ -1671,13 +1682,13 @@ body .dropdowns-menu {
           .view-details .total > ul > li:last-child:after {
             content: ""; }
     .view-details .total .payment {
-      font-size: 13px;
+      font-size: 14px;
       color: #2b2b2b;
       font-weight: 400;
       margin-top: 10px; }
       .view-details .total .payment strong {
         display: inline-block;
-        font-size: 16px;
+        font-size: 18px;
         color: #ff7875;
         margin-left: 10px;
         font-family: 'Maven Pro', sans-serif; }
@@ -1777,9 +1788,9 @@ body .dropdowns-menu {
     .best-cut ul li a .details {
       text-align: center; }
       .best-cut ul li a .details p {
-        margin: 5px;
-        font-size: 10px;
-        color: #666;
+        margin: 5px 0;
+        font-size: 13px;
+        color: #000;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap; }
@@ -1800,7 +1811,7 @@ body .dropdowns-menu {
     color: #fff;
     padding: 0 10px;
     font-weight: 300;
-    margin-right: 10px;
+    margin-right: 8px !important;
     line-height: 20px;
     border-radius: 30px;
     background-color: #b3b3b3; }
@@ -1976,5 +1987,45 @@ body .dropdowns-menu {
 
 .mypage .modify .section-content {
   margin-top: 0; }
+
+.ange_mall .basket-list.order-write.success .section-content .pay-info {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px 15px; }
+  .ange_mall .basket-list.order-write.success .section-content .pay-info .sum {
+    margin-bottom: 10px; }
+    .ange_mall .basket-list.order-write.success .section-content .pay-info .sum > ul > li {
+      line-height: 24px; }
+      .ange_mall .basket-list.order-write.success .section-content .pay-info .sum > ul > li dl dt {
+        display: inline-block;
+        font-size: 12px;
+        color: #666; }
+        .ange_mall .basket-list.order-write.success .section-content .pay-info .sum > ul > li dl dt:after {
+          content: " : "; }
+      .ange_mall .basket-list.order-write.success .section-content .pay-info .sum > ul > li dl dd {
+        display: inline-block;
+        font-size: 12px;
+        color: #333; }
+        .ange_mall .basket-list.order-write.success .section-content .pay-info .sum > ul > li dl dd b {
+          font-weight: 500;
+          font-family: 'Roboto', sans-serif; }
+  .ange_mall .basket-list.order-write.success .section-content .pay-info .total dl {
+    display: table;
+    width: 100%;
+    text-align: right; }
+    .ange_mall .basket-list.order-write.success .section-content .pay-info .total dl dt {
+      display: inline-block;
+      font-size: 14px;
+      color: #666; }
+      .ange_mall .basket-list.order-write.success .section-content .pay-info .total dl dt:after {
+        content: " : "; }
+    .ange_mall .basket-list.order-write.success .section-content .pay-info .total dl dd {
+      display: inline-block;
+      font-size: 14px;
+      color: #333; }
+      .ange_mall .basket-list.order-write.success .section-content .pay-info .total dl dd strong {
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif; }
 
 /*# sourceMappingURL=sub.css.map */

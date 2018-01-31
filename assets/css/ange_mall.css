@@ -67,14 +67,14 @@
     margin-top: 20px;
 }
 .product-report .section-header .information .info-head h3 {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 20px;
-    color: #333;
+    color: #000;
 }
 .product-report .section-header .information .info-head p {
-    font-size: 11px;
-    line-height: 15px;
-    color: #666;
+    font-size: 12px;
+    line-height: 17px;
+    color: #333;
     padding-top: 15px;
     padding-bottom: 20px;
 }
@@ -93,12 +93,14 @@
     float: left;
     clear: both;
     width: 80px;
-    color: #666;
+    color: #000;
+    line-height: 24px;
 }
 .product-report .section-header .information .info-body dl dd {
     padding-left: 80px;
-    color: #999;
+    color: #333;
     font-weight: 300;
+    line-height: 24px;
 }
 .product-report .section-header .information .info-body .info-second dl .payment {
     color: #ff7875;
@@ -216,8 +218,8 @@
 }
 .order-write .section-content .table-wrap .btn-modify p {
     line-height: 30px;
-    font-size: 10px;
-    color: #999;
+    font-size: 12px;
+    color: #666;
     margin-right: 10px;
     display: inline-block;
 }
@@ -235,7 +237,7 @@
 }
 .order-write .section-content .table-wrap .radio-box {
     text-align: right;
-    margin-top: 50px;
+    margin-top: 35px;
     margin-bottom: 10px;
 }
 .order-write .section-content .table-wrap .radio-box .form-group label  {
@@ -252,7 +254,6 @@
     margin-right: 5px;
 }
 .order-write .section-content .table-wrap .btn-area {
-    margin-top: 20px;
     text-align: right;
 }
 
@@ -274,10 +275,10 @@
 .success .section-header .success-info figure figcaption {
     margin-top: 25px;
     margin-bottom: 10px;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
     color: #ff7875;
-    font-weight: 400;
+    font-weight: 500;
 }
 .success .section-header .success-info dl {
     overflow: hidden;
@@ -289,6 +290,7 @@
 .success .section-header .success-info dl dt {
     display: inline-block;
     font-weight: 300;
+    font-size: 13px;
 }
 .success .section-header .success-info dl dt:after {
     content: " : "
@@ -299,13 +301,13 @@
 }
 .success .section-header .success-info p {
     text-align: center;
-    color: #8f8f8f;
+    color: #333;
     word-break: keep-all;
-    font-size: 11px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 18px;
 }
 .success .section-content .table.type-1 ~ .table.type-1 {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .success .section-content .table-wrap .btn-area {
     padding: 20px 0 30px;
@@ -320,22 +322,22 @@
 .success .section-content .attention-box ol li {
     position: relative;
     padding-left: 20px;
-    font-size: 10px;
-    color: #999;
-    line-height: 15px;
+    font-size: 12px;
+    color: #666;
+    line-height: 17px;
     margin-top: 5px;
 }
 .success .section-content .attention-box ol li span {
     display: block;
     position: absolute;
-    top: 2px;
+    top: 1px;
     left: 0;
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     color: #fff;
     font-size: 8px;
     text-align: center;
-    line-height: 14px;
+    line-height: 16px;
     border-radius: 50%;
     background-color: #ad9cc4;
     font-family: 'Roboto', sans-serif;

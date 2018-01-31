@@ -223,8 +223,8 @@
                                 }
                             }
                             p {
-                                font-size: 10px;
-                                color: #333;
+                                font-size: 12px;
+                                color: #000;
                                 margin-top: 15px;
                             }
                         }
@@ -556,6 +556,27 @@
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+                .login-area {
+                    padding-right: 15px;
+                    margin-top: 15px;
+                    font-size: 0;
+                    .btn {
+                        width: 90px;
+                        text-align: center;
+                        font-size: 12px;
+                        line-height: 26px;
+                        color: #666;
+                        padding: 0;
+                        border: 0;
+                        background-color: #fff;
+                        border-radius: 5px;
+                        margin-right: 10px;
+                        border-top-right-radius: 0;
+                        &:last-child {
+                            margin-right: 0;
                         }
                     }
                 }

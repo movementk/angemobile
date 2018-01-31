@@ -10,8 +10,8 @@ body {
   padding-top: 175px;
   min-width: 320px;
   height: 100%;
-  font-size: 11px;
-  color: #666;
+  font-size: 12px;
+  color: #333;
   font-weight: 300;
   font-family: 'Noto Sans KR', sans-serif;
   background-color: #eeeff4; }
@@ -82,7 +82,7 @@ ul, ol {
     margin-top: 0 !important; }
   .tab-list .btn-controls {
     position: absolute;
-    top: 9px;
+    top: 14px;
     right: 10px; }
 
 .share-list {
@@ -137,22 +137,22 @@ ul, ol {
     .ebook .section-header .details {
       padding-left: 20px; }
       .ebook .section-header .details small {
-        font-size: 11px;
-        color: #999;
+        font-size: 12px;
+        color: #666;
         display: block;
         margin-bottom: 10px; }
       .ebook .section-header .details h3 {
         font-size: 13px;
-        color: #333;
+        color: #000;
         font-weight: 400;
         line-height: 19px; }
       .ebook .section-header .details .icon-list {
         margin: 10px 0; }
       .ebook .section-header .details p {
-        font-size: 11px;
-        color: #666;
+        font-size: 12px;
+        color: #333;
         word-break: keep-all;
-        line-height: 15px; }
+        line-height: 16px; }
     .ebook .section-header .btn-area {
       margin-top: 15px; }
       .ebook .section-header .btn-area p .btn-more {
@@ -198,11 +198,11 @@ ul, ol {
       text-align: center;
       margin-top: 10px; }
       .ebook .section-content > ul > li a .details h4 {
-        font-size: 11px;
+        font-size: 13px;
         color: #333;
         font-weight: 300;
         margin-top: 5px;
-        line-height: 14px; }
+        line-height: 16px; }
 
 .btn-controls {
   font-size: 0; }
@@ -289,8 +289,8 @@ ul, ol {
         text-align: center;
         padding-top: 15px; }
         .magazine-list .section-content.list-type-1 > ul > li > a .details h4 {
-          font-size: 12px;
-          color: #333;
+          font-size: 13px;
+          color: #000;
           font-weight: 400;
           line-height: 14px;
           overflow: hidden;
@@ -305,9 +305,9 @@ ul, ol {
           .magazine-list .section-content.list-type-1 > ul > li > a .details .icon-list li {
             color: #fff; }
         .magazine-list .section-content.list-type-1 > ul > li > a .details p {
-          font-size: 11px;
-          color: #999;
-          line-height: 13px;
+          font-size: 12px;
+          color: #333;
+          line-height: 16px;
           font-weight: 300;
           margin-top: 10px; }
 .magazine-list .section-content.list-type-1 .paging {
@@ -363,7 +363,7 @@ ul, ol {
     .magazine-view .section-content article .article-header h4 {
       font-size: 15px;
       color: #333;
-      font-weight: 500;
+      font-weight: 400;
       margin: 10px 0 20px; }
     .magazine-view .section-content article .article-header figure img {
       width: 100%; }
@@ -383,7 +383,7 @@ ul, ol {
         .magazine-view .section-content article .article-header .table-wrap .table tbody tr td {
           text-align: left;
           font-size: 10px;
-          color: #999;
+          color: #666;
           word-break: keep-all;
           font-weight: 300;
           line-height: 13px;
@@ -392,7 +392,7 @@ ul, ol {
           border-bottom: 1px solid #dfdfdf; }
           .magazine-view .section-content article .article-header .table-wrap .table tbody tr td a {
             text-decoration: none;
-            color: #999; }
+            color: #666; }
         .magazine-view .section-content article .article-header .table-wrap .table tbody tr:first-child th {
           border-top: 1px solid #dfdfdf; }
         .magazine-view .section-content article .article-header .table-wrap .table tbody tr:first-child td {
@@ -410,9 +410,9 @@ ul, ol {
           .magazine-view .section-content article .article-header .btn-area p .btn-xs:last-child {
             float: right; }
     .magazine-view .section-content article .article-header .summary {
-      font-size: 10px;
-      color: #999;
-      line-height: 16px;
+      font-size: 12px;
+      color: #666;
+      line-height: 18px;
       margin-top: 20px;
       font-weight: 300; }
       .magazine-view .section-content article .article-header .summary i {

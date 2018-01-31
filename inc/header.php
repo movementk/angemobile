@@ -272,6 +272,12 @@
                             </dl>
                         </div>
                     </div>
+                    <div class="login-area">
+                        <p>
+                            <a href="#" class="btn btn-logout" role="button">로그아웃</a>
+                            <a href="#" class="btn btn-mypage" role="button">마이 페이지</a>
+                        </p>
+                    </div>
                 </div>
                 
                 <!-- 로그아웃 일때 

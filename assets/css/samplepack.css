@@ -6,7 +6,8 @@
 }
 .sample-explain section .section-header p.summary {
     margin: 20px 0;
-    line-height: 15px;
+    line-height: 19px;
+    color: #333;
 }
 .sample-explain section .section-header figure img {
     width: 100%;
@@ -15,7 +16,7 @@
     margin-top: 10px;
 }
 .sample-explain section .section-content .info-wrap h5 {
-    font-size: 14px;
+    font-size: 15px;
     padding-bottom: 10px;
     font-weight: 500;
 }
@@ -61,13 +62,14 @@
     width: 60px;
     font-size: 12px;
     line-height: 23px;
-    color: #666;
+    color: #333;
 }
 .sample-explain section .section-content .info-wrap .member-info .details dl dd {
     float: left;
     font-size: 12px;
     line-height: 23px;
-    color: #999;
+    color: #666;
+    font-weight: 300;
 }
 .sample-explain section .section-content .info-wrap .member-info .details dl dd > ol > li > a {
     margin-left: 5px;
@@ -101,7 +103,7 @@
     table-layout: fixed;
 }
 .sample-apply .table-wrap .table tbody tr th {
-    width: 80px;
+    width: 90px;
 }
 .sample-apply .table-wrap .table tbody tr td .form-group select {
     width: 30%;
@@ -136,7 +138,7 @@
 .sample-view .info .details h3 {
     font-size: 15px;
     line-height: 20px;
-    color: #333;
+    color: #000;
     margin: 15px 0;
 }
 .sample-view .info .details dl {
@@ -151,14 +153,15 @@
     width: 70px;
     line-height: 23px;
     font-size: 12px;
+    color: #333;
 }
 .sample-view .info .details dl dd {
-    color: #999;
-    line-height: 23px;
+    color: #666;
+    line-height: 24px;
     font-size: 12px;
 }
 .sample-view .info .details dl dd a {
-    color: #999;
+    color: #666;
     text-decoration: none;
 }
 .sample-view .info .btn-area {
@@ -213,9 +216,9 @@
 }
 .sample-view .review-write .write-content .review-list .write .btn-write {
     width: 100%;
-    font-size: 10px;
+    font-size: 12px;
     color: #333;
-    line-height: 25px;
+    line-height: 30px;
     border-radius: 5px;
     margin-top: 10px;
     background-color: #f5f5f5;
