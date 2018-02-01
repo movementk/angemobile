@@ -85,7 +85,8 @@ ul, ol {
     #header .top-banner ul li a {
       display: block;
       height: 50px;
-      padding: 5px 0; }
+      padding: 5px 0;
+      background-color: #fceeee; }
       #header .top-banner ul li a figure img {
         width: auto;
         display: block;
@@ -630,6 +631,8 @@ ul, ol {
         /*margin-bottom: 13px;*/
         text-decoration: none; }
         #mypage-nav .nav-container .nav-body > div .title:after {
+          position: relative;
+          top: 3px;
           font-size: 10px;
           color: #999;
           content: "\E81A";
@@ -645,6 +648,10 @@ ul, ol {
         white-space: nowrap;
         text-decoration: none;
         margin-top: 10px; }
+    #mypage-nav .nav-container .side-fooot-banner {
+      border-top: 1px solid #ccc; }
+      #mypage-nav .nav-container .side-fooot-banner a {
+        display: block; }
 
 #footer {
   padding-top: 20px;

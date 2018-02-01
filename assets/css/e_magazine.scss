@@ -42,6 +42,16 @@
                 background-image: url(../images/e_magazine/icon_blog.png);
             }
         }
+        &.naver {
+            a {
+                background-image: url(../images/e_magazine/icon_naver.png);
+            }
+        }
+        &.naver-cafe {
+            a {
+                background-image: url(../images/e_magazine/icon_cafe.png);
+            }
+        }
         &.naver-post {
             a {
                 background-image: url(../images/e_magazine/icon_post.png);
@@ -102,6 +112,9 @@
                 color: #666;
                 display: block;
                 margin-bottom: 10px;
+                i {
+                    display: none !important;
+                }
             }
             h3 {
                 font-size: 13px;

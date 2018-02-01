@@ -17,6 +17,7 @@
                     display: block;
                     height: 50px;
                     padding: 5px 0;
+                    background-color: #fceeee;
                     figure {
                         img {
                             width: auto;
@@ -743,6 +744,8 @@
                     /*margin-bottom: 13px;*/
                     text-decoration: none;
                     &:after {
+                        position: relative;
+                        top: 3px;
                         font-size: 10px;
                         color: #999;
                         content: "\E81A";
@@ -766,6 +769,12 @@
                         }
                     }
                 }
+            }
+        }
+        .side-fooot-banner {
+            border-top: 1px solid #ccc;
+            a {
+                display: block;
             }
         }
     }

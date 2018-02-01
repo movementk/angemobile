@@ -99,8 +99,46 @@
 }
 .event-info .section-header .information .btn-area p .btn-lg {width: 100%;}
 .event-info .section-header .information .btn-area p .btn-md {width: 49%;}
-.event-info .section-header .information .btn-area p .btn-md {margin-right: 1%;}
+.event-info .section-header .information .btn-area p .btn-md {margin-right: 2%;}
 .event-info .section-header .information .btn-area p .btn-md:last-child {margin-right: 0;}
+
+.event-applicant .section-header .information .btn-area p .btn-lg {width: 100%;}
+.event-applicant .section-header .information .btn-area p .btn-md {width: 49%;}
+.event-applicant .section-header .information .btn-area p .btn-md {margin-right: 2%;}
+.event-applicant .section-header .information .btn-area p .btn-md:last-child {margin-right: 0;}
+
+.event-review .section-header .information .btn-area p .btn-lg {width: 100%;}
+.event-review .section-header .information .btn-area p .btn-md {width: 49%;}
+.event-review .section-header .information .btn-area p .btn-md {margin-right: 2%;}
+.event-review .section-header .information .btn-area p .btn-md:last-child {margin-right: 0;}
+
+
+.event-info .section-header .information .info-body dl dt {
+    line-height: 26px;
+    color: #333;
+}
+.event-info .section-header .information .info-body dl dd {
+    line-height: 26px;
+    color: #666;
+}
+
+.event-applicant .section-header .information .info-body dl dt {
+    line-height: 26px;
+    color: #333;
+}
+.event-applicant .section-header .information .info-body dl dd {
+    line-height: 26px;
+    color: #666;
+}
+
+.event-review .section-header .information .info-body dl dt {
+    line-height: 26px;
+    color: #333;
+}
+.event-review .section-header .information .info-body dl dd {
+    line-height: 26px;
+    color: #666;
+}
 
 /* 이벤트 신청자한마디 */
 .event-applicant .section-content .tab-content {
@@ -791,3 +829,72 @@
 .experience-event .section-header .event-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item .active {
     background-color: #999;
 }
+
+.share-list {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    font-size: 0;
+    margin-bottom: 20px; 
+}
+.share-list li {
+    display: inline-block; 
+}
+.share-list li a {
+    display: block;
+    font-size: 10px;
+    width: 19px;
+    height: 19px;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+    background-size: 19px 19px;
+    background-repeat: no-repeat; 
+}
+.share-list li.naver-blog a {
+    background-image: url(../images/e_magazine/icon_blog.png); 
+}
+.share-list li.naver a {
+    background-image: url(../images/e_magazine/icon_naver.png); 
+}
+.share-list li.naver-cafe a {
+    background-image: url(../images/e_magazine/icon_cafe.png); 
+}
+.share-list li.naver-post a {
+    background-image: url(../images/e_magazine/icon_post.png); 
+}
+.share-list li.insta a {
+    background-image: url(../images/e_magazine/icon_insta.png); 
+}
+.share-list li.kakao a {
+    background-image: url(../images/e_magazine/icon_kakao.png); 
+}
+.share-list li.facebook a {
+    background-image: url(../images/e_magazine/icon_facebook.png); 
+}
+.share-list li.export a {
+    background-image: url(../images/e_magazine/icon_export.png); 
+}
+.share-list li.last-ebook {
+    position: absolute;
+    top: 0;
+    right: 0; 
+}
+.share-list li.last-ebook .btn-ebook {
+    font-size: 10px;
+    color: #fff;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #ff7875;
+    border-radius: 30px; 
+}
+
+
+
+
+
+
+
+

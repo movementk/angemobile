@@ -26,14 +26,14 @@
                     <li>
                         <a href="#">
                             <figure>
-                                <img src="/assets/images/main/img_jumbo_slider01.jpg" alt="태아보헌 상담이벤트">
+                                <img src="/assets/images/1.jpg" alt="태아보헌 상담이벤트">
                             </figure>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <figure>
-                                <img src="/assets/images/main/img_jumbo_slider01.jpg" alt="태아보헌 상담이벤트">
+                                <img src="/assets/images/2.jpg" alt="태아보헌 상담이벤트">
                             </figure>
                         </a>
                     </li>
@@ -528,11 +528,11 @@
             </div>
         </div>
     </main>
-    <div class="loding-box">
+    <!--<div class="loding-box">
         <p class="loding-img">
             <img src="/assets/images/loding.gif" alt="">
         </p>
-    </div>
+    </div>-->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common.js"></script>

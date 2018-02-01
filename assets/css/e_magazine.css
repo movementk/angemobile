@@ -104,6 +104,10 @@ ul, ol {
       background-repeat: no-repeat; }
     .share-list li.naver-blog a {
       background-image: url(../images/e_magazine/icon_blog.png); }
+    .share-list li.naver a {
+      background-image: url(../images/e_magazine/icon_naver.png); }
+    .share-list li.naver-cafe a {
+      background-image: url(../images/e_magazine/icon_cafe.png); }
     .share-list li.naver-post a {
       background-image: url(../images/e_magazine/icon_post.png); }
     .share-list li.insta a {
@@ -142,6 +146,8 @@ ul, ol {
         color: #666;
         display: block;
         margin-bottom: 10px; }
+        .ebook .section-header .details small i {
+          display: none !important; }
       .ebook .section-header .details h3 {
         font-size: 13px;
         color: #000;

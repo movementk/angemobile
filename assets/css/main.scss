@@ -34,12 +34,13 @@ body {
 }
 
 .jumbo {
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+    padding-bottom: 30px;
     .bx-wrapper {
         position: relative;
         .bx-viewport {
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
             ul {
                 li {
                     a {
@@ -57,21 +58,18 @@ body {
         }
         .bx-controls {
             position: absolute;
-            bottom: 10px;
+            bottom: -32px;
             width: 100%;
             text-align: center;
             .bx-pager {
                 display: inline-block;
-                height: 18px;
-                padding: 4px 10px;
-                border-radius: 30px;
-                background-color: rgba(255, 255, 255, .95);
+                height: 15px;
                 .bx-pager-item {
                     display: inline-block;
                     a {
                         display: block;
-                        width: 10px;
-                        height: 10px;
+                        width: 12px;
+                        height: 12px;
                         text-indent: -99999px;
                         border-radius: 50%;
                         border: 1px solid #777;
@@ -106,6 +104,8 @@ body {
             display: block;
             width: 100%;
             height: 100%;
+            overflow: hidden;
+            border-radius: 10px;
             .details {
                 padding: 10px;
                 h3 {
@@ -128,6 +128,8 @@ body {
         }
     }
     .banner-item {
+        overflow: hidden;
+        border-radius: 10px;
         a {
             figure {
                 img {

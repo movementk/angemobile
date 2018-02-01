@@ -342,6 +342,13 @@
                     </ul>
                 </div>
             </div>
+            <div class="side-fooot-banner">
+                <a href="#">
+                    <figure>
+                        <img src="/assets/images/img_foot_banner.jpg" class="img-responsive" alt="">
+                    </figure>
+                </a>
+            </div>
         </div>
     </nav>
 </header>
