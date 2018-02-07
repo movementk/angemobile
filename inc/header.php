@@ -303,7 +303,7 @@
             </div>
             <div class="ange-event">
                 <a href="#">
-                    <h3>앙쥬네이밍 <small>우리아이 이름짓기</small></h3>
+                    <h3><img src="/assets/images/main/sub_samplepack.png" alt=""> <small>우리아이 이름짓기</small></h3>
                 </a>
             </div>
             <div class="nav-body">

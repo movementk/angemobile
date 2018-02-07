@@ -112,6 +112,10 @@
 .event-review .section-header .information .btn-area p .btn-md {margin-right: 2%;}
 .event-review .section-header .information .btn-area p .btn-md:last-child {margin-right: 0;}
 
+.event-entry .section-header .information .btn-area p .btn-lg {width: 100%;}
+.event-entry .section-header .information .btn-area p .btn-md {width: 49%;}
+.event-entry .section-header .information .btn-area p .btn-md {margin-right: 2%;}
+.event-entry .section-header .information .btn-area p .btn-md:last-child {margin-right: 0;}
 
 .event-info .section-header .information .info-body dl dt {
     line-height: 26px;
@@ -237,6 +241,25 @@
     margin-top: 30px;
     text-align: right;
 }
+
+.event-entry .section-content .article-content .moms_regist .table tbody tr th {
+    width: 30% !important;
+}
+.event-entry .section-content .article-content .moms_regist .table tbody tr td {
+    width: 70% !important;
+    text-align: left !important;
+    padding: 10px !important;
+}
+.event-entry .section-content .article-content .moms_regist .table tbody tr td .form-group select {
+    display: inline-block !important;
+    width: 30% !important;
+    margin-right: 2%;
+}
+.event-entry .section-content .article-content .moms_regist .table tbody tr td .form-group select:last-child {
+    margin-right: 0;
+}
+
+
 
 /* 체험후기 리스트 */
 .review-list .section-header > h4 {

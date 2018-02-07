@@ -1,7 +1,4 @@
-@charset "UTF-8";
-@import url("https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css");
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
-@import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 html {
   width: 100%;
   height: 100%; }
@@ -377,7 +374,6 @@ body {
       font-weight: 400;
       line-height: 14px;
       margin-top: 10px;
-      font-family: 'BM JUA','배달의민족 주아';
       text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); }
       .ange-community a .caption small {
         display: block;
@@ -387,14 +383,20 @@ body {
       background-color: #f7ada7; }
       .ange-community a.samplepack .icon img {
         width: 40px; }
+      .ange-community a.samplepack .caption img {
+        width: 47px; }
     .ange-community a.event {
       background-color: #b2d69b; }
       .ange-community a.event .icon img {
         width: 47px; }
+      .ange-community a.event .caption img {
+        width: 62px; }
     .ange-community a.ange-club {
       background-color: #acc5ee; }
       .ange-community a.ange-club .icon img {
         width: 45px; }
+      .ange-community a.ange-club .caption img {
+        width: 79px; }
 
 section {
   margin-top: 10px;
@@ -525,5 +527,46 @@ section {
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
     .banner-list ul > li > a figure img {
       width: 100%; }
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0 30px; }
+  .modal .modal-dialog {
+    margin: 60px auto 30px; }
+    .modal .modal-dialog .modal-content {
+      border-radius: 0;
+      background: none;
+      box-shadow: none;
+      border: 0; }
+      .modal .modal-dialog .modal-content .modal-header {
+        padding: 0;
+        padding-bottom: 10px;
+        border: 0; }
+        .modal .modal-dialog .modal-content .modal-header .close {
+          opacity: 1 !important;
+          color: #fff; }
+      .modal .modal-dialog .modal-content .modal-body {
+        border: 0;
+        padding: 0; }
+        .modal .modal-dialog .modal-content .modal-body figure .img-responsive {
+          width: 100%; }
+      .modal .modal-dialog .modal-content .modal-footer {
+        border: 0;
+        overflow: hidden;
+        padding: 0;
+        padding-top: 10px; }
+        .modal .modal-dialog .modal-content .modal-footer label {
+          float: left;
+          color: #999;
+          font-size: 12px; }
+          .modal .modal-dialog .modal-content .modal-footer label input {
+            position: relative;
+            top: 2px;
+            margin-right: 5px; }
+        .modal .modal-dialog .modal-content .modal-footer a {
+          float: right;
+          color: #fff;
+          font-size: 13px;
+          text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */

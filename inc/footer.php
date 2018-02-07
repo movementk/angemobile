@@ -22,13 +22,13 @@
                 </p>
             </div>
             <div class="e-book">
-                <a href="#">
+                <div>
                     <p>E-book List</p>
                     <figure>
-                        <img src="/assets/images/img_ebook01.jpg" alt="">
-                        <img src="/assets/images/img_ebook02.jpg" alt="">
+                        <a href="#"><img src="/assets/images/img_ebook01.jpg" alt=""></a>
+                        <a href="#"><img src="/assets/images/img_ebook02.jpg" alt=""></a>
                     </figure>
-                </a>
+                </div>
             </div>
         </div>
     </div>

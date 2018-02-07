@@ -1,7 +1,5 @@
 @charset "UTF-8";
-@import url("https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css");
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
-@import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 html {
   width: 100%;
   height: 100%; }
@@ -567,8 +565,10 @@ ul, ol {
         font-size: 16px;
         color: #fff;
         line-height: 35px;
-        font-weight: 500;
-        font-family: 'BM JUA','배달의민족 주아'; }
+        font-weight: 500; }
+        #mypage-nav .nav-container .ange-event a h3 img {
+          display: inline-block;
+          width: 64px; }
         #mypage-nav .nav-container .ange-event a h3 small {
           display: inline-block;
           font-weight: 300;
@@ -708,10 +708,10 @@ ul, ol {
     #footer .company .e-book {
       width: 125px;
       margin: 15px auto; }
-      #footer .company .e-book a {
+      #footer .company .e-book > div {
         display: block;
         text-decoration: none; }
-        #footer .company .e-book a p {
+        #footer .company .e-book > div p {
           position: relative;
           font-size: 11px;
           color: #fff;
@@ -722,19 +722,23 @@ ul, ol {
           padding: 0 10px;
           border-radius: 5px;
           background-color: #acc5ee; }
-          #footer .company .e-book a p:after {
+          #footer .company .e-book > div p:after {
             position: absolute;
             top: 0;
             right: 10px;
             content: "+"; }
-        #footer .company .e-book a figure {
+        #footer .company .e-book > div figure {
+          font-size: 0;
           text-align: center; }
-          #footer .company .e-book a figure img {
+          #footer .company .e-book > div figure a {
             display: inline-block;
-            width: 52px;
-            margin-right: 6px;
-            box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.3); }
-            #footer .company .e-book a figure img:last-child {
+            margin-right: 6px; }
+            #footer .company .e-book > div figure a img {
+              display: block;
+              width: 55px;
+              height: 76px;
+              box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.3); }
+            #footer .company .e-book > div figure a:last-child {
               margin-right: 0; }
   #footer .family-site {
     width: 100%;

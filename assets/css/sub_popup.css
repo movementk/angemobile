@@ -1,6 +1,4 @@
-@import url("https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css");
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
-@import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 html {
   width: 100%;
   height: 100%; }
@@ -73,7 +71,7 @@ ul, ol {
 
 .layer-popup {
   position: fixed;
-  top: 60px;
+  top: 130px;
   bottom: 60px;
   right: 20px;
   left: 20px;
@@ -327,5 +325,42 @@ ul, ol {
             border-radius: 30px;
             border-color: #7db858;
             background-color: #7db858; }
+
+.renew-popup {
+  top: 80px;
+  bottom: 90px;
+  background: none;
+  z-index: 600; }
+  .renew-popup .popup-area {
+    top: 0; }
+    .renew-popup .popup-area .layer-container {
+      background: none; }
+      .renew-popup .popup-area .layer-container .content {
+        padding-top: 25px; }
+        .renew-popup .popup-area .layer-container .content .btn-pop-close {
+          position: absolute;
+          top: 0px;
+          right: 0; }
+          .renew-popup .popup-area .layer-container .content .btn-pop-close img {
+            width: 15px; }
+        .renew-popup .popup-area .layer-container .content .pop-body {
+          overflow: auto;
+          padding: 0; }
+          .renew-popup .popup-area .layer-container .content .pop-body figure {
+            margin-bottom: 13px; }
+          .renew-popup .popup-area .layer-container .content .pop-body label {
+            float: left;
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.7); }
+            .renew-popup .popup-area .layer-container .content .pop-body label input {
+              position: relative;
+              top: 2px;
+              margin-right: 5px; }
+          .renew-popup .popup-area .layer-container .content .pop-body > a {
+            float: right;
+            font-size: 13px;
+            color: #fff;
+            text-decoration: none; }
 
 /*# sourceMappingURL=sub_popup.css.map */

@@ -2,7 +2,7 @@
 
 .layer-popup {
     position: fixed;
-    top: 60px;
+    top: 130px;
     bottom: 60px;
     right: 20px;
     left: 20px;
@@ -363,7 +363,53 @@
 }
 
 
-
+.renew-popup {
+    top: 80px;
+    bottom: 90px;
+    background: none;
+    z-index: 600;
+    .popup-area {
+        top: 0;
+        .layer-container {
+            background: none;
+            .content {
+                padding-top: 25px;
+                .btn-pop-close {
+                    position: absolute;
+                    top: 0px;
+                    right: 0;
+                    img {
+                        width: 15px;
+                    }
+                }
+                .pop-body {
+                    overflow: auto;
+                    padding: 0;
+                    figure {
+                        margin-bottom: 13px;
+                    }
+                    label {
+                        float: left;
+                        font-size: 12px;
+                        font-weight: 400;
+                        color: rgba(255, 255, 255, .7);
+                        input {
+                            position: relative;
+                            top: 2px;
+                            margin-right: 5px;
+                        }
+                    }
+                    > a {
+                        float: right;
+                        font-size: 13px;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

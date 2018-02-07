@@ -1,5 +1,6 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
+<link href="/assets/css/sub_popup.css" rel="stylesheet">
 </head>
 <body class="sub"><!-- 폴더별 클레스 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
@@ -960,6 +961,32 @@
             </div>
         </section>
     </main>
+    
+    
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg btn-modal" data-toggle="modal" data-target="#myModal">
+        리뉴앙쥬
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <figure>
+                        <img src="/assets/images/renew_popup.jpg" class="img-responsive" alt="">
+                    </figure>
+                </div>
+                <div class="modal-footer">
+                    <label><input type="checkbox">오늘하루 열지 않겠습니다.</label>
+                    <a href="#">닫기</a>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>

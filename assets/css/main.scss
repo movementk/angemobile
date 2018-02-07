@@ -429,7 +429,6 @@ body {
             font-weight: 400;
             line-height: 14px;
             margin-top: 10px;
-            @include jua();
             text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
             small {
                 display: block;
@@ -444,6 +443,11 @@ body {
                     width: 40px;
                 }
             }
+            .caption {
+                img {
+                    width: 47px;
+                }
+            }
         }
         &.event {
             background-color: #b2d69b;
@@ -452,12 +456,22 @@ body {
                     width: 47px;
                 }
             }
+            .caption {
+                img {
+                    width: 62px;
+                }
+            }
         }
         &.ange-club {
             background-color: #acc5ee;
             .icon {
                 img {
                     width: 45px;
+                }
+            }
+            .caption {
+                img {
+                    width: 79px;
                 }
             }
         }
@@ -657,6 +671,61 @@ section {
                     img {
                         width: 100%;
                     }
+                }
+            }
+        }
+    }
+}
+
+
+.modal {
+    background-color: rgba(0, 0, 0, .4);
+    padding: 0 30px;
+    .modal-dialog {
+        margin: 60px auto 30px;
+        .modal-content {
+            border-radius: 0;
+            background: none;
+            box-shadow: none;
+            border: 0;
+            .modal-header {
+                padding: 0;
+                padding-bottom: 10px;
+                border: 0;
+                .close {
+                    opacity: 1 !important;
+                    color: #fff;
+                }
+            }
+            .modal-body {
+                border: 0;
+                padding: 0;
+                figure {
+                    .img-responsive {
+                        width: 100%;
+                    }
+                }
+            }
+            .modal-footer {
+                border: 0;
+                overflow: hidden;
+                padding: 0;
+                padding-top: 10px;
+                label {
+                    float: left;
+                    color: #999;
+                    font-size: 12px;
+                    input {
+                        position: relative;
+                        top: 2px;
+                        margin-right: 5px;
+                    }
+                }
+                a {
+                    float: right;
+                    color: #fff;
+                    font-size: 13px;
+                    text-decoration: none;
                 }
             }
         }

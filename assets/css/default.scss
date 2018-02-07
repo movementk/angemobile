@@ -658,7 +658,10 @@
                     color: #fff;
                     line-height: 35px;
                     font-weight: 500;
-                    @include jua();
+                    img {
+                        display: inline-block;
+                        width: 64px;
+                    }
                     small {
                         display: inline-block;
                         font-weight: 300;
@@ -856,7 +859,7 @@
         .e-book {
             width: 125px;
             margin: 15px auto;
-            a {
+            > div {
                 display: block;
                 text-decoration: none;
                 p {
@@ -878,12 +881,17 @@
                     }
                 }
                 figure {
+                    font-size: 0;
                     text-align: center;
-                    img {
+                    a {
                         display: inline-block;
-                        width: 52px;
                         margin-right: 6px;
-                        box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.3);
+                        img {
+                            display: block;
+                            width: 55px;
+                            height: 76px;
+                            box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.3);
+                        }
                         &:last-child {
                             margin-right: 0;
                         }

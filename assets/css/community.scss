@@ -1,20 +1,8 @@
 @import 'common';
-@import url('https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css');
-@font-face {
-  font-family: 'Daehan';
-  font-style: normal;
-  font-weight: 400;
-  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff') format('woff');
-}
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700um+Myeongjo&subset=korean');
 
-@font-face {
-  font-family: 'Daehan';
-  font-style: normal;
-  font-weight: 700;
-  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff') format('woff');
-}
 @mixin daehan() {
-    font-family: 'Daehan', serif;
+    font-family: 'Nanum Myeongjo', serif;
 }
 
 // 공통 리스트
@@ -623,6 +611,27 @@
         .btn-area {
             text-align: right;
             margin-top: 30px;
+        }
+        .table-wrap {
+            .table-write.type-1 {
+                tbody {
+                    tr {
+                        &:nth-of-type(1) {
+                            td {
+                                .form-group {
+                                    position: relative;
+                                    padding-left: 100px;
+                                    select {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

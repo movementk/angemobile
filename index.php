@@ -367,7 +367,7 @@
                             <div class="icon">
                                 <img src="/assets/images/main/icon_samplepack.png" alt="">
                             </div>
-                            <p class="caption">샘플팩<br>신청하기</p>
+                            <p class="caption"><img src="/assets/images/main/community_title01.png" alt=""></p>
                         </a>
                     </div>
                     <div class="col-xs-4">
@@ -375,7 +375,7 @@
                             <div class="icon">
                                 <img src="/assets/images/main/icon_event.png" alt="">
                             </div>
-                            <p class="caption">이벤트<br>당첨자 발표</p>
+                            <p class="caption"><img src="/assets/images/main/community_title02.png" alt=""></p>
                         </a>
                     </div>
                     <div class="col-xs-4">
@@ -383,10 +383,7 @@
                             <div class="icon">
                                 <img src="/assets/images/main/icon_ange_club.png" alt="">
                             </div>
-                            <p class="caption">
-                                앙쥬 클럽
-                                <small>산후조리원 모유수유 전용</small>
-                            </p>
+                            <p class="caption"><img src="/assets/images/main/community_title03.png" alt=""></p>
                         </a>
                     </div>
                 </div>
