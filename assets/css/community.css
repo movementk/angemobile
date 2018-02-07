@@ -355,14 +355,16 @@ ul, ol {
       top: 0;
       left: 0;
       width: 40px;
-      height: 40px;
+      /*height: 40px;*/
       line-height: 40px;
+      overflow: hidden;
       text-align: center;
       border-radius: 50%;
       background-color: #e0e0e0; }
       .today-talk .article-content .write-form figure img {
         display: inline-block;
-        width: 100%; }
+        width: 100%;
+        height: 100% !important; }
     .today-talk .article-content .write-form .writing {
       position: relative;
       padding-left: 15px;
@@ -423,13 +425,15 @@ ul, ol {
         .today-talk .article-content .talk-list > ul > li .user-profile figure {
           width: 40px;
           height: 40px;
-          line-height: 40px;
+          /*line-height: 40px;*/
           text-align: center;
+          overflow: hidden;
           border-radius: 50%;
           background-color: #e0e0e0; }
           .today-talk .article-content .talk-list > ul > li .user-profile figure img {
             display: inline-block;
-            width: 100%; }
+            width: 100%;
+            height: 100% !important; }
       .today-talk .article-content .talk-list > ul > li .details {
         padding-left: 10px; }
         .today-talk .article-content .talk-list > ul > li .details h4 {

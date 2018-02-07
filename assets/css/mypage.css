@@ -290,6 +290,19 @@
 .mileage .mileage-check .board-type-3 .article-content .paging {
     margin-top: 20px;
 }
+.mileage .mileage-check .board-type-3 .article-header ul > li.date {
+    width: 80px !important;
+}
+.mileage .mileage-check .board-type-3 .article-header ul > li.mileage {
+    width: 60px !important;
+}
+.mileage .mileage-check .board-type-3 .article-content .table-wrap .table tbody tr .date {
+    text-align: center;
+    width: 80px !important;
+}
+.mileage .mileage-check .board-type-3 .article-content .table-wrap .table tbody tr .mileage {
+    width: 60px !important;
+}
 
 /* 주문현황 */
 .order-info .mileage-order h3{
