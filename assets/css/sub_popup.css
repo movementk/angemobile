@@ -363,4 +363,37 @@ ul, ol {
             color: #fff;
             text-decoration: none; }
 
+.roulette-result {
+  background: none !important; }
+  .roulette-result .popup-area .layer-container {
+    background: none !important; }
+    .roulette-result .popup-area .layer-container .content .pop-header {
+      display: block;
+      height: 35px; }
+      .roulette-result .popup-area .layer-container .content .pop-header .btn-pop-close {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        background-color: rgba(0, 0, 0, 0.8); }
+    .roulette-result .popup-area .layer-container .content .pop-body {
+      text-align: center;
+      padding: 90px 0;
+      background-image: url(../images/roulette/bg_pop_head.jpg);
+      background-repeat: repeat-x;
+      background-position: 0 0;
+      background-size: 85px auto;
+      background-color: #fff; }
+      .roulette-result .popup-area .layer-container .content .pop-body strong {
+        font-size: 20px;
+        color: #222;
+        line-height: 24px;
+        display: block;
+        margin-bottom: 15px; }
+      .roulette-result .popup-area .layer-container .content .pop-body p {
+        font-size: 13px;
+        color: #666;
+        line-height: 16px; }
+      .roulette-result .popup-area .layer-container .content .pop-body .btn-area {
+        margin-top: 20px; }
+
 /*# sourceMappingURL=sub_popup.css.map */

@@ -411,7 +411,50 @@
     }
 }
 
-
+.roulette-result {
+    background: none !important;
+    .popup-area {
+        .layer-container {
+            background: none !important;
+            .content {
+                .pop-header {
+                    display: block;
+                    height: 35px;
+                    .btn-pop-close {
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        background-color: rgba(0, 0, 0, .8);
+                    }
+                }
+                .pop-body {
+                    text-align: center;
+                    padding: 90px 0;
+                    background-image: url(../images/roulette/bg_pop_head.jpg);
+                    background-repeat: repeat-x;
+                    background-position: 0 0;
+                    background-size: 85px auto;
+                    background-color: #fff;
+                    strong {
+                        font-size: 20px;
+                        color: #222;
+                        line-height: 24px;
+                        display: block;
+                        margin-bottom: 15px;
+                    }
+                    p {
+                        font-size: 13px;
+                        color: #666;
+                        line-height: 16px;
+                    }
+                    .btn-area {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

@@ -83,8 +83,7 @@ ul, ol {
     #header .top-banner ul li a {
       display: block;
       height: 50px;
-      padding: 5px 0;
-      background-color: #fceeee; }
+      padding: 5px 0; }
       #header .top-banner ul li a figure img {
         width: auto;
         display: block;
