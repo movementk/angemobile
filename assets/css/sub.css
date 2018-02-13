@@ -124,7 +124,7 @@ button {
   font-weight: 500; }
 
 #content {
-  padding: 20px 5px 50px; }
+  padding: 30px 5px 50px; }
 
 .ex-txt {
   font-size: 15px;
@@ -2148,7 +2148,7 @@ body .dropdowns-menu {
     position: relative;
     text-align: center;
     padding-top: 25px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     background-image: url(../images/roulette/bg_roulette.png);
     background-repeat: no-repeat;
     background-size: 50px auto;
@@ -2164,6 +2164,14 @@ body .dropdowns-menu {
       color: #323337;
       font-weight: 400;
       margin-bottom: 15px; }
+      .roulette-event .article-header p.note {
+        font-size: 12px;
+        line-height: 16px;
+        color: #a59ab7;
+        margin-top: 10px;
+        margin-bottom: 0; }
+        .roulette-event .article-header p.note:before {
+          content: "*"; }
     .roulette-event .article-header small {
       display: block;
       font-size: 12px;
@@ -2200,11 +2208,12 @@ body .dropdowns-menu {
       top: 0;
       left: 0;
       width: 100%;
-      z-index: 1; }
+      z-index: 1;
+      text-align: center; }
       .roulette-event .article-content .fix-angle img {
         width: 21px;
-        display: block;
-        margin: 0 auto; }
+        display: inline-block;
+        margin-right: -7px; }
     .roulette-event .article-content .roulette-board {
       position: relative;
       background-image: url(../images/roulette/bg_roulette_foot.png);

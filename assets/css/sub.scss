@@ -63,7 +63,7 @@ button {
 
 // Content
 #content {
-    padding: 20px 5px 50px;
+    padding: 30px 5px 50px;
 }
 .ex-txt {
     font-size: 15px;
@@ -2985,7 +2985,7 @@ body {
         position: relative;
         text-align: center;
         padding-top: 25px;
-        padding-bottom: 15px;
+        padding-bottom: 20px;
         background-image: url(../images/roulette/bg_roulette.png);
         background-repeat: no-repeat;
         background-size: 50px auto;
@@ -3003,6 +3003,16 @@ body {
             color: #323337;
             font-weight: 400;
             margin-bottom: 15px;
+            &.note {
+                font-size: 12px;
+                line-height: 16px;
+                color: #a59ab7;
+                margin-top: 10px;
+                margin-bottom: 0;
+                &:before {
+                    content: "*";
+                }
+            }
         }
         small {
             display: block;
@@ -3047,10 +3057,11 @@ body {
             left: 0;
             width: 100%;
             z-index: 1;
+            text-align: center;
             img {
                 width: 21px;
-                display: block;
-                margin: 0 auto;
+                display: inline-block;
+                margin-right: -7px;
             }
         }
         .roulette-board {

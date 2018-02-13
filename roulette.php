@@ -53,12 +53,13 @@
             <article class="roulette-event">
                 <div class="article-header">
                     <h3><img src="/assets/images/roulette/roulette_title.png" alt=""></h3>
-                    <p>하루 한번! 룰렛만 돌리면 상품이 쏟아집니다.</p>
-                    <small> 추가 참여는 마일리지1,000점에 1회씩<br>추가 3 회 제공 (마일리지 소진용)</small>
+                    <p>매일 매일! 룰렛을 돌리면 선물이 쏟아집니다!</p>
+                    <small>하루 최대 4번까지 참여 가능! 최초 1회는 마일리지 차감없이 참여 가능<br>2회부터 4회까지 1회당 500 마일리지 차감</small>
                     <dl>
                         <dt>이벤트 기간</dt>
                         <dd>2/1~2/14까지</dd>
                     </dl>
+                    <p class="note">배송비는 개인부담(착불)입니다.</p>
                 </div>
                 <div class="article-content">
                     <p class="fix-angle">
@@ -122,7 +123,7 @@
                 }
             });
 
-            $('.btn-pop-close, .pop-backdrop').on('click', function(e) {
+            $('.btn-pop-close2, .pop-backdrop').on('click', function(e) {
                 $(this).closest('.layer-popup').removeClass('open');
             });
         }(jQuery));

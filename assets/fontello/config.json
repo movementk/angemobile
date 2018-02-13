@@ -311,6 +311,12 @@
       "css": "download",
       "code": 59429,
       "src": "iconic"
+    },
+    {
+      "uid": "gr2i0fsmy50yfjhz6defsqkexnmctv8z",
+      "css": "bookmark-1",
+      "code": 59430,
+      "src": "typicons"
     }
   ]
 }
