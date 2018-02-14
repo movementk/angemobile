@@ -17,6 +17,41 @@
     }
 }
 
+.table-wrap {
+    .type-1 {
+        caption {
+            color: #fff;
+            text-align: center;
+        }
+    }
+}
+
+.board-type-2 {
+    ul {
+        > li {
+            .code-num {
+                font-size: 13px;
+                color: #e25371;
+                margin-top: 5px;
+                font-weight: 500;
+                @include roboto();
+            }
+            &.account {
+                background-image: url(../images/ange_naming/icon_account.jpg);
+                background-repeat: no-repeat;
+                background-size: 11px auto;
+                background-position: 0 50%;
+            }
+            &.approval {
+                background-image: url(../images/ange_naming/icon_approval.jpg);
+                background-repeat: no-repeat;
+                background-size: 11px auto;
+                background-position: 0 50%;
+            }
+        }
+    }
+}
+
 .caution-box {
     padding: 20px;
     border-radius: 5px;
@@ -68,6 +103,94 @@
             top: 0;
             left: 0;
             content: "※";
+        }
+    }
+}
+
+.guide-list {
+    > li {
+        & ~ li {
+            margin-top: 20px;
+        }
+        h4 {
+            position: relative;
+            font-size: 13px;
+            color: #666;
+            font-weight: 300;
+            line-height: 20px;
+            padding-left: 30px;
+            span {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 20px;
+                height: 20px;
+                line-height: 22px;
+                display: block;
+                font-size: 11px;
+                color: #fff;
+                text-align: center;
+                border-radius: 50%;
+                background-color: #ff7875;
+                @include roboto();
+                font-weight: 500;
+            }
+        }
+    }    
+}
+
+.step-list-2 {
+    > li {
+        position: relative;
+        padding-bottom: 30px;
+        .details {
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+            &:after {
+                position: absolute;
+                bottom: 6px;
+                color: #7fbbff;
+                text-align: center;
+                font-family: "fontello";
+                content: "\E800";
+            }
+            h5 {
+                font-size: 13px;
+                color: #ff7875;
+                margin-bottom: 10px;
+                i {
+                    font-style: normal;
+                    @include roboto();
+                }
+            }
+            p {
+                font-size: 12px;
+                color: #666;
+            }
+        }
+        &:last-child {
+            margin-bottom: 0;
+            .details {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.guide-box {
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); 
+    figure {
+        .img-responsive {
+            margin: 0 auto;
         }
     }
 }
@@ -337,15 +460,233 @@
                 margin-right: 3px;
             }
         }
+        .paging {
+            margin-top: 20px;
+        }
+    }
+    .btn-area {
+        margin-top: 30px;
+        text-align: right;
+    }
+}
+
+// 오행정보
+.five-elements {
+    .article-content {
+        margin-top: 30px;
+        .table-wrap {
+            .table {
+                tbody{
+                    tr {
+                        th {
+                            text-align: center;
+                        }
+                        td {
+                            text-align: center;
+                            line-height: 24px;
+                            .graph {
+                                padding: 40px;
+                                .img-responsive {
+                                    margin: 0 auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 20px;
+            text-align: right;
+            p {
+                font-size: 0;
+                & ~ p {
+                    margin-top: 10px;
+                }
+                &:nth-of-type(2) {
+                    margin-top: 20px;
+                }
+                .btn {
+                    font-size: 12px;
+                }
+                .btn-md {
+                    width: 48%;
+                    margin-right: 4%;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 스페셜 작명전환
+.special-change {
+    .article-content {
+        margin-top: 30px;
+        .attention {
+            font-size: 13px;
+            color: #333;
+            margin-bottom: 10px;
+            &:before {
+                content: "※";
+            }
+        }
         .board-type-2 {
             ul {
                 > li {
-                    > a {
-                        .acctount {
-                            
+                    .list-details {
+                        .title {
+                            .code-num {
+                                color: #666;
+                            }
                         }
-                        .approval {
-                            
+                        .btn-area {
+                            margin-top: 10px;
+                            text-align: right;
+                            p {
+                                .btn-xs {
+                                    width: 75px;
+                                    height: 30px;
+                                    color: #666;
+                                    line-height: 28px;
+                                    display: block;
+                                    text-align: center;
+                                    padding: 0;
+                                    margin: 0 0 0 auto;
+                                    border-radius: 3px;
+                                    &.btn-success {
+                                        border: 1px solid #c2c2c2;
+                                        background-color: #dfdfdf;
+                                    }
+                                    &.btn-apply {
+                                        border: 1px solid #c2c2c2;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 20px;
+        }
+        > .btn-area {
+            text-align: right;
+            margin-top: 20px;
+        }
+    }
+}
+
+// 실시간 작명 이용안내
+.access-guide {
+    .summary {
+        font-size: 14px;
+        color: #333;
+        font-weight: 400;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+//실시간 작명 뷰
+.application-view {
+    article {
+        & ~ article {
+            margin-top: 30px;
+        }
+        .table-wrap {
+            .table {
+                tr {
+                    th {
+                        letter-spacing: -.5px;
+                    }
+                    td {
+                        .attention {
+                            font-size: 12px;
+                            color: #ff7875;
+                            margin-top: 10px;
+                            &:before {
+                                content: "※";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn-area {
+        text-align: right;
+        margin-top: 30px;
+    }
+}
+
+// 스패셜 작명
+.spacial-intro {
+    article {
+        & ~ article {
+            margin-top: 50px;
+        }
+        .article-header {
+            p {
+                font-size: 12px;
+                color: #666;
+                line-height: 18px;
+            }
+            figure {
+                text-align: center;
+                .img-responsive {
+                    margin: 0 auto;
+                    height: 130px;
+                }
+                figcaption {
+                    font-size: 12px;
+                    color: #333;
+                    margin-top: 10px;
+                }
+            }
+        }
+        .article-content {
+            margin-top: 20px;
+            .apply-info {
+                strong {
+                    display: block;
+                    font-size: 13px;
+                    color: #e25371;
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                    &:before {
+                        font-family: "fontello";
+                        content: "\E81B";
+                        margin-right: 5px;
+                    }
+                }
+            }
+            .decimal-list {
+                > li {
+                    font-size: 12px;
+                    color: #666;
+                    line-height: 16px;
+                    list-style: decimal;
+                    list-style-position: inside;
+                }
+            }
+            .table-wrap {
+                .table {
+                    tbody {
+                        tr {
+                            th {
+                                letter-spacing: -.5px;
+                            }
+                            td {
+                                color: #666;
+                                line-height: 25px;
+                                a {
+                                    color: #666;
+                                }
+                            }
                         }
                     }
                 }
@@ -353,6 +694,27 @@
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

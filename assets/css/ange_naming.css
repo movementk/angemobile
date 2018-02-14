@@ -84,6 +84,27 @@ ul, ol {
     font-family: "fontello";
     content: "\E826"; }
 
+.table-wrap .type-1 caption {
+  color: #fff;
+  text-align: center; }
+
+.board-type-2 ul > li .code-num {
+  font-size: 13px;
+  color: #e25371;
+  margin-top: 5px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif; }
+.board-type-2 ul > li.account {
+  background-image: url(../images/ange_naming/icon_account.jpg);
+  background-repeat: no-repeat;
+  background-size: 11px auto;
+  background-position: 0 50%; }
+.board-type-2 ul > li.approval {
+  background-image: url(../images/ange_naming/icon_approval.jpg);
+  background-repeat: no-repeat;
+  background-size: 11px auto;
+  background-position: 0 50%; }
+
 .caution-box {
   padding: 20px;
   border-radius: 5px;
@@ -129,6 +150,71 @@ ul, ol {
       top: 0;
       left: 0;
       content: "※"; }
+
+.guide-list > li ~ li {
+  margin-top: 20px; }
+.guide-list > li h4 {
+  position: relative;
+  font-size: 13px;
+  color: #666;
+  font-weight: 300;
+  line-height: 20px;
+  padding-left: 30px; }
+  .guide-list > li h4 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    line-height: 22px;
+    display: block;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ff7875;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; }
+
+.step-list-2 > li {
+  position: relative;
+  padding-bottom: 30px; }
+  .step-list-2 > li .details {
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
+    .step-list-2 > li .details:after {
+      position: absolute;
+      bottom: 6px;
+      color: #7fbbff;
+      text-align: center;
+      font-family: "fontello";
+      content: "\E800"; }
+    .step-list-2 > li .details h5 {
+      font-size: 13px;
+      color: #ff7875;
+      margin-bottom: 10px; }
+      .step-list-2 > li .details h5 i {
+        font-style: normal;
+        font-family: 'Roboto', sans-serif; }
+    .step-list-2 > li .details p {
+      font-size: 12px;
+      color: #666; }
+  .step-list-2 > li:last-child {
+    margin-bottom: 0; }
+    .step-list-2 > li:last-child .details:after {
+      display: none; }
+
+.guide-box {
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
+  .guide-box figure .img-responsive {
+    margin: 0 auto; }
 
 .naming-intro ul > li {
   text-align: center;
@@ -270,5 +356,134 @@ ul, ol {
     .progress-list .article-content .attention:before {
       content: "※";
       margin-right: 3px; }
+  .progress-list .article-content .paging {
+    margin-top: 20px; }
+.progress-list .btn-area {
+  margin-top: 30px;
+  text-align: right; }
+
+.five-elements .article-content {
+  margin-top: 30px; }
+  .five-elements .article-content .table-wrap .table tbody tr th {
+    text-align: center; }
+  .five-elements .article-content .table-wrap .table tbody tr td {
+    text-align: center;
+    line-height: 24px; }
+    .five-elements .article-content .table-wrap .table tbody tr td .graph {
+      padding: 40px; }
+      .five-elements .article-content .table-wrap .table tbody tr td .graph .img-responsive {
+        margin: 0 auto; }
+  .five-elements .article-content .btn-area {
+    margin-top: 20px;
+    text-align: right; }
+    .five-elements .article-content .btn-area p {
+      font-size: 0; }
+      .five-elements .article-content .btn-area p ~ p {
+        margin-top: 10px; }
+      .five-elements .article-content .btn-area p:nth-of-type(2) {
+        margin-top: 20px; }
+      .five-elements .article-content .btn-area p .btn {
+        font-size: 12px; }
+      .five-elements .article-content .btn-area p .btn-md {
+        width: 48%;
+        margin-right: 4%; }
+        .five-elements .article-content .btn-area p .btn-md:last-child {
+          margin-right: 0; }
+
+.special-change .article-content {
+  margin-top: 30px; }
+  .special-change .article-content .attention {
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 10px; }
+    .special-change .article-content .attention:before {
+      content: "※"; }
+  .special-change .article-content .board-type-2 ul > li .list-details .title .code-num {
+    color: #666; }
+  .special-change .article-content .board-type-2 ul > li .list-details .btn-area {
+    margin-top: 10px;
+    text-align: right; }
+    .special-change .article-content .board-type-2 ul > li .list-details .btn-area p .btn-xs {
+      width: 75px;
+      height: 30px;
+      color: #666;
+      line-height: 28px;
+      display: block;
+      text-align: center;
+      padding: 0;
+      margin: 0 0 0 auto;
+      border-radius: 3px; }
+      .special-change .article-content .board-type-2 ul > li .list-details .btn-area p .btn-xs.btn-success {
+        border: 1px solid #c2c2c2;
+        background-color: #dfdfdf; }
+      .special-change .article-content .board-type-2 ul > li .list-details .btn-area p .btn-xs.btn-apply {
+        border: 1px solid #c2c2c2; }
+  .special-change .article-content .paging {
+    margin-top: 20px; }
+  .special-change .article-content > .btn-area {
+    text-align: right;
+    margin-top: 20px; }
+
+.access-guide .summary {
+  font-size: 14px;
+  color: #333;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 20px; }
+
+.application-view article ~ article {
+  margin-top: 30px; }
+.application-view article .table-wrap .table tr th {
+  letter-spacing: -.5px; }
+.application-view article .table-wrap .table tr td .attention {
+  font-size: 12px;
+  color: #ff7875;
+  margin-top: 10px; }
+  .application-view article .table-wrap .table tr td .attention:before {
+    content: "※"; }
+.application-view .btn-area {
+  text-align: right;
+  margin-top: 30px; }
+
+.spacial-intro article ~ article {
+  margin-top: 50px; }
+.spacial-intro article .article-header p {
+  font-size: 12px;
+  color: #666;
+  line-height: 18px; }
+.spacial-intro article .article-header figure {
+  text-align: center; }
+  .spacial-intro article .article-header figure .img-responsive {
+    margin: 0 auto;
+    height: 130px; }
+  .spacial-intro article .article-header figure figcaption {
+    font-size: 12px;
+    color: #333;
+    margin-top: 10px; }
+.spacial-intro article .article-content {
+  margin-top: 20px; }
+  .spacial-intro article .article-content .apply-info strong {
+    display: block;
+    font-size: 13px;
+    color: #e25371;
+    font-weight: 500;
+    margin-bottom: 10px; }
+    .spacial-intro article .article-content .apply-info strong:before {
+      font-family: "fontello";
+      content: "\E81B";
+      margin-right: 5px; }
+  .spacial-intro article .article-content .decimal-list > li {
+    font-size: 12px;
+    color: #666;
+    line-height: 16px;
+    list-style: decimal;
+    list-style-position: inside; }
+  .spacial-intro article .article-content .table-wrap .table tbody tr th {
+    letter-spacing: -.5px; }
+  .spacial-intro article .article-content .table-wrap .table tbody tr td {
+    color: #666;
+    line-height: 25px; }
+    .spacial-intro article .article-content .table-wrap .table tbody tr td a {
+      color: #666; }
 
 /*# sourceMappingURL=ange_naming.css.map */

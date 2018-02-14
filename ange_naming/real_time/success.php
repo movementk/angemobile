@@ -31,37 +31,39 @@
     <!-- sub content start -->
     <main id="content">
         <article class="success">
-            <div class="article-content">
-                <figure>
-                    <img src="/assets/images/ange_naming/img_success.jpg" alt="">
-                </figure>
-                <div class="details">
-                    <h4>결제가 완료되었습니다.</h4>
+            <div class="container">
+                <div class="article-content">
+                    <figure>
+                        <img src="/assets/images/ange_naming/img_success.jpg" alt="">
+                    </figure>
+                    <div class="details">
+                        <h4>결제가 완료되었습니다.</h4>
+                        <p>
+                            신청하신 작명 서비스의 결제가 완료되었습니다.<br>
+                            문의사항은 고객센터 <i>02-333-4650 (내선 １번)</i>으로 연락주십시오.
+                        </p>
+                    </div>
+                    <div class="table-wrap">
+                        <table class="table table-bordered table-write type-1">
+                            <tbody>
+                                <tr>
+                                    <th>신청종류</th>
+                                    <td>실시간 작명</td>
+                                </tr>
+                                <tr>
+                                    <th>결제금액</th>
+                                    <td>50,000 </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="btn-area">
                     <p>
-                        신청하신 작명 서비스의 결제가 완료되었습니다.<br>
-                        문의사항은 고객센터 <i>02-333-4650 (내선 １번)</i>으로 연락주십시오.
+                        <a href="#" class="btn btn-sm btn-pink" role="button">진행하기</a>
+                        <a href="#" class="btn btn-sm btn-white" role="button">이전화면</a>
                     </p>
                 </div>
-                <div class="table-wrap">
-                    <table class="table table-bordered table-write type-1">
-                        <tbody>
-                            <tr>
-                                <th>신청종류</th>
-                                <td>실시간 작명</td>
-                            </tr>
-                            <tr>
-                                <th>결제금액</th>
-                                <td>50,000 </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="btn-area">
-                <p>
-                    <a href="#" class="btn btn-sm btn-pink" role="button">진행하기</a>
-                    <a href="#" class="btn btn-sm btn-white" role="button">이전화면</a>
-                </p>
             </div>
         </article>
     </main>

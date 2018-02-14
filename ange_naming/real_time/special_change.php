@@ -9,7 +9,7 @@
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
         <div class="page-title">
-            <h2>네이밍 서비스 안내</h2>
+            <h2>스페셜 작명전환</h2>
             <div class="btn-controls">
                 <a href="#" class="prev">
                     <i class="icon-left-open-big">
@@ -30,7 +30,7 @@
     
     <!-- sub content start -->
     <main id="content">
-        <article class="progress-list">
+        <article class="special-change">
             <div class="container">
                 <div class="article-header">
                     <div class="caution-box gray">
@@ -43,86 +43,110 @@
                     </div>
                 </div>
                 <div class="article-content">
-                    <p class="attention">작명승인번호를 클릭해주세요.</p>
+                    <p class="attention">스페셜작명 전환을 하시려면 [전환신청]을 클릭해주세요.</p>
                     <div class="board-type-2">
                         <ul>
                             <li>
-                                <a href="#">
+                                <div class="list-details">
                                     <div class="title">
                                         <h4>2018년 1월 1일 1시 0분 양력/평달</h4>
                                         <p class="code-num">A726039-00696</p>
                                     </div>
                                     <ul class="icon-list">
-                                        <li class="date"><span>2017-12-01</span></li>
                                         <li class="account"><span>가상계좌</span></li>
                                         <li class="approval"><span>미승인</span></li>
                                     </ul>
-                                </a>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn-xs btn-success" role="button">전환완료</a>
+                                        </p>
+                                    </div>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div class="list-details">
                                     <div class="title">
                                         <h4>2018년 1월 1일 1시 0분 양력/평달</h4>
                                         <p class="code-num">A726039-00696</p>
                                     </div>
                                     <ul class="icon-list">
-                                        <li class="date"><span>2017-12-01</span></li>
                                         <li class="account"><span>가상계좌</span></li>
                                         <li class="approval"><span>미승인</span></li>
                                     </ul>
-                                </a>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn-xs btn-apply" role="button">전환신청</a>
+                                        </p>
+                                    </div>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div class="list-details">
                                     <div class="title">
                                         <h4>2018년 1월 1일 1시 0분 양력/평달</h4>
                                         <p class="code-num">A726039-00696</p>
                                     </div>
                                     <ul class="icon-list">
-                                        <li class="date"><span>2017-12-01</span></li>
                                         <li class="account"><span>가상계좌</span></li>
                                         <li class="approval"><span>미승인</span></li>
                                     </ul>
-                                </a>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn-xs btn-apply" role="button">전환신청</a>
+                                        </p>
+                                    </div>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div class="list-details">
                                     <div class="title">
                                         <h4>2018년 1월 1일 1시 0분 양력/평달</h4>
                                         <p class="code-num">A726039-00696</p>
                                     </div>
                                     <ul class="icon-list">
-                                        <li class="date"><span>2017-12-01</span></li>
                                         <li class="account"><span>가상계좌</span></li>
                                         <li class="approval"><span>미승인</span></li>
                                     </ul>
-                                </a>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn-xs btn-apply" role="button">전환신청</a>
+                                        </p>
+                                    </div>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div class="list-details">
                                     <div class="title">
                                         <h4>2018년 1월 1일 1시 0분 양력/평달</h4>
                                         <p class="code-num">A726039-00696</p>
                                     </div>
                                     <ul class="icon-list">
-                                        <li class="date"><span>2017-12-01</span></li>
                                         <li class="account"><span>가상계좌</span></li>
                                         <li class="approval"><span>미승인</span></li>
                                     </ul>
-                                </a>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn-xs btn-apply" role="button">전환신청</a>
+                                        </p>
+                                    </div>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div class="list-details">
                                     <div class="title">
                                         <h4>2018년 1월 1일 1시 0분 양력/평달</h4>
                                         <p class="code-num">A726039-00696</p>
                                     </div>
                                     <ul class="icon-list">
-                                        <li class="date"><span>2017-12-01</span></li>
                                         <li class="account"><span>가상계좌</span></li>
                                         <li class="approval"><span>미승인</span></li>
                                     </ul>
-                                </a>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn-xs btn-apply" role="button">전환신청</a>
+                                        </p>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                         <nav class="paging" aria-label="Page navigation">

@@ -856,16 +856,16 @@ body .dropdowns-menu {
   .board-type-2 > ul > li {
     padding: 15px 10px 10px;
     border-bottom: 1px solid #ccc; }
-    .board-type-2 > ul > li a {
+    .board-type-2 > ul > li a, .board-type-2 > ul > li .list-details {
       text-decoration: none; }
-      .board-type-2 > ul > li a h4 {
+      .board-type-2 > ul > li a h4, .board-type-2 > ul > li .list-details h4 {
         font-size: 13px;
         color: #333;
         font-weight: 400;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis; }
-      .board-type-2 > ul > li a .icon-list {
+      .board-type-2 > ul > li a .icon-list, .board-type-2 > ul > li .list-details .icon-list {
         margin-top: 8px; }
 
 .icon {
