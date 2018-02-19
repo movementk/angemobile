@@ -486,4 +486,98 @@ ul, ol {
     .spacial-intro article .article-content .table-wrap .table tbody tr td a {
       color: #666; }
 
+.name-author .author-list > li {
+  position: relative;
+  padding: 30px 10px;
+  padding-left: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+  background-color: #fff; }
+  .name-author .author-list > li ~ li {
+    margin-top: 10px; }
+  .name-author .author-list > li figure {
+    position: absolute;
+    top: 30px;
+    left: 15px; }
+    .name-author .author-list > li figure .img-responsive {
+      width: 73px; }
+  .name-author .author-list > li .details p {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 15px; }
+  .name-author .author-list > li .details h4 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 20px; }
+    .name-author .author-list > li .details h4 strong {
+      font-size: 30px; }
+  .name-author .author-list > li .details .dot-list li {
+    position: relative;
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+    padding-left: 10px; }
+    .name-author .author-list > li .details .dot-list li:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 10px;
+      font-family: "fontello";
+      content: "\E805"; }
+
+.name-step01 .article-header .caution-box .attention {
+  position: relative;
+  padding-left: 15px;
+  font-size: 12px;
+  color: #555;
+  margin-top: 10px; }
+  .name-step01 .article-header .caution-box .attention:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "※"; }
+  .name-step01 .article-header .caution-box .attention a {
+    color: #555; }
+.name-step01 .article-content {
+  margin-top: 30px; }
+  .name-step01 .article-content .summary {
+    font-size: 12px;
+    color: #666;
+    line-height: 18px; }
+  .name-step01 .article-content .default-table {
+    margin-top: 20px; }
+
+.default-table .table {
+  border-top: 0 !important; }
+  .default-table .table thead tr th {
+    font-size: 12px;
+    color: #fff;
+    padding: 10px 0;
+    font-weight: 400;
+    text-align: center;
+    border: 0;
+    background-color: #979aa2; }
+  .default-table .table tbody tr td {
+    font-size: 12px;
+    color: #666;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 0;
+    border: 0;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #fff; }
+    .default-table .table tbody tr td.syllable {
+      color: #e25371; }
+    .default-table .table tbody tr td .btn-proceed .btn-xs {
+      width: 60px;
+      height: 30px;
+      font-size: 12px;
+      color: #666;
+      line-height: 28px;
+      text-align: center;
+      border-radius: 30px;
+      border: 1px solid #cfcfcf; }
+
 /*# sourceMappingURL=ange_naming.css.map */
