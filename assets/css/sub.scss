@@ -538,6 +538,13 @@ body {
             left: 0;
             font-family: "fontello";
         }
+        &.eye {
+            padding-left: 15px;
+            &:before {
+                top: 1px;
+                content: "\E827";
+            }
+        }
         &.like {
             padding-left: 12px;
             &:before {

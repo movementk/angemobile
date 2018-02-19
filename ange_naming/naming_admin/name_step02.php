@@ -30,7 +30,7 @@
     
     <!-- sub content start -->
     <main id="content">
-        <article class="name-step01">
+        <article class="name-step02">
             <div class="container">
                 <div class="article-header">
                     <div class="caution-box">
@@ -46,50 +46,48 @@
                     </div>
                 </div>
                 <div class="article-content">
-                    <h4 class="naming-title">작명/개명 당사자 오행정보</h4>
-                    <p class="summary">
-                        사주를 분석한 결과 나온 최상의 음오행입니다.
-                        성명학에서 중요한 대목의 하나로 경쾌하고 신나는 음악을 들을 때와,
-                        우울하고 슬픈 음악을 들을 때에 우리의 청각에 전달되고 뇌에 감지되는 
-                        음파장(音波長)의 작용이 다르듯 이름도 이와 같은 이치입니다.
-                        즉, 개인의 사조를 분석하고 성(姓)의 음오행(소리오행)을 기준하여
-                        성(姓)의 음오행과 상생(相生)으로 잘 연결된 음양오행을 구성합니다.
-                    </p>
+                    <h4 class="naming-title">중간자의 획순만을 선택</h4>
+                    <p class="summary">중간자 획순만을 선택하시면 끝자의 오행에 맞는 획순이 자동으로 정해집니다.중간자의 획순을 선택하시면 자동으로 끝자가 선택되어 집니다.</p>
                     <div class="table-wrap default-table">
                         <table class="table table-bordered">
                             <colgroup>
-                                <col style="width: 20%;">
-                                <col style="width: 50%;">
-                                <col style="width: 30%;">
+                                <col style="width: 22%">
+                                <col style="width: 26%">
+                                <col style="width: 26%">
+                                <col style="width: 26%">
                             </colgroup>
-                            <thead>
-                                <tr>
-                                    <th>번호</th>
-                                    <th>음오행(소리오행)</th>
-                                    <th>다음단계</th>
-                                </tr>
-                            </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td class="syllable">목목화/木木火</td>
-                                    <td>
-                                        <div class="btn-proceed">
-                                            <a href="#" class="btn btn-xs btn-white" role="button">진행하기</a>
-                                        </div>
-                                    </td>
+                                    <td rowspan="3" class="th-bg">성 김( 金 )</td>
+                                    <td class="th-bg">성씨 : 金</td>
+                                    <td class="th-bg">중간자</td>
+                                    <td class="th-bg">끝자</td>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td class="syllable">목목화/木木火</td>
+                                    <td>임</td>
+                                    <td>지</td>
+                                    <td>우</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
                                     <td>
-                                        <div class="btn-proceed">
-                                            <a href="#" class="btn btn-xs btn-white" role="button">진행하기</a>
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option>3</option>
+                                            </select>
+                                            획
                                         </div>
                                     </td>
+                                    <td>友</td>
                                 </tr>
                             </tbody>
                         </table>
+                        <div class="btn-area">
+                            <p>
+                                <a href="#" class="btn btn-sm btn-pink" role="button">진행하기</a>
+                                <a href="#" class="btn btn-sm btn-white" role="button">바구니 보기</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

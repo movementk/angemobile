@@ -486,6 +486,11 @@ body .dropdowns-menu {
       top: 0;
       left: 0;
       font-family: "fontello"; }
+    .icon-list > li.eye {
+      padding-left: 15px; }
+      .icon-list > li.eye:before {
+        top: 1px;
+        content: "\E827"; }
     .icon-list > li.like {
       padding-left: 12px; }
       .icon-list > li.like:before {

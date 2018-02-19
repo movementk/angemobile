@@ -302,6 +302,7 @@
                     <!-- 폰트 스타일 roboto 일때 span 태그로 적용 -->
                     <ul class="icon-list">
                         <li class="like"><span>123</span></li>
+                        <li class="eye"><span>eye</span></li>
                         <li class="comment"><span>123</span></li>
                         <li class="date"><span>2017-10-10</span></li>
                         <li class="sympathy">공감</li>

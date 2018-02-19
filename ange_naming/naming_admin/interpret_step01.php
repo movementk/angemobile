@@ -30,7 +30,7 @@
     
     <!-- sub content start -->
     <main id="content">
-        <article class="name-step01">
+        <article class="interpret-step01">
             <div class="container">
                 <div class="article-header">
                     <div class="caution-box">
@@ -46,50 +46,62 @@
                     </div>
                 </div>
                 <div class="article-content">
-                    <h4 class="naming-title">작명/개명 당사자 오행정보</h4>
-                    <p class="summary">
-                        사주를 분석한 결과 나온 최상의 음오행입니다.
-                        성명학에서 중요한 대목의 하나로 경쾌하고 신나는 음악을 들을 때와,
-                        우울하고 슬픈 음악을 들을 때에 우리의 청각에 전달되고 뇌에 감지되는 
-                        음파장(音波長)의 작용이 다르듯 이름도 이와 같은 이치입니다.
-                        즉, 개인의 사조를 분석하고 성(姓)의 음오행(소리오행)을 기준하여
-                        성(姓)의 음오행과 상생(相生)으로 잘 연결된 음양오행을 구성합니다.
-                    </p>
-                    <div class="table-wrap default-table">
+                    <h4 class="naming-title">스페셜 작명 소개</h4>
+                    <div class="table-wrap">
                         <table class="table table-bordered">
                             <colgroup>
-                                <col style="width: 20%;">
-                                <col style="width: 50%;">
-                                <col style="width: 30%;">
+                                <col style="25%;">
+                                <col style="25%;">
+                                <col style="25%;">
+                                <col style="25%;">
                             </colgroup>
                             <thead>
                                 <tr>
-                                    <th>번호</th>
-                                    <th>음오행(소리오행)</th>
-                                    <th>다음단계</th>
+                                    <th></th>
+                                    <th>성(姓)</th>
+                                    <th>이름</th>
+                                    <th>이름</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td class="syllable">목목화/木木火</td>
-                                    <td>
-                                        <div class="btn-proceed">
-                                            <a href="#" class="btn btn-xs btn-white" role="button">진행하기</a>
-                                        </div>
-                                    </td>
+                                    <td>음오행</td>
+                                    <td>임</td>
+                                    <td>지</td>
+                                    <td>우</td>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td class="syllable">목목화/木木火</td>
-                                    <td>
-                                        <div class="btn-proceed">
-                                            <a href="#" class="btn btn-xs btn-white" role="button">진행하기</a>
-                                        </div>
-                                    </td>
+                                    <td>획수</td>
+                                    <td>林</td>
+                                    <td>地</td>
+                                    <td>友</td>
+                                </tr>
+                                <tr>
+                                    <td>뜻</td>
+                                    <td>성</td>
+                                    <td>빛날</td>
+                                    <td>별</td>
+                                </tr>
+                                <tr>
+                                    <td>한자</td>
+                                    <td>8</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td>한글</td>
+                                    <td>林</td>
+                                    <td>林</td>
+                                    <td>林</td>
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-sm btn-pink" role="button">이름풀이</a>
+                            <a href="#" class="btn btn-sm btn-white" role="button">바구니보기</a>
+                        </p>
                     </div>
                 </div>
             </div>
