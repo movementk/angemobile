@@ -9,7 +9,7 @@
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
         <div class="page-title">
-            <h2>스페셜 작명전환 하기</h2>
+            <h2>스페셜 작명</h2>
             <div class="btn-controls">
                 <a href="#" class="prev">
                     <i class="icon-left-open-big">
@@ -30,38 +30,18 @@
     
     <!-- sub content start -->
     <main id="content">
-        <section class="special-view">
+        <section class="application-view special-view">
             <div class="container">
                 <form action="#">
                     <article>
-                        <div class="article-header">
-                            <div class="caution-box">
-                                <strong>스페셜 작명전환 안내</strong>
-                                <ul class="hyphen-list">
-                                    <li>이용했던 작명 서비스(실시간 작명/셀프작명) 에서 스페셜 작명으로 전환을 원할 경우 이용할 수 있습니다.</li>
-                                    <li>실시간 작명 신청 후 <b>1주일 이내</b>에만 가능합니다.</li>
-                                    <li><i>전환신청을 하시면 신청했던 작명서비스(실시간 작명/셀프 작명)은 사용할 수 없습니다.</i></li>
-                                    <li><b>50,000원의 추가비용이 발생</b>하오니 결제해주셔야 합니다.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        
+                        <h4 class="naming-title">신청인 정보</h4>
                         <div class="article-content">
-                            <h4 class="naming-title">신청인 정보</h4>
                             <div class="table-wrap">
                                 <table class="table table-bordered table-write type-1">
                                     <tbody>
                                         <tr>
-                                            <th>신청종류</th>
-                                            <td>스페셜작명 - 100,000</td>
-                                        </tr>
-                                        <tr>
                                             <th>신청인</th>
                                             <td>관리자</td>
-                                        </tr>
-                                        <tr>
-                                            <th>회원 ID</th>
-                                            <td>admin</td>
                                         </tr>
                                         <tr>
                                             <th>주소</th>
@@ -72,21 +52,12 @@
                                             <td>07050052810</td>
                                         </tr>
                                         <tr>
-                                            <th class="v-top">휴대전화번호</th>
-                                            <td>
-                                                0100000000
-                                                <p class="attention">
-                                                    승인번호는 휴대폰 문자 메세지로 보내드립니다.
-                                                </p>
-                                            </td>
+                                            <th>휴대전화번호</th>
+                                            <td>0100000000</td>
                                         </tr>
                                         <tr>
                                             <th>이메일</th>
                                             <td>angeweb@ange.co.kr</td>
-                                        </tr>
-                                        <tr>
-                                            <th>알게된 경로</th>
-                                            <td>인터넷 검색</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -99,13 +70,13 @@
                             <div class="table-wrap">
                                 <table class="table table-bordered table-write type-1">
                                     <tbody>
-                                        <tr>
+                                       <tr>
                                             <th>성별</th>
                                             <td>남</td>
                                         </tr>
                                         <tr>
                                             <th>생년월일</th>
-                                            <td>2018년 1월 1일 1시 0분 (양력 / 평달)</td>
+                                            <td>2018년 1월1일 0분 ( 양력 / 평달 )</td>
                                         </tr>
                                         <tr>
                                             <th>출생지</th>
@@ -113,16 +84,16 @@
                                         </tr>
                                         <tr>
                                             <th>성(姓)씨</th>
-                                            <td>金</td>
+                                            <td>與</td>
                                         </tr>
                                         <tr>
                                             <th>형제서열</th>
-                                            <td>2</td>
+                                            <td>2녀중 차녀</td>
                                         </tr>
                                         <tr>
-                                            <th>돌림자</th>
+                                            <th class="v-top">돌림자</th>
                                             <td>
-                                                사용안함   金<br>
+                                                사용안함 金<br>
                                                 <p>(돌림자가 사주에 맞지 않는 경우 : )</p>
                                             </td>
                                         </tr>
@@ -163,40 +134,58 @@
                                             <th class="v-top">하고싶은말씀</th>
                                             <td>ㅇ</td>
                                         </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </article>
-                    <article>
-                        <h4 class="naming-title">결제하기</h4>
-                        <div class="article-content">
-                            <div class="table-wrap">
-                                <table class="table table-bordered table-write type-1">
-                                    <tbody>
                                         <tr>
-                                            <th>신정종류</th>
-                                            <td><b>스페셜 작명</b></td>
+                                            <th class="v-top">작명가 알림</th>
+                                            <td>ㅇ</td>
                                         </tr>
                                         <tr>
-                                            <th>결제방법</th>
-                                            <td>
+                                            <th>선택한이름</th>
+                                            <td>ㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="v-top">추천이름(3개)</th>
+                                            <td class="recommend-name">
                                                 <div class="form-group">
-                                                    <label><input type="radio"> 신용카드결제</label>
-                                                    <label><input type="radio"> 무통장입금(가상계)</label>
+                                                    <label for="recommend01" class="sr-only"></label>
+                                                    <input type="text" id="recommend01" class="form-control">
+                                                    <label for="recommend02" class="sr-only"></label>
+                                                    <input type="text" id="recommend02" class="form-control">
+                                                    <label for="recommend03" class="sr-only"></label>
+                                                    <input type="text" id="recommend03" class="form-control">
                                                 </div>
-                                                <p class="attention">자세한 안내를 원하실 경우 저희 고객센터로 연락해주십시요. 02-333-4650 (내선 4번)</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="v-top">추천서1</th>
+                                            <td class="file">
+                                                <p class="attention">업로드시 가급적 파일이름을 한글이름이 아닌 영문이나 숫자로 업로드해주세요.</p>
+                                                <div class="form-group">
+                                                    <input type="file" id="attach01" class="form-control">
+                                                    <label for="attach01">파일선택</label>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>추천서2</th>
+                                            <td class="file">
+                                                <div class="form-group">
+                                                    <input type="file" id="attach02" class="form-control">
+                                                    <label for="attach02">파일선택</label>
+                                                </div>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
+                                <div class="guide-box">
+                                    <img src="images.jpg" alt="이미지" class="img-reponsive">
+                                </div>
                             </div>
                         </div>
                     </article>
                     <div class="btn-area">
                         <p>
-                            <button type="submit" class="btn btn-sm btn-pink">진행하기</button>
-                            <a href="#" class="btn btn-sm btn-white" role="button">이전화면</a>
+                            <button type="submit" class="btn btn-sm btn-pink">저장하기</button>
+                            <a href="#" class="btn btn-sm btn-white" role="button">목록보기</a>
                         </p>
                     </div>
                 </form>
