@@ -9,7 +9,7 @@
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
         <div class="page-title">
-            <h2>셀프 작성</h2>
+            <h2>스페셜 작명</h2>
             <div class="btn-controls">
                 <a href="#" class="prev">
                     <i class="icon-left-open-big">
@@ -30,7 +30,7 @@
     
     <!-- sub content start -->
     <main id="content">
-        <section class="application-view">
+        <section class="application-view special-view">
             <div class="container">
                 <form action="#">
                     <article>
@@ -40,16 +40,8 @@
                                 <table class="table table-bordered table-write type-1">
                                     <tbody>
                                         <tr>
-                                            <th>신청종류</th>
-                                            <td>실시간 작명</td>
-                                        </tr>
-                                        <tr>
                                             <th>신청인</th>
                                             <td>관리자</td>
-                                        </tr>
-                                        <tr>
-                                            <th>회원 ID</th>
-                                            <td>admin</td>
                                         </tr>
                                         <tr>
                                             <th>주소</th>
@@ -60,7 +52,7 @@
                                             <td>07050052810</td>
                                         </tr>
                                         <tr>
-                                            <th class"v-top">휴대전화번호</th>
+                                            <th class="v-top">휴대전화번호</th>
                                             <td>
                                                 0100000000
                                                 <p class="attention">
@@ -71,10 +63,6 @@
                                         <tr>
                                             <th>이메일</th>
                                             <td>angeweb@ange.co.kr</td>
-                                        </tr>
-                                        <tr>
-                                            <th>알게된 경로</th>
-                                            <td>인터넷 검색</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -87,41 +75,77 @@
                             <div class="table-wrap">
                                 <table class="table table-bordered table-write type-1">
                                     <tbody>
-                                        <tr>
-                                            <th>신청인과의 관계</th>
-                                            <td>본인</td>
+                                       <tr>
+                                            <th>성별</th>
+                                            <td>남</td>
                                         </tr>
                                         <tr>
                                             <th>생년월일</th>
                                             <td>2018년 1월1일 0분 ( 양력 / 평달 )</td>
                                         </tr>
                                         <tr>
-                                            <th>성별</th>
-                                            <td>여</td>
+                                            <th>출생지</th>
+                                            <td>서울</td>
                                         </tr>
                                         <tr>
                                             <th>성(姓)씨</th>
                                             <td>與</td>
                                         </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </article>
-                    <article>
-                        <h4 class="naming-title">결제하기</h4>
-                        <div class="article-content">
-                            <div class="table-wrap">
-                                <table class="table table-bordered table-write type-1">
-                                    <tbody>
                                         <tr>
-                                            <th>결제방법</th>
+                                            <th>형제서열</th>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="v-top">돌림자</th>
                                             <td>
-                                                <div class="form-group">
-                                                    <label><input type="radio"> 신용카드결제</label>
-                                                    <label><input type="radio"> 무통장입금(가상계)</label>
-                                                </div>
+                                                사용안함   金<br>
+                                                <p>(돌림자가 사주에 맞지 않는 경우 : )</p>
                                             </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="v-top">부모성명</th>
+                                            <td>
+                                                <ul>
+                                                    <li>
+                                                        <div class="parent-name">
+                                                            <dl>
+                                                                <dt>부</dt>
+                                                                <dd>이몽룡</dd>
+                                                            </dl>
+                                                        </div>
+                                                        <div class="parent-details">
+                                                            <p>2018년 1월 1일 1시 0분 (양력)</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="parent-name">
+                                                            <dl>
+                                                                <dt>모</dt>
+                                                                <dd>성춘향</dd>
+                                                            </dl>
+                                                        </div>
+                                                        <div class="parent-details">
+                                                            <p>2018년 1월 1일 1시 0분 (양력)</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>형제성명</th>
+                                            <td>ㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="v-top">하고싶은말씀</th>
+                                            <td>ㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="v-top">작명가 알림</th>
+                                            <td>ㅇ</td>
+                                        </tr>
+                                        <tr>
+                                            <th>선택한이름</th>
+                                            <td>ㅇ</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -130,8 +154,7 @@
                     </article>
                     <div class="btn-area">
                         <p>
-                            <button type="submit" class="btn btn-sm btn-pink">진행하기</button>
-                            <a href="#" class="btn btn-sm btn-white" role="button">이전화면</a>
+                            <button type="submit" class="btn btn-sm btn-pink">이전화면</button>
                         </p>
                     </div>
                 </form>
