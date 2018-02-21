@@ -136,6 +136,11 @@ ul, ol {
           padding: 20px 10px; }
 
 .result .popup-area .layer-container .content .pop-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
   background-color: #9fca83; }
   .result .popup-area .layer-container .content .pop-header .pop-title {
     line-height: 35px; }
@@ -143,46 +148,53 @@ ul, ol {
     background-color: #7db858; }
     .result .popup-area .layer-container .content .pop-header .btn-pop-close img {
       width: 15px; }
-.result .popup-area .layer-container .content .pop-body ul li {
-  border-bottom: 2px solid #b2d69b; }
-  .result .popup-area .layer-container .content .pop-body ul li ~ li {
-    padding-top: 30px; }
-  .result .popup-area .layer-container .content .pop-body ul li dl dt {
-    position: relative;
-    font-size: 11px;
-    color: #333;
-    padding-left: 20px;
-    padding-bottom: 10px;
+.result .popup-area .layer-container .content .pop-body {
+  padding-top: 55px; }
+  .result .popup-area .layer-container .content .pop-body ul li {
     border-bottom: 2px solid #b2d69b; }
-    .result .popup-area .layer-container .content .pop-body ul li dl dt:before {
-      position: absolute;
-      top: 0;
-      left: 0;
-      font-weight: 500;
-      content: "Q";
-      color: #fff;
-      width: 16px;
-      line-height: 16px;
-      font-size: 10px;
-      text-align: center;
-      border-radius: 50%;
-      background-color: #b2d69b; }
-  .result .popup-area .layer-container .content .pop-body ul li dl dd {
-    padding-top: 10px; }
-    .result .popup-area .layer-container .content .pop-body ul li dl dd p {
-      font-size: 10px;
-      color: #666;
-      line-height: 20px; }
-      .result .popup-area .layer-container .content .pop-body ul li dl dd p b {
-        float: right;
-        font-weight: 400;
-        font-family: 'Roboto', sans-serif; }
-  .result .popup-area .layer-container .content .pop-body ul li figure {
-    margin-top: 10px; }
-    .result .popup-area .layer-container .content .pop-body ul li figure img {
-      width: 100%; }
+    .result .popup-area .layer-container .content .pop-body ul li ~ li {
+      padding-top: 30px; }
+    .result .popup-area .layer-container .content .pop-body ul li dl dt {
+      position: relative;
+      font-size: 11px;
+      color: #333;
+      padding-left: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #b2d69b; }
+      .result .popup-area .layer-container .content .pop-body ul li dl dt:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-weight: 500;
+        content: "Q";
+        color: #fff;
+        width: 16px;
+        line-height: 16px;
+        font-size: 10px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #b2d69b; }
+    .result .popup-area .layer-container .content .pop-body ul li dl dd {
+      padding-top: 10px; }
+      .result .popup-area .layer-container .content .pop-body ul li dl dd p {
+        font-size: 10px;
+        color: #666;
+        line-height: 20px; }
+        .result .popup-area .layer-container .content .pop-body ul li dl dd p b {
+          float: right;
+          font-weight: 400;
+          font-family: 'Roboto', sans-serif; }
+    .result .popup-area .layer-container .content .pop-body ul li figure {
+      margin-top: 10px; }
+      .result .popup-area .layer-container .content .pop-body ul li figure img {
+        width: 100%; }
 
 .participation .popup-area .layer-container .content .pop-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
   background-color: #ad9cc4; }
   .participation .popup-area .layer-container .content .pop-header .pop-title {
     line-height: 35px; }
@@ -190,108 +202,110 @@ ul, ol {
     background-color: #9079af; }
     .participation .popup-area .layer-container .content .pop-header .btn-pop-close img {
       width: 15px; }
-.participation .popup-area .layer-container .content .pop-body .result-box {
-  padding: 25px 20px;
-  border-radius: 5px;
-  border: 1px solid #ebebeb;
-  background-color: #fafafa; }
-  .participation .popup-area .layer-container .content .pop-body .result-box ul li {
-    position: relative;
-    padding-right: 65px; }
-    .participation .popup-area .layer-container .content .pop-body .result-box ul li ~ li {
-      margin-top: 20px; }
-    .participation .popup-area .layer-container .content .pop-body .result-box ul li .details p {
-      font-size: 10px;
-      color: #666;
-      font-weight: 300;
-      line-height: 15px; }
-      .participation .popup-area .layer-container .content .pop-body .result-box ul li .details p.outcome {
-        font-weight: 400; }
-        .participation .popup-area .layer-container .content .pop-body .result-box ul li .details p.outcome b {
-          display: inline-block;
-          margin-left: 10px;
-          font-weight: 500;
-          font-family: 'Roboto', sans-serif; }
-    .participation .popup-area .layer-container .content .pop-body .result-box ul li .btn-more {
-      position: absolute;
-      top: 0;
-      right: 0; }
-      .participation .popup-area .layer-container .content .pop-body .result-box ul li .btn-more .btn-gray {
-        width: 65px;
+.participation .popup-area .layer-container .content .pop-body {
+  padding-top: 55px; }
+  .participation .popup-area .layer-container .content .pop-body .result-box {
+    padding: 25px 20px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    background-color: #fafafa; }
+    .participation .popup-area .layer-container .content .pop-body .result-box ul li {
+      position: relative;
+      padding-right: 65px; }
+      .participation .popup-area .layer-container .content .pop-body .result-box ul li ~ li {
+        margin-top: 20px; }
+      .participation .popup-area .layer-container .content .pop-body .result-box ul li .details p {
         font-size: 10px;
         color: #666;
-        line-height: 30px;
-        border-radius: 30px;
-        background-color: #dfdfdf;
-        box-shadow: none; }
-        .participation .popup-area .layer-container .content .pop-body .result-box ul li .btn-more .btn-gray:focus {
-          color: #fff;
-          background-color: #ad9cc4; }
-        .participation .popup-area .layer-container .content .pop-body .result-box ul li .btn-more .btn-gray.active {
-          color: #fff;
-          background-color: #ad9cc4; }
-.participation .popup-area .layer-container .content .pop-body article {
-  margin-top: 20px; }
-  .participation .popup-area .layer-container .content .pop-body article .article-header {
-    padding-bottom: 10px;
-    border-bottom: 2px solid #ad9cc4; }
-    .participation .popup-area .layer-container .content .pop-body article .article-header h6 {
-      font-size: 11px;
-      color: #333;
-      font-weight: 300; }
-      .participation .popup-area .layer-container .content .pop-body article .article-header h6 b {
-        font-weight: 500;
-        color: #9079af; }
-  .participation .popup-area .layer-container .content .pop-body article .article-content .search-area {
-    padding: 20px 0 10px;
-    text-align: right; }
-    .participation .popup-area .layer-container .content .pop-body article .article-content .search-area .form-group {
-      position: relative;
-      width: 100px;
-      display: inline-block; }
-      .participation .popup-area .layer-container .content .pop-body article .article-content .search-area .form-group .form-control {
-        height: 26px;
-        padding-right: 30px;
-        border-radius: 30px; }
-      .participation .popup-area .layer-container .content .pop-body article .article-content .search-area .form-group .search-btn .btn-default {
+        font-weight: 300;
+        line-height: 15px; }
+        .participation .popup-area .layer-container .content .pop-body .result-box ul li .details p.outcome {
+          font-weight: 400; }
+          .participation .popup-area .layer-container .content .pop-body .result-box ul li .details p.outcome b {
+            display: inline-block;
+            margin-left: 10px;
+            font-weight: 500;
+            font-family: 'Roboto', sans-serif; }
+      .participation .popup-area .layer-container .content .pop-body .result-box ul li .btn-more {
         position: absolute;
         top: 0;
-        right: 0;
-        width: 26px;
-        text-align: center;
-        line-height: 26px;
-        font-size: 12px;
-        color: #ad9cc4;
-        background: none !important; }
-        .participation .popup-area .layer-container .content .pop-body article .article-content .search-area .form-group .search-btn .btn-default i {
-          position: relative;
-          top: -1px; }
-  .participation .popup-area .layer-container .content .pop-body article .article-content .participation-list h6 {
-    font-size: 11px;
-    color: #fff;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
-    background-color: #979aa2; }
-  .participation .popup-area .layer-container .content .pop-body article .article-content .participation-list ul {
-    overflow: hidden;
-    width: 100%;
-    padding: 20px 10px 15px;
-    border-bottom: 1px solid #e7e7e7; }
-    .participation .popup-area .layer-container .content .pop-body article .article-content .participation-list ul li {
-      float: left;
-      width: 33.33%;
-      text-align: left;
-      font-size: 10px;
-      color: #666;
-      font-weight: 300;
-      line-height: 22px;
-      display: table-cell;
-      vertical-align: middle; }
-      .participation .popup-area .layer-container .content .pop-body article .article-content .participation-list ul li:nth-of-type(3n + 1) {
-        clear: both; }
-  .participation .popup-area .layer-container .content .pop-body article .article-content .paging {
+        right: 0; }
+        .participation .popup-area .layer-container .content .pop-body .result-box ul li .btn-more .btn-gray {
+          width: 65px;
+          font-size: 10px;
+          color: #666;
+          line-height: 30px;
+          border-radius: 30px;
+          background-color: #dfdfdf;
+          box-shadow: none; }
+          .participation .popup-area .layer-container .content .pop-body .result-box ul li .btn-more .btn-gray:focus {
+            color: #fff;
+            background-color: #ad9cc4; }
+          .participation .popup-area .layer-container .content .pop-body .result-box ul li .btn-more .btn-gray.active {
+            color: #fff;
+            background-color: #ad9cc4; }
+  .participation .popup-area .layer-container .content .pop-body article {
     margin-top: 20px; }
+    .participation .popup-area .layer-container .content .pop-body article .article-header {
+      padding-bottom: 10px;
+      border-bottom: 2px solid #ad9cc4; }
+      .participation .popup-area .layer-container .content .pop-body article .article-header h6 {
+        font-size: 11px;
+        color: #333;
+        font-weight: 300; }
+        .participation .popup-area .layer-container .content .pop-body article .article-header h6 b {
+          font-weight: 500;
+          color: #9079af; }
+    .participation .popup-area .layer-container .content .pop-body article .article-content .search-area {
+      padding: 20px 0 10px;
+      text-align: right; }
+      .participation .popup-area .layer-container .content .pop-body article .article-content .search-area .form-group {
+        position: relative;
+        width: 100px;
+        display: inline-block; }
+        .participation .popup-area .layer-container .content .pop-body article .article-content .search-area .form-group .form-control {
+          height: 26px;
+          padding-right: 30px;
+          border-radius: 30px; }
+        .participation .popup-area .layer-container .content .pop-body article .article-content .search-area .form-group .search-btn .btn-default {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 26px;
+          text-align: center;
+          line-height: 26px;
+          font-size: 12px;
+          color: #ad9cc4;
+          background: none !important; }
+          .participation .popup-area .layer-container .content .pop-body article .article-content .search-area .form-group .search-btn .btn-default i {
+            position: relative;
+            top: -1px; }
+    .participation .popup-area .layer-container .content .pop-body article .article-content .participation-list h6 {
+      font-size: 11px;
+      color: #fff;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: center;
+      background-color: #979aa2; }
+    .participation .popup-area .layer-container .content .pop-body article .article-content .participation-list ul {
+      overflow: hidden;
+      width: 100%;
+      padding: 20px 10px 15px;
+      border-bottom: 1px solid #e7e7e7; }
+      .participation .popup-area .layer-container .content .pop-body article .article-content .participation-list ul li {
+        float: left;
+        width: 33.33%;
+        text-align: left;
+        font-size: 10px;
+        color: #666;
+        font-weight: 300;
+        line-height: 22px;
+        display: table-cell;
+        vertical-align: middle; }
+        .participation .popup-area .layer-container .content .pop-body article .article-content .participation-list ul li:nth-of-type(3n + 1) {
+          clear: both; }
+    .participation .popup-area .layer-container .content .pop-body article .article-content .paging {
+      margin-top: 20px; }
 
 .accusation-popup {
   height: 0;
@@ -410,5 +424,44 @@ ul, ol {
         line-height: 16px; }
       .roulette-result .popup-area .layer-container .content .pop-body .btn-area {
         margin-top: 20px; }
+
+.chinese-character .popup-area .layer-container .content .pop-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ad9cc4; }
+  .chinese-character .popup-area .layer-container .content .pop-header .pop-title {
+    line-height: 35px; }
+  .chinese-character .popup-area .layer-container .content .pop-header .btn-pop-close {
+    background-color: #9079af; }
+    .chinese-character .popup-area .layer-container .content .pop-header .btn-pop-close img {
+      width: 15px; }
+.chinese-character .popup-area .layer-container .content .pop-body {
+  padding-top: 55px; }
+  .chinese-character .popup-area .layer-container .content .pop-body .table-wrap .table {
+    border: 0;
+    margin: 0; }
+    .chinese-character .popup-area .layer-container .content .pop-body .table-wrap .table thead tr th {
+      font-size: 12px;
+      font-weight: 400;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      border: 0;
+      background-color: #979aa2; }
+    .chinese-character .popup-area .layer-container .content .pop-body .table-wrap .table tbody tr td {
+      font-size: 12px;
+      font-weight: 400;
+      color: #666;
+      text-align: center;
+      vertical-align: middle;
+      padding: 10px 0;
+      border: 0;
+      border-bottom: 1px solid #dfdfdf; }
+      .chinese-character .popup-area .layer-container .content .pop-body .table-wrap .table tbody tr td .character-img img {
+        width: 12px; }
+  .chinese-character .popup-area .layer-container .content .pop-body .paging {
+    margin-top: 20px; }
 
 /*# sourceMappingURL=sub_popup.css.map */

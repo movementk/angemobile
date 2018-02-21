@@ -38,8 +38,8 @@
                             <colgroup>
                                 <col style="width: 20%;">
                                 <col style="width: 20%;">
-                                <col style="width: 20%;">
-                                <col style="width: 20%;">
+                                <col style="width: 15%;">
+                                <col style="width: 25%;">
                             </colgroup>
                             <thead>
                                 <tr>

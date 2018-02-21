@@ -304,7 +304,7 @@ ul, ol {
   .application-write article .article-content .table-wrap .table tbody tr td.zip-code .form-group ~ .form-group .form-control ~ .form-control {
     margin-top: 10px; }
 .application-write article .article-content .table-wrap .table tbody tr td.mail .form-group input[type="text"] {
-  width: 43% !important;
+  width: 42% !important;
   display: inline-block !important; }
   .application-write article .article-content .table-wrap .table tbody tr td.mail .form-group input[type="text"]:nth-of-type(1) {
     margin-right: 2%; }
@@ -680,6 +680,7 @@ ul, ol {
     margin-top: 20px; }
     .name-step03 .section-content article.selection-name .article-content > ul {
       display: table;
+      width: 100%;
       border-top: 1px solid #dfdfdf;
       border-bottom: 1px solid #dfdfdf; }
       .name-step03 .section-content article.selection-name .article-content > ul > li {
@@ -1034,33 +1035,217 @@ ul, ol {
   .recommend-view article .aricle-content .choice-details .btn-area {
     text-align: right; }
 
-.search-result01 .section-content article .article-header ul li {
+.search-result .section-content article .article-header {
+  padding: 0;
+  border: 0; }
+  .search-result .section-content article .article-header:before {
+    display: none; }
+  .search-result .section-content article .article-header > ul li {
+    position: relative;
+    font-size: 12px;
+    color: #555;
+    line-height: 17px;
+    padding-left: 10px; }
+    .search-result .section-content article .article-header > ul li:before {
+      position: absolute;
+      top: 2px;
+      left: 0;
+      color: #ad9cc4;
+      content: "\E805";
+      font-family: "fontello"; }
+    .search-result .section-content article .article-header > ul li i {
+      color: #ff7875;
+      font-style: normal;
+      font-weight: 400; }
+  .search-result .section-content article .article-header .naming-search {
+    margin-top: 20px; }
+    .search-result .section-content article .article-header .naming-search ul > li {
+      border-bottom: 1px solid #cfcfcf; }
+      .search-result .section-content article .article-header .naming-search ul > li:first-child {
+        border-top: 1px solid #cfcfcf; }
+        .search-result .section-content article .article-header .naming-search ul > li:first-child dl dd .form-group p {
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          line-height: 23px;
+          background-color: #eeeff4;
+          border: 1px solid #dfdfdf; }
+        .search-result .section-content article .article-header .naming-search ul > li:first-child dl dd .form-group .form-control {
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          padding: 3px;
+          border: 1px solid #dfdfdf; }
+      .search-result .section-content article .article-header .naming-search ul > li dl {
+        overflow: hidden; }
+        .search-result .section-content article .article-header .naming-search ul > li dl dt {
+          float: left;
+          width: 30%;
+          font-size: 12px;
+          line-height: 45px;
+          font-weight: 400;
+          padding-left: 20px;
+          color: #fff;
+          background-color: #acacac; }
+        .search-result .section-content article .article-header .naming-search ul > li dl dd {
+          position: relative;
+          float: left;
+          width: 70%;
+          font-size: 12px;
+          text-align: center;
+          height: 45px;
+          padding: 10px 0;
+          background-color: #fff; }
+          .search-result .section-content article .article-header .naming-search ul > li dl dd .form-group {
+            padding-left: 20px; }
+            .search-result .section-content article .article-header .naming-search ul > li dl dd .form-group .form-control {
+              display: inline-block !important;
+              padding: 3px;
+              padding-left: 10px;
+              display: block;
+              width: 66%;
+              height: 25px; }
+            .search-result .section-content article .article-header .naming-search ul > li dl dd .form-group > .btn-area {
+              vertical-align: top;
+              display: inline-block;
+              width: 30%;
+              text-align: left; }
+              .search-result .section-content article .article-header .naming-search ul > li dl dd .form-group > .btn-area p .btn-xs {
+                width: 100%;
+                height: 25px;
+                font-weight: 300;
+                line-height: 25px; }
+.search-result .section-content article .article-content {
+  margin-top: 30px; }
+  .search-result .section-content article .article-content > .btn-area {
+    text-align: left; }
+  .search-result .section-content article .article-content .table-wrap {
+    margin-top: 20px; }
+    .search-result .section-content article .article-content .table-wrap .table tbody tr td .none-data {
+      padding: 20px 0;
+      text-align: center; }
+      .search-result .section-content article .article-content .table-wrap .table tbody tr td .none-data h5 {
+        font-size: 14px;
+        color: #111;
+        margin-bottom: 15px; }
+      .search-result .section-content article .article-content .table-wrap .table tbody tr td .none-data p {
+        font-size: 12px;
+        color: #666;
+        line-height: 18px;
+        word-break: keep-all; }
+        .search-result .section-content article .article-content .table-wrap .table tbody tr td .none-data p a {
+          display: inline;
+          color: #666;
+          /*line-height: 18px;*/
+          text-decoration: none; }
+    .search-result .section-content article .article-content .table-wrap .paging {
+      margin-top: 20px; }
+    .search-result .section-content article .article-content .table-wrap .btn-area {
+      text-align: right;
+      margin-top: 20px; }
+
+.special-write .section-content article ~ article {
+  margin-top: 30px; }
+.special-write .section-content article.offeror-info .attention {
   position: relative;
   font-size: 12px;
-  color: #555;
-  line-height: 17px;
-  padding-left: 10px; }
-  .search-result01 .section-content article .article-header ul li:before {
+  color: #ff7875;
+  padding-left: 15px; }
+  .special-write .section-content article.offeror-info .attention ~ .attention {
+    margin-top: 5px;
+    margin-bottom: 20px; }
+  .special-write .section-content article.offeror-info .attention:before {
     position: absolute;
-    top: 2px;
+    top: 0;
     left: 0;
-    color: #ad9cc4;
-    content: "\E805";
-    font-family: "fontello"; }
-  .search-result01 .section-content article .article-header ul li i {
-    color: #ff7875;
-    font-style: normal;
-    font-weight: 400; }
-.search-result01 .section-content article .article-content {
-  margin-top: 40px; }
-  .search-result01 .section-content article .article-content > .btn-area {
-    text-align: left; }
-  .search-result01 .section-content article .article-content .table-wrap {
+    content: "※"; }
+.special-write .section-content article .table-wrap .table tbody tr {
+  /*th {
+      label {
+          letter-spacing: -1px;
+      }
+  }*/ }
+  .special-write .section-content article .table-wrap .table tbody tr td.default-td .form-group .form-control {
+    display: inline-block;
+    width: 80%; }
+  .special-write .section-content article .table-wrap .table tbody tr td.zip-code .form-group .form-control {
+    width: 100%; }
+  .special-write .section-content article .table-wrap .table tbody tr td.addr .form-group .form-control {
+    width: 100%; }
+    .special-write .section-content article .table-wrap .table tbody tr td.addr .form-group .form-control ~ .form-control {
+      margin-top: 10px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.contact .note {
+    font-size: 12px;
+    color: #999;
     margin-top: 10px; }
-    .search-result01 .section-content article .article-content .table-wrap .paging {
-      margin-top: 10px; }
-    .search-result01 .section-content article .article-content .table-wrap .btn-area {
-      text-align: right;
-      margin-top: 10px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.contact .attention {
+    margin-top: 5px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.mail .form-group input[type="text"] {
+    width: 43% !important;
+    display: inline-block !important; }
+    .special-write .section-content article .table-wrap .table tbody tr td.mail .form-group input[type="text"]:nth-of-type(1) {
+      margin-right: 2%; }
+    .special-write .section-content article .table-wrap .table tbody tr td.mail .form-group input[type="text"]:nth-of-type(2) {
+      margin-left: 2%; }
+  .special-write .section-content article .table-wrap .table tbody tr td.mail .form-group select {
+    width: 100% !important;
+    margin-top: 10px;
+    display: block !important; }
+  .special-write .section-content article .table-wrap .table tbody tr td.route .form-group > div label {
+    display: block;
+    line-height: 24px;
+    margin-left: 40px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.route .form-group > div ~ div {
+    margin-top: 15px; }
+    .special-write .section-content article .table-wrap .table tbody tr td.route .form-group > div ~ div label {
+      margin-left: 0; }
+    .special-write .section-content article .table-wrap .table tbody tr td.route .form-group > div ~ div .form-control {
+      margin-top: 5px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.sex label {
+    margin-right: 10px; }
+    .special-write .section-content article .table-wrap .table tbody tr td.sex label:last-child {
+      margin-right: 0; }
+  .special-write .section-content article .table-wrap .table tbody tr td.birth-date .form-group ~ .form-group {
+    margin-top: 10px; }
+    .special-write .section-content article .table-wrap .table tbody tr td.birth-date .form-group ~ .form-group .form-control {
+      width: 45%; }
+  .special-write .section-content article .table-wrap .table tbody tr td.birth-date .form-group .form-control {
+    display: inline-block;
+    width: 38%; }
+    .special-write .section-content article .table-wrap .table tbody tr td.birth-date .form-group .form-control:nth-of-type(2n + 2) {
+      margin-left: 10px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.rotate label {
+    display: block;
+    line-height: 24px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.rotate .form-group {
+    margin-top: 10px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li ~ li {
+    margin-top: 30px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-name dl dt {
+    font-size: 13px;
+    color: #111;
+    font-weight: 500;
+    margin-bottom: 10px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-name dl dd {
+    position: relative;
+    padding-left: 40px; }
+    .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-name dl dd label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40px;
+      line-height: 30px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-details {
+    margin-top: 20px; }
+    .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-details dl dt {
+      font-size: 12px;
+      color: #333;
+      display: block;
+      margin-bottom: 10px; }
+    .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-details dl dd .form-control {
+      display: inline-block;
+      width: 37%; }
+      .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-details dl dd .form-control:nth-of-type(2n + 2) {
+        margin-left: 10px; }
 
 /*# sourceMappingURL=ange_naming.css.map */

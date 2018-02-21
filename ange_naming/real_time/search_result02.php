@@ -30,7 +30,7 @@
     
     <!-- sub content start -->
     <main id="content">
-        <section class="search-result search-result01">
+        <section class="search-result search-result02">
             <div class="container">
                 <div class="section-header">
                     <div class="caution-box gray">
@@ -127,120 +127,22 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>
-                                                <lable>
-                                                    <input type="radio">
-                                                </lable>
-                                            </td>
-                                            <td>林</td>
-                                            <td>남</td>
-                                            <td>임지우</td>
-                                            <td>林地友</td>
-                                            <td>
-                                                <div class="btn-proceed">
-                                                    <a href="#" class="btn btn-xs btn-white" role="button">저장하기</a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <lable>
-                                                    <input type="radio">
-                                                </lable>
-                                            </td>
-                                            <td>林</td>
-                                            <td>남</td>
-                                            <td>임지우</td>
-                                            <td>林地友</td>
-                                            <td>
-                                                <div class="btn-proceed">
-                                                    <a href="#" class="btn btn-xs btn-white" role="button">저장하기</a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <lable>
-                                                    <input type="radio">
-                                                </lable>
-                                            </td>
-                                            <td>林</td>
-                                            <td>남</td>
-                                            <td>임지우</td>
-                                            <td>林地友</td>
-                                            <td>
-                                                <div class="btn-proceed">
-                                                    <a href="#" class="btn btn-xs btn-white" role="button">저장하기</a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <lable>
-                                                    <input type="radio">
-                                                </lable>
-                                            </td>
-                                            <td>林</td>
-                                            <td>남</td>
-                                            <td>임지우</td>
-                                            <td>林地友</td>
-                                            <td>
-                                                <div class="btn-proceed">
-                                                    <a href="#" class="btn btn-xs btn-white" role="button">저장하기</a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <lable>
-                                                    <input type="radio">
-                                                </lable>
-                                            </td>
-                                            <td>林</td>
-                                            <td>남</td>
-                                            <td>임지우</td>
-                                            <td>林地友</td>
-                                            <td>
-                                                <div class="btn-proceed">
-                                                    <a href="#" class="btn btn-xs btn-white" role="button">저장하기</a>
+                                            <td colspan="6">
+                                                <div class="none-data">
+                                                    <h5>검색된 이름이 존재하지 않습니다.</h5>
+                                                    <p>
+                                                        사주나 성씨에 따라 검색된 이름이 존재하지 않을 수 있습니다.
+                                                        고객센터로 문의 바랍니다.(Tel : <a href="tel:023336650">02-333-6650</a> 내선1번)
+                                                    </p>
                                                 </div>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                <nav class="paging" aria-label="Page navigation">
-                                    <ul class="pagination">
-                                        <li class="first">
-                                            <a href="#" aria-label="Previous">
-                                                <i class="icon-angle-double-left"></i>
-                                            </a>
-                                        </li>
-                                        <li class="prev">
-                                            <a href="#" aria-label="Previous">
-                                                <i class="icon-angle-left"></i>
-                                            </a>
-                                        </li>
-                                        <li class="active"><a href="#">1</a></li>
-                                        <li><a href="#">2</a></li>
-                                        <li><a href="#">3</a></li>
-                                        <li><a href="#">4</a></li>
-                                        <li><a href="#">5</a></li>
-                                        <li class="next">
-                                            <a href="#" aria-label="Next">
-                                                <i class="icon-angle-right"></i>
-                                            </a>
-                                        </li>
-                                        <li class="last">
-                                            <a href="#" aria-label="Next">
-                                                <i class="icon-angle-double-right"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
                                 <div class="btn-area">
                                     <p>
-                                        <a href="#" class="btn btn-sm btn-pink" role="button">바구니보기</a>
                                         <a href="#" class="btn btn-sm btn-white" role="button">이전화면</a>
+                                        <a href="#" class="btn btn-sm btn-pink" role="button">바구니보기</a>
                                     </p>
                                 </div>
                             </div>

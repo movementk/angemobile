@@ -356,7 +356,7 @@
                                 &.mail {
                                     .form-group {
                                         input[type="text"] {
-                                            width: 43% !important;
+                                            width: 42% !important;
                                             display: inline-block !important;
                                             &:nth-of-type(1) {
                                                 margin-right: 2%;
@@ -1025,6 +1025,7 @@
                     margin-top: 20px;
                     > ul {
                         display: table;
+                        width: 100%;
                         border-top: 1px solid #dfdfdf;
                         border-bottom: 1px solid #dfdfdf;
                         > li {
@@ -1549,7 +1550,6 @@
             margin-top: 20px;
         }
         .article-content {
-//            margin-top: 20px;
             .table-wrap {
                 .table {
                     tr {
@@ -1665,12 +1665,17 @@
     }
 }
 
-//실시간작명 진행하기 작명신청 검색결과
-.search-result01 {
+//실시간작명 진행하기 작명신청
+.search-result {
     .section-content {
         article {
             .article-header {
-                ul {
+                padding: 0;
+                border: 0;
+                &:before {
+                    display: none;
+                }
+                > ul {
                     li {
                         position: relative;
                         font-size: 12px;
@@ -1693,31 +1698,128 @@
                     }
                 }
                 .naming-search {
-                    .table-wrap {
-                        .table.type-6 {
-                            
+                    margin-top: 20px;
+                    ul {
+                        > li {
+                            border-bottom: 1px solid #cfcfcf;
+                            &:first-child {
+                                border-top: 1px solid #cfcfcf;
+                                dl {
+                                    dd {
+                                        .form-group {
+                                            p {
+                                                display: inline-block;
+                                                width: 25px;
+                                                height: 25px;
+                                                line-height: 23px;
+                                                background-color: #eeeff4;
+                                                border: 1px solid #dfdfdf;
+                                            }
+                                            .form-control {
+                                                display: inline-block;
+                                                width: 25px;
+                                                height: 25px;
+                                                padding: 3px;
+                                                border: 1px solid #dfdfdf;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            dl {
+                                overflow: hidden;
+                                dt {
+                                    float: left;
+                                    width: 30%;
+                                    font-size: 12px;
+                                    line-height: 45px;
+                                    font-weight: 400;
+                                    padding-left: 20px;
+                                    color: #fff;
+                                    background-color: #acacac;
+                                }
+                                dd {
+                                    position: relative;
+                                    float: left;
+                                    width: 70%;
+                                    font-size: 12px;
+                                    text-align: center;
+                                    height: 45px;
+                                    padding: 10px 0;
+                                    background-color: #fff;
+                                    .form-group {
+                                        padding-left: 20px;
+                                        .form-control {
+                                            display: inline-block !important;
+                                            padding: 3px;
+                                            padding-left: 10px;
+                                            display: block;
+                                            width: 66%;
+                                            height: 25px;
+                                        }
+                                        > .btn-area {
+                                            vertical-align: top;
+                                            display: inline-block;
+                                            width: 30%;
+                                            text-align: left;
+                                            p {
+                                                .btn-xs {
+                                                    width: 100%;
+                                                    height: 25px;
+                                                    font-weight: 300;
+                                                    line-height: 25px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
             }
             .article-content {
-                margin-top: 40px;
+                margin-top: 30px;
                 > .btn-area {
                     text-align: left;
                 }
                 .table-wrap {
-                    margin-top: 10px;
+                    margin-top: 20px;
                     .table {
                         tbody {
-                            
+                            tr {
+                                td {
+                                    .none-data {
+                                        padding: 20px 0;
+                                        text-align: center;
+                                        h5 {
+                                            font-size: 14px;
+                                            color: #111;
+                                            margin-bottom: 15px;
+                                        }
+                                        p {
+                                            font-size: 12px;
+                                            color: #666;
+                                            line-height: 18px;
+                                            word-break: keep-all;
+                                            a {
+                                                display: inline;
+                                                color: #666;
+                                                /*line-height: 18px;*/
+                                                text-decoration: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                     .paging {
-                        margin-top: 10px;
+                        margin-top: 20px;
                     }
                     .btn-area {
                         text-align: right;
-                        margin-top: 10px;
+                        margin-top: 20px;
                     }
                 }
             }
@@ -1725,7 +1827,209 @@
     }
 }
 
-
+//스페셜 작명전환 하기
+.special-write {
+    .section-content {
+        article {
+            & ~ article {
+                margin-top: 30px;
+            }
+            &.offeror-info {
+                .attention {
+                    position: relative;
+                    font-size: 12px;
+                    color: #ff7875;
+                    padding-left: 15px;
+                    & ~ .attention {
+                        margin-top: 5px;
+                        margin-bottom: 20px;
+                    }
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        content: "※";
+                    }
+                }
+            }
+            .table-wrap {
+                .table {
+                    tbody {
+                        tr {
+                            /*th {
+                                label {
+                                    letter-spacing: -1px;
+                                }
+                            }*/
+                            td {
+                                &.default-td {
+                                    .form-group {
+                                        .form-control {
+                                            display: inline-block;
+                                            width: 80%;
+                                        }
+                                    }
+                                }
+                                &.zip-code {
+                                    .form-group {
+                                        .form-control {
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+                                &.addr {
+                                    .form-group {
+                                        .form-control {
+                                            width: 100%;
+                                            & ~ .form-control {
+                                                margin-top: 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.contact {
+                                    .note {
+                                        font-size: 12px;
+                                        color: #999;
+                                        margin-top: 10px;
+                                    }
+                                    .attention {
+                                        margin-top: 5px;
+                                    }
+                                }
+                                &.mail {
+                                    .form-group {
+                                        input[type="text"] {
+                                            width: 43% !important;
+                                            display: inline-block !important;
+                                            &:nth-of-type(1) {
+                                                margin-right: 2%;
+                                            }
+                                            &:nth-of-type(2) {
+                                                margin-left: 2%;
+                                            }
+                                        }
+                                        select {
+                                            width: 100% !important;
+                                            margin-top: 10px;
+                                            display: block !important;
+                                        }
+                                    }
+                                }
+                                &.route {
+                                    .form-group {
+                                        > div {
+                                            label {
+                                                display: block;
+                                                line-height: 24px;
+                                                margin-left: 40px;
+                                            }
+                                            & ~ div {
+                                                margin-top: 15px;
+                                                label {
+                                                    margin-left: 0;
+                                                }
+                                                .form-control {
+                                                    margin-top: 5px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &.sex {
+                                    label {
+                                        margin-right: 10px;
+                                        &:last-child {
+                                            margin-right: 0;
+                                        }
+                                    }
+                                }
+                                &.birth-date {
+                                    .form-group {
+                                        & ~ .form-group {
+                                            margin-top: 10px;
+                                            .form-control {
+                                                width: 45%;
+                                            }
+                                        }
+                                        .form-control {
+                                            display: inline-block;
+                                            width: 38%;
+                                            &:nth-of-type(2n + 2) {
+                                                margin-left: 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.rotate {
+                                    label {
+                                        display: block;
+                                        line-height: 24px;
+                                    }
+                                    .form-group {
+                                        margin-top: 10px;
+                                    }
+                                }
+                                &.parent {
+                                    .form-group {
+                                        > ul {
+                                            > li {
+                                                & ~ li {
+                                                    margin-top: 30px;
+                                                }
+                                                .parent-name {
+                                                    dl {
+                                                        dt {
+                                                            font-size: 13px;
+                                                            color: #111;
+                                                            font-weight: 500;
+                                                            margin-bottom: 10px;
+                                                        }
+                                                        dd {
+                                                            position: relative;
+                                                            padding-left: 40px;
+                                                            label {
+                                                                position: absolute;
+                                                                top: 0;
+                                                                left: 0;
+                                                                width: 40px;
+                                                                line-height: 30px;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                .parent-details {
+                                                    margin-top: 20px;
+                                                    dl {
+                                                        dt {
+                                                            font-size: 12px;
+                                                            color: #333;
+                                                            display: block;
+                                                            margin-bottom: 10px;
+                                                        }
+                                                        dd {
+                                                            .form-control {
+                                                                display: inline-block;
+                                                                width: 37%;
+                                                                &:nth-of-type(2n + 2) {
+                                                                    margin-left: 10px;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

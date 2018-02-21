@@ -83,6 +83,11 @@
         .layer-container {
             .content {
                 .pop-header {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 9999;
+                    width: 100%;
                     background-color: #9fca83;
                     .pop-title {
                         line-height: 35px;
@@ -95,6 +100,7 @@
                     }
                 }
                 .pop-body {
+                    padding-top: 55px;
                     ul {
                         li {
                             border-bottom: 2px solid #b2d69b;
@@ -158,6 +164,11 @@
         .layer-container {
             .content {
                 .pop-header {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    z-index: 9999;
                     background-color: #ad9cc4;
                     .pop-title {
                         line-height: 35px;
@@ -170,6 +181,7 @@
                     }
                 }
                 .pop-body {
+                    padding-top: 55px;
                     .result-box {
                         padding: 25px 20px;
                         border-radius: 5px;
@@ -475,7 +487,75 @@
 
 
 
-
+// 한자변환 팝업
+.chinese-character {
+    .popup-area {
+        .layer-container {
+            .content {
+                .pop-header {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    background-color: #ad9cc4;
+                    .pop-title {
+                        line-height: 35px;
+                    }
+                    .btn-pop-close {
+                        background-color: #9079af;
+                        img {
+                            width: 15px;
+                        }
+                    }
+                }
+                .pop-body {
+                    padding-top: 55px;
+                    .table-wrap {
+                        .table {
+                            border: 0;
+                            margin: 0;
+                            thead {
+                                tr {
+                                    th {
+                                        font-size: 12px;
+                                        font-weight: 400;
+                                        color: #fff;
+                                        text-align: center;
+                                        padding: 10px 0;
+                                        border: 0;
+                                        background-color: #979aa2;
+                                    }
+                                }
+                            }
+                            tbody {
+                                tr {
+                                    td {
+                                        font-size: 12px;
+                                        font-weight: 400;
+                                        color: #666;
+                                        text-align: center;
+                                        vertical-align: middle;
+                                        padding: 10px 0;
+                                        border: 0;
+                                        border-bottom: 1px solid #dfdfdf;
+                                        .character-img {
+                                            img {
+                                                width: 12px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .paging {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
