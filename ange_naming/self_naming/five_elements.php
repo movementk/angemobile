@@ -94,7 +94,7 @@
                     </div>
                     <div class="btn-area">
                         <p>
-                            <a href="#" class="btn btn-sm btn-pink" role="button">실시간 작명 신청</a>
+                            <a href="#" class="btn btn-sm btn-pink" role="button">셀프 작명 신청</a>
                         </p>
                         <p>
                             <a href="#" class="btn btn-md btn-white btn-more" role="button">사주오행으로 이름짓기</a>

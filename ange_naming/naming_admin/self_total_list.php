@@ -9,7 +9,7 @@
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
         <div class="page-title">
-            <h2>진행하기</h2>
+            <h2>셀프 작명</h2>
             <div class="btn-controls">
                 <a href="#" class="prev">
                     <i class="icon-left-open-big">
@@ -30,7 +30,7 @@
     
     <!-- sub content start -->
     <main id="content">
-        <article class="progress-list">
+        <article class="self-total-list progress-list">
             <div class="container">
                 <div class="article-header">
                     <div class="caution-box gray">
@@ -49,6 +49,7 @@
                             <li>
                                 <a href="#">
                                     <div class="title">
+                                        <h3>angeadmin4650(관리자)</h3>
                                         <h4>2018년 1월 1일 1시 0분 양력/평달</h4>
                                         <p class="code-num">A726039-00696</p>
                                     </div>
@@ -62,6 +63,7 @@
                             <li>
                                 <a href="#">
                                     <div class="title">
+                                        <h3>angeadmin4650(관리자)</h3>
                                         <h4>2018년 1월 1일 1시 0분 양력/평달</h4>
                                         <p class="code-num">A726039-00696</p>
                                     </div>
@@ -75,6 +77,7 @@
                             <li>
                                 <a href="#">
                                     <div class="title">
+                                        <h3>angeadmin4650(관리자)</h3>
                                         <h4>2018년 1월 1일 1시 0분 양력/평달</h4>
                                         <p class="code-num">A726039-00696</p>
                                     </div>
@@ -88,6 +91,7 @@
                             <li>
                                 <a href="#">
                                     <div class="title">
+                                        <h3>nasi26(송지현)</h3>
                                         <h4>2018년 1월 1일 1시 0분 양력/평달</h4>
                                         <p class="code-num">A726039-00696</p>
                                     </div>
@@ -101,19 +105,7 @@
                             <li>
                                 <a href="#">
                                     <div class="title">
-                                        <h4>2018년 1월 1일 1시 0분 양력/평달</h4>
-                                        <p class="code-num">A726039-00696</p>
-                                    </div>
-                                    <ul class="icon-list">
-                                        <li class="date"><span>2017-12-01</span></li>
-                                        <li class="account"><span>가상계좌</span></li>
-                                        <li class="approval"><span>미승인</span></li>
-                                    </ul>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="title">
+                                        <h3>moonamin(이은재)</h3>
                                         <h4>2018년 1월 1일 1시 0분 양력/평달</h4>
                                         <p class="code-num">A726039-00696</p>
                                     </div>

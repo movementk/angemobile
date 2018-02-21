@@ -88,6 +88,22 @@
             i {
                 font-style: normal;
                 color: #ff7875;
+                font-weight: 400;
+            }
+        }
+    }
+    .hyphen-list {
+        li {
+            font-size: 12px;
+            color: #555;
+            line-height: 17px;
+            &:before {
+                content: "- ";
+            }
+            i {
+                font-style: normal;
+                color: #ff7875;
+                font-weight: 400;
             }
         }
     }
@@ -467,6 +483,22 @@
 .progress-list {
     .article-content {
         margin-top: 30px;
+        .board-type-2 {
+            > ul {
+                > li {
+                    a {
+                        .title {
+                            > h3 {
+                                font-size: 13px;
+                                color: #333;
+                                font-weight: 400;
+                                margin-bottom: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
         .attention {
             font-size: 13px;
             color: #333;
@@ -1448,8 +1480,29 @@
     }
 }
 
-
-
+//스페셜 작명 리스트
+.application-list {
+    .article-content {
+        .table-wrap{
+            .table.table-bordered {
+                tbody {
+                    tr {
+                        td {
+                            .btn-proceed {
+                                .btn.btn-xs {
+                                    width: 95px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 20px;
+            }
+        }
+    }
+}
 
 
 

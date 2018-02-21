@@ -9,7 +9,7 @@
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
         <div class="page-title">
-            <h2>실시간 작명 안내</h2>
+            <h2>셀프 작명 이용안내</h2>
             <div class="btn-controls">
                 <a href="#" class="prev">
                     <i class="icon-left-open-big">
@@ -32,7 +32,7 @@
     <main id="content">
         <article class="access-guide self-access-guide">
             <div class="container">
-                <p class="summary">실시간작명을 하시는 순서를 정리한 내용이니 참고하시길 바랍니다</p>
+                <p class="summary">셀프작명을 하시는 순서를 정리한 내용이니 참고하시길 바랍니다</p>
                 <ol class="guide-list">
                     <li>
                         <h4><span>01</span>로그인을 합니다. (회원만 이용가능합니다.)</h4>
