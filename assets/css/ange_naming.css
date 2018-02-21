@@ -137,7 +137,18 @@ ul, ol {
       list-style-position: outside; }
       .caution-box .decimal-list li i {
         font-style: normal;
-        color: #ff7875; }
+        color: #ff7875;
+        font-weight: 400; }
+  .caution-box .hyphen-list li {
+    font-size: 12px;
+    color: #555;
+    line-height: 17px; }
+    .caution-box .hyphen-list li:before {
+      content: "- "; }
+    .caution-box .hyphen-list li i {
+      font-style: normal;
+      color: #ff7875;
+      font-weight: 400; }
   .caution-box .note {
     position: relative;
     font-size: 12px;
@@ -362,6 +373,11 @@ ul, ol {
 
 .progress-list .article-content {
   margin-top: 30px; }
+  .progress-list .article-content .board-type-2 > ul > li a .title > h3 {
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 5px; }
   .progress-list .article-content .attention {
     font-size: 13px;
     color: #333;
@@ -934,5 +950,10 @@ ul, ol {
       margin-right: 2%; }
       .interpret-step03 .section-content .btn-area p .btn-sm:last-child {
         margin-right: 0; }
+
+.application-list .article-content .table-wrap .table.table-bordered tbody tr td .btn-proceed .btn.btn-xs {
+  width: 95px; }
+.application-list .article-content .table-wrap .paging {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=ange_naming.css.map */

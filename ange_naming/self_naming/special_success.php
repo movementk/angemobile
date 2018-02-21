@@ -9,7 +9,7 @@
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
         <div class="page-title">
-            <h2>실시간 작성</h2>
+            <h2>스페셜 작명전환 하기</h2>
             <div class="btn-controls">
                 <a href="#" class="prev">
                     <i class="icon-left-open-big">
@@ -30,7 +30,7 @@
     
     <!-- sub content start -->
     <main id="content">
-        <article class="success">
+        <article class="special-success success">
             <div class="container">
                 <div class="article-content">
                     <figure>
@@ -48,7 +48,7 @@
                             <tbody>
                                 <tr>
                                     <th>신청종류</th>
-                                    <td>실시간 작명</td>
+                                    <td>스페셜 작명</td>
                                 </tr>
                                 <tr>
                                     <th>결제금액</th>
