@@ -115,7 +115,7 @@
                                                         <input type="text" id="u-tel3" class="form-control">
                                                         <label for="u-tel3" class="sr-only">전화번호</label>
                                                     </div>
-                                                    <p class="note">예)033-1234-1234</p>
+                                                   <!-- <p class="note">예)033-1234-1234</p>-->
                                                 </td>
                                             </tr>
                                             <tr>
@@ -129,7 +129,7 @@
                                                         <input type="text" id="u-phone3" class="form-control">
                                                         <label for="u-phone3" class="sr-only">휴대폰</label>
                                                     </div>
-                                                    <p class="note">예)033-1234-1234</p>
+                                                    <!--<p class="note">예)033-1234-1234</p>-->
                                                     <p class="attention">추천이름완료 메세지를 휴대폰 문자로 보내드립니다.</p>
                                                 </td>
                                             </tr>

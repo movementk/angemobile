@@ -1862,6 +1862,10 @@
                                 }
                             }*/
                             td {
+                                > b {
+                                    color: #666;
+                                    font-weight: 400;
+                                }
                                 &.default-td {
                                     .form-group {
                                         .form-control {
@@ -1981,7 +1985,7 @@
                                                     dl {
                                                         dt {
                                                             font-size: 13px;
-                                                            color: #111;
+                                                            color: #333;
                                                             font-weight: 500;
                                                             margin-bottom: 10px;
                                                         }
@@ -2003,7 +2007,7 @@
                                                     dl {
                                                         dt {
                                                             font-size: 12px;
-                                                            color: #333;
+                                                            color: #999;
                                                             display: block;
                                                             margin-bottom: 10px;
                                                         }
@@ -2017,7 +2021,30 @@
                                                             }
                                                         }
                                                     }
+                                                    p {
+                                                        color: #666;
+                                                        &:before {
+                                                            content: "※";
+                                                        }
+                                                        i {
+                                                            font-style: normal;
+                                                            color: #ff7875;
+                                                            font-weight: 400;
+                                                        }
+                                                    }
                                                 }
+                                            }
+                                        }
+                                    }
+                                }
+                                &.talk {
+                                    p {
+                                        color: #666;
+                                        &.attention {
+                                            color: #ff7875;
+                                            font-weight: 400;
+                                            &:before {
+                                                content: "※";
                                             }
                                         }
                                     }
@@ -2027,6 +2054,10 @@
                     }
                 }
             }
+        }
+        .btn-area {
+            text-align: right;
+            margin-top: 20px;
         }
     }
 }
