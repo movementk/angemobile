@@ -1165,6 +1165,9 @@ ul, ol {
           letter-spacing: -1px;
       }
   }*/ }
+  .special-write .section-content article .table-wrap .table tbody tr td > b {
+    color: #666;
+    font-weight: 400; }
   .special-write .section-content article .table-wrap .table tbody tr td.default-td .form-group .form-control {
     display: inline-block;
     width: 80%; }
@@ -1223,7 +1226,7 @@ ul, ol {
     margin-top: 30px; }
   .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-name dl dt {
     font-size: 13px;
-    color: #111;
+    color: #333;
     font-weight: 500;
     margin-bottom: 10px; }
   .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-name dl dd {
@@ -1239,7 +1242,7 @@ ul, ol {
     margin-top: 20px; }
     .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-details dl dt {
       font-size: 12px;
-      color: #333;
+      color: #999;
       display: block;
       margin-bottom: 10px; }
     .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-details dl dd .form-control {
@@ -1247,5 +1250,23 @@ ul, ol {
       width: 37%; }
       .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-details dl dd .form-control:nth-of-type(2n + 2) {
         margin-left: 10px; }
+    .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-details p {
+      color: #666; }
+      .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-details p:before {
+        content: "※"; }
+      .special-write .section-content article .table-wrap .table tbody tr td.parent .form-group > ul > li .parent-details p i {
+        font-style: normal;
+        color: #ff7875;
+        font-weight: 400; }
+  .special-write .section-content article .table-wrap .table tbody tr td.talk p {
+    color: #666; }
+    .special-write .section-content article .table-wrap .table tbody tr td.talk p.attention {
+      color: #ff7875;
+      font-weight: 400; }
+      .special-write .section-content article .table-wrap .table tbody tr td.talk p.attention:before {
+        content: "※"; }
+.special-write .section-content .btn-area {
+  text-align: right;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=ange_naming.css.map */

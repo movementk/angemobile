@@ -10,7 +10,7 @@
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
         <div class="page-title">
-            <h2>스페셜 작명전환 하기</h2>
+            <h2>스페셜 작명</h2>
             <div class="btn-controls">
                 <a href="#" class="prev">
                     <i class="icon-left-open-big">
@@ -35,21 +35,21 @@
             <div class="container">
                 <div class="section-header">
                     <div class="caution-box">
-                        <strong>스페셜 작명전환 안내</strong>
+                        <strong>스페셜 작명신청 안내</strong>
                         <ul class="hyphen-list">
-                            <li>이용했던 작명 서비스(실시간 작명/셀프작명) 에서 스페셜 작명으로 전환을 원할 경우 이용할 수 있습니다.</li>
-                            <li>실시간 작명 신청 후 <b>1주일 이내</b>에만 가능합니다.</li>
-                            <li><i>전환신청을 하시면 신청했던 작명서비스(실시간 작명/셀프 작명)은 사용할 수 없습니다.</i></li>
-                            <li><b>50,000원의 추가비용이 발생</b>하오니 결제해주셔야 합니다.</li>
+                            <li>신청서를 작성 하신 후 결제 하시면 <i>3~4일내 핸드폰문자로 추천이름완료 메세지</i>보냅니다.</li>
+                            <li>&#39;추천이름선택&#39;페이지에서 이름을 선택하실 수 있습니다. (추천은 3개를 올려 드리며, 사주풀이 및 이름풀이는 드리지 않습니다.)</li>
+                            <li><b>전환신청을 하시면 신청했던 작명서비스(실시간 작명/셀프 작명)은 사용할 수 없습니다.</b></li>
                         </ul>
+                        <p class="attention">
+                            신청후 2일이내 미입금시 별도 연락없이 신청삭제가 되며, <i>서비스를 이용하신 후에는 서비스대금 환불이 불가능</i> 합니다.
+                        </p>
                     </div>
                 </div>
                 <div class="section-content">
                     <form action="#">
                         <article class="offeror-info">
                             <div class="article-content">
-                                <p class="attention">서비스를 이용하신 후에는 서비스대금 환불이 불가합니다.</p>
-                                <p class="attention">신청후 1일이내 입금이 안되는 경우 별도 연락없이 신청삭제가 됩니다.</p>
                                 <h4 class="naming-title">신청인 정보</h4>
                                 <div class="table-wrap">
                                     <table class="table table-bordered type-1">
@@ -115,7 +115,6 @@
                                                         <input type="text" id="u-tel3" class="form-control">
                                                         <label for="u-tel3" class="sr-only">전화번호</label>
                                                     </div>
-                                                    <p class="note">예)033-1234-1234</p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -129,7 +128,6 @@
                                                         <input type="text" id="u-phone3" class="form-control">
                                                         <label for="u-phone3" class="sr-only">휴대폰</label>
                                                     </div>
-                                                    <p class="note">예)033-1234-1234</p>
                                                     <p class="attention">추천이름완료 메세지를 휴대폰 문자로 보내드립니다.</p>
                                                 </td>
                                             </tr>
