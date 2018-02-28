@@ -85,7 +85,7 @@
                     <div class="btn-area">
                         <p>
                             <a href="#" class="btn btn-sm btn-pink" role="button">증서 출력</a>
-                            <a href="#" class="btn btn-sm btn-white" role="button">이름풀이 출력</a>
+                            <a href="#" class="btn btn-sm btn-white" role="button" onclick="onPopupWindow()">이름풀이 출력</a>
                             <a href="#" class="btn btn-sm btn-white" role="button">바구니 보기</a>
                         </p>
                     </div>
@@ -97,5 +97,10 @@
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common.js"></script>
+    <script>
+        function onPopupWindow(){  
+            window.open('interpret_popup.php', '_blank', 'scrollbars=yes');
+        }
+    </script>
 </body>
 </html>

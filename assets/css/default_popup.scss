@@ -1,0 +1,90 @@
+@import 'common';
+
+.paging {
+    margin-top: 20px;
+    .pagination {
+        li {
+            a {
+                i {
+                    &:before {
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+body {
+    padding: 20px !important;
+    background-color: #fff !important;
+    .result-popup {
+        .section-header {
+            height: 35px;
+            text-align: left;
+            padding-left: 10px;
+            background-color: #ad9cc4;
+            .pop-title {
+                font-size: 13px;
+                color: #fff;
+                line-height: 35px;
+            }
+        }
+        .section-content {
+            padding: 20px 10px;
+            text-align: center;
+            .table-wrap {
+                .table {
+                    border: 0;
+                    margin: 0;
+                    thead {
+                        tr {
+                            th {
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: #fff;
+                                text-align: center;
+                                padding: 10px 0;
+                                border: 0;
+                                background-color: #979aa2;
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: #666;
+                                text-align: center;
+                                vertical-align: middle;
+                                padding: 10px 0;
+                                border: 0;
+                                border-bottom: 1px solid #dfdfdf;
+                                .character-img {
+                                    img {
+                                        width: 12px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 20px;
+            }
+        }
+    }
+    // 이름풀이
+    .interpret-popup {
+        .section-content {
+            padding-bottom: 150px;
+            article {
+                .article-content {
+                    background-color: #eeeff4;
+                }
+            }
+        }
+    }
+}

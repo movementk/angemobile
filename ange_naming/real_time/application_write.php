@@ -234,7 +234,7 @@
                                                     <input type="text" id="name-txt" class="form-control">
                                                     <label for="name-txt" class="sr-only">성씨</label>
                                                     <div class="btn-overlap-confirm">
-                                                        <a href="#layerPopup" class="btn btn-default btn-popup" role="button">한자변환</a>
+                                                        <a href="#" class="btn btn-default btn-popup" onclick="onPopupWindow()" role="button">한자변환</a>
                                                     </div>
                                                 </div>
                                             </td>
@@ -262,7 +262,7 @@
         </section>
     </main>
     
-    <!-- layer-popup -->
+    <!-- layer-popup 
     <div class="layer-popup chinese-character" id="layerPopup">
         <div class="pop-backdrop"></div>
         <div class="popup-area">
@@ -407,10 +407,11 @@
             </div>
         </div>
     </div>
-    
+    -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common.js"></script>
+<!--
     <script>
         $(function($){
             // 팝업 레이어
@@ -430,6 +431,12 @@
                 $(this).closest('.layer-popup').removeClass('open');
             });
         }(jQuery));
+    </script>
+-->
+    <script>
+        function onPopupWindow(){  
+            window.open('result_popup.php', '_blank', 'scrollbars=yes');
+        }
     </script>
 </body>
 </html>
