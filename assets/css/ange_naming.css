@@ -257,7 +257,7 @@ ul, ol {
   .naming-intro ul > li figure .img-responsive {
     margin: 0 auto; }
   .naming-intro ul > li figure figcaption {
-    padding-top: 15px; }
+    padding: 15px 30px 0; }
     .naming-intro ul > li figure figcaption h4 {
       font-size: 15px;
       color: #333; }
@@ -271,6 +271,7 @@ ul, ol {
       margin-top: 10px;
       font-size: 13px;
       color: #666;
+      word-break: keep-all;
       line-height: 18px; }
   .naming-intro ul > li .btn-area {
     margin-top: 20px; }
