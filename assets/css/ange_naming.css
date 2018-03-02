@@ -594,7 +594,7 @@ ul, ol {
 .default-table .table {
   border-top: 0 !important; }
   .default-table .table thead tr th {
-    font-size: 12px;
+    font-size: 12px !important;
     color: #fff;
     padding: 10px 0;
     font-weight: 400;
@@ -613,15 +613,21 @@ ul, ol {
     background-color: #fff; }
     .default-table .table tbody tr td.syllable {
       color: #e25371; }
-    .default-table .table tbody tr td .btn-proceed .btn-xs {
-      width: 60px;
-      height: 30px;
-      font-size: 12px;
-      color: #666;
-      line-height: 28px;
-      text-align: center;
-      border-radius: 30px;
-      border: 1px solid #cfcfcf; }
+    .default-table .table tbody tr td a {
+      display: inline-block;
+      text-align: center !important; }
+    .default-table .table tbody tr td .btn-proceed {
+      text-align: center; }
+      .default-table .table tbody tr td .btn-proceed .btn-xs {
+        width: 60px;
+        height: 30px;
+        font-size: 11px;
+        color: #666;
+        line-height: 28px;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 30px;
+        border: 1px solid #cfcfcf; }
 
 .name-step02 .article-content {
   margin-top: 30px; }
@@ -657,92 +663,95 @@ ul, ol {
     .name-step03 .section-content .summary i {
       font-style: normal;
       color: #e25371; }
-  .name-step03 .section-content article ~ article {
+  .name-step03 .section-content article {
     margin-top: 40px; }
-  .name-step03 .section-content article.middle-stroke .article-content .default-table {
-    margin-top: 20px; }
-    .name-step03 .section-content article.middle-stroke .article-content .default-table .table tbody tr td {
-      vertical-align: middle;
-      height: 50px;
-      border: 1px solid #dfdfdf;
-      padding: 10px; }
-      .name-step03 .section-content article.middle-stroke .article-content .default-table .table tbody tr td.th-bg {
-        height: 30px;
-        color: #fff;
-        background-color: #979aa2; }
-      .name-step03 .section-content article.middle-stroke .article-content .default-table .table tbody tr td .form-group .form-control {
-        display: inline-block;
-        width: 50px;
-        padding: 5px; }
-  .name-step03 .section-content article.middle-stroke .article-content .btn-area {
-    text-align: right;
-    margin-top: 20px; }
-  .name-step03 .section-content article.selection-name .article-content {
-    margin-top: 20px; }
-    .name-step03 .section-content article.selection-name .article-content > ul {
-      display: table;
-      width: 100%;
-      border-top: 1px solid #dfdfdf;
-      border-bottom: 1px solid #dfdfdf; }
-      .name-step03 .section-content article.selection-name .article-content > ul > li {
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        padding: 15px 10px;
-        width: 33.33%;
-        border-right: 1px solid #dfdfdf; }
-        .name-step03 .section-content article.selection-name .article-content > ul > li:last-child {
+    .name-step03 .section-content article.middle-stroke .article-content .default-table {
+      margin-top: 20px; }
+      .name-step03 .section-content article.middle-stroke .article-content .default-table .table {
+        table-layout: fixed; }
+        .name-step03 .section-content article.middle-stroke .article-content .default-table .table tbody tr td {
+          vertical-align: middle;
+          height: 50px;
+          border: 1px solid #dfdfdf;
+          padding: 10px;
+          word-break: break-all; }
+          .name-step03 .section-content article.middle-stroke .article-content .default-table .table tbody tr td.th-bg {
+            height: 30px;
+            color: #fff;
+            background-color: #979aa2; }
+          .name-step03 .section-content article.middle-stroke .article-content .default-table .table tbody tr td .form-group .form-control {
+            display: inline-block;
+            width: 50px;
+            padding: 5px; }
+    .name-step03 .section-content article.middle-stroke .article-content .btn-area {
+      text-align: right;
+      margin-top: 20px; }
+    .name-step03 .section-content article.selection-name .article-content {
+      margin-top: 20px; }
+      .name-step03 .section-content article.selection-name .article-content > ul {
+        display: table;
+        width: 100%;
+        border-top: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf; }
+        .name-step03 .section-content article.selection-name .article-content > ul > li {
+          display: table-cell;
+          text-align: center;
+          vertical-align: middle;
+          padding: 15px 10px;
+          width: 33.33%;
+          border-right: 1px solid #dfdfdf; }
+          .name-step03 .section-content article.selection-name .article-content > ul > li:last-child {
+            border-right: 0; }
+          .name-step03 .section-content article.selection-name .article-content > ul > li:nth-of-type(1) {
+            background-color: #e9d7e0; }
+          .name-step03 .section-content article.selection-name .article-content > ul > li:nth-of-type(2) {
+            background-color: #ede5e1; }
+          .name-step03 .section-content article.selection-name .article-content > ul > li:nth-of-type(3) {
+            background-color: #d9e6ea; }
+          .name-step03 .section-content article.selection-name .article-content > ul > li strong {
+            font-size: 14px;
+            font-weight: 500; }
+          .name-step03 .section-content article.selection-name .article-content > ul > li p {
+            font-size: 12px;
+            color: #666;
+            line-height: 18px;
+            margin-top: 5px; }
+    .name-step03 .section-content article.middle-name p {
+      float: right; }
+    .name-step03 .section-content article.result-name .article-content {
+      margin-top: 20px; }
+      .name-step03 .section-content article.result-name .article-content .table-wrap .table thead tr th {
+        border-right: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf; }
+        .name-step03 .section-content article.result-name .article-content .table-wrap .table thead tr th:last-child {
           border-right: 0; }
-        .name-step03 .section-content article.selection-name .article-content > ul > li:nth-of-type(1) {
-          background-color: #e9d7e0; }
-        .name-step03 .section-content article.selection-name .article-content > ul > li:nth-of-type(2) {
-          background-color: #ede5e1; }
-        .name-step03 .section-content article.selection-name .article-content > ul > li:nth-of-type(3) {
-          background-color: #d9e6ea; }
-        .name-step03 .section-content article.selection-name .article-content > ul > li strong {
-          font-size: 14px;
-          font-weight: 500; }
-        .name-step03 .section-content article.selection-name .article-content > ul > li p {
-          font-size: 12px;
-          color: #666;
-          line-height: 18px;
-          margin-top: 5px; }
-  .name-step03 .section-content article.middle-name p {
-    float: right; }
-  .name-step03 .section-content article.result-name .article-content {
-    margin-top: 20px; }
-    .name-step03 .section-content article.result-name .article-content .table-wrap .table thead tr th {
-      border-right: 1px solid #dfdfdf;
-      border-bottom: 1px solid #dfdfdf; }
-      .name-step03 .section-content article.result-name .article-content .table-wrap .table thead tr th:last-child {
-        border-right: 0; }
-    .name-step03 .section-content article.result-name .article-content .table-wrap .table tbody tr td {
-      height: 50px;
-      border-right: 1px solid #dfdfdf;
-      border-bottom: 1px solid #dfdfdf; }
-      .name-step03 .section-content article.result-name .article-content .table-wrap .table tbody tr td:last-child {
-        border-right: 0; }
-    .name-step03 .section-content article.result-name .article-content .btn-area {
-      margin-top: 20px;
-      text-align: right; }
-  .name-step03 .section-content article.disuse-name .article-content {
-    margin-top: 20px; }
-    .name-step03 .section-content article.disuse-name .article-content thead tr th {
-      border-right: 1px solid #dfdfdf;
-      border-bottom: 1px solid #dfdfdf; }
-      .name-step03 .section-content article.disuse-name .article-content thead tr th:last-child {
-        border-right: 0; }
-    .name-step03 .section-content article.disuse-name .article-content tbody tr td {
-      padding: 15px 10px;
-      height: 50px;
-      vertical-align: middle;
-      background-color: #fafafa;
-      border-right: 1px solid #dfdfdf;
-      border-bottom: 1px solid #dfdfdf; }
-      .name-step03 .section-content article.disuse-name .article-content tbody tr td:last-child {
-        border-right: 0;
-        text-align: left;
-        background-color: #fff; }
+      .name-step03 .section-content article.result-name .article-content .table-wrap .table tbody tr td {
+        height: 50px;
+        border-right: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf; }
+        .name-step03 .section-content article.result-name .article-content .table-wrap .table tbody tr td:last-child {
+          border-right: 0; }
+      .name-step03 .section-content article.result-name .article-content .btn-area {
+        margin-top: 20px;
+        text-align: right; }
+    .name-step03 .section-content article.disuse-name .article-content {
+      margin-top: 20px; }
+      .name-step03 .section-content article.disuse-name .article-content thead tr th {
+        border-right: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf; }
+        .name-step03 .section-content article.disuse-name .article-content thead tr th:last-child {
+          border-right: 0; }
+      .name-step03 .section-content article.disuse-name .article-content tbody tr td {
+        padding: 15px 10px;
+        height: 50px;
+        vertical-align: middle;
+        background-color: #fafafa;
+        border-right: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf; }
+        .name-step03 .section-content article.disuse-name .article-content tbody tr td:last-child {
+          border-right: 0;
+          text-align: left;
+          background-color: #fff; }
 
 .t-responsive > .table {
   border-top: 0 !important; }
@@ -758,12 +767,12 @@ ul, ol {
     padding: 0;
     text-align: center; }
     .t-responsive > .table > tbody > tr > td .table-wrap {
-      height: 250px;
+      max-height: 250px;
       overflow-y: scroll; }
       .t-responsive > .table > tbody > tr > td .table-wrap .table tbody tr td {
         font-size: 12px;
         color: #666;
-        line-height: 50px;
+        height: 70px;
         border-bottom: 1px solid #dfdfdf;
         border-right: 1px solid #dfdfdf;
         background-color: #fff; }
@@ -874,6 +883,7 @@ ul, ol {
       font-size: 12px;
       font-weight: 400;
       color: #fff;
+      text-align: center;
       background-color: #979aa2;
       border: 0;
       border-right: 1px solid #dfdfdf;
@@ -965,8 +975,10 @@ ul, ol {
       .interpret-step03 .section-content .btn-area p .btn-sm:last-child {
         margin-right: 0; }
 
+.application-list .article-content .table-wrap .table.table-bordered tbody tr td a {
+  color: #666; }
 .application-list .article-content .table-wrap .table.table-bordered tbody tr td .btn-proceed .btn.btn-xs {
-  width: 95px; }
+  width: 85px; }
 .application-list .article-content .table-wrap .paging {
   margin-top: 20px; }
 
@@ -1073,6 +1085,7 @@ ul, ol {
           border: 1px solid #dfdfdf; }
         .search-result .section-content article .article-header .naming-search ul > li:first-child dl dd .form-group .form-control {
           display: inline-block;
+          text-align: center;
           width: 25px;
           height: 25px;
           padding: 3px;
@@ -1196,15 +1209,13 @@ ul, ol {
     margin-top: 10px;
     display: block !important; }
   .special-write .section-content article .table-wrap .table tbody tr td.route .form-group > div label {
+    display: inline-block;
+    line-height: 24px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.route .form-group > div ~ div label {
     display: block;
-    line-height: 24px;
-    margin-left: 40px; }
-  .special-write .section-content article .table-wrap .table tbody tr td.route .form-group > div ~ div {
-    margin-top: 15px; }
-    .special-write .section-content article .table-wrap .table tbody tr td.route .form-group > div ~ div label {
-      margin-left: 0; }
-    .special-write .section-content article .table-wrap .table tbody tr td.route .form-group > div ~ div .form-control {
-      margin-top: 5px; }
+    margin-top: 10px; }
+  .special-write .section-content article .table-wrap .table tbody tr td.route .form-group > div ~ div .form-control {
+    margin-top: 10px; }
   .special-write .section-content article .table-wrap .table tbody tr td.sex label {
     margin-right: 10px; }
     .special-write .section-content article .table-wrap .table tbody tr td.sex label:last-child {
