@@ -883,7 +883,7 @@
         thead {
             tr {
                 th {
-                    font-size: 12px;
+                    font-size: 12px !important;
                     color: #fff;
                     padding: 10px 0;
                     font-weight: 400;
@@ -908,14 +908,20 @@
                     &.syllable {
                         color: #e25371;
                     }
+                    a {
+                        display: inline-block;
+                        text-align: center !important;
+                    }
                     .btn-proceed {
+                        text-align: center;
                         .btn-xs {
                             width: 60px;
                             height: 30px;
-                            font-size: 12px;
+                            font-size: 11px;
                             color: #666;
                             line-height: 28px;
                             text-align: center;
+                            margin: 0 auto;
                             border-radius: 30px;
                             border: 1px solid #cfcfcf;
                         }
@@ -983,14 +989,13 @@
             }
         }
         article {
-            & ~ article {
-                margin-top: 40px;
-            }
+            margin-top: 40px;
             &.middle-stroke {
                 .article-content {
                     .default-table {
                         margin-top: 20px;
                         .table {
+                            table-layout: fixed;
                             tbody {
                                 tr {
                                     td {
@@ -998,6 +1003,7 @@
                                         height: 50px;
                                         border: 1px solid #dfdfdf;
                                         padding: 10px;
+                                        word-break: break-all;
                                         &.th-bg {
                                             height: 30px;
                                             color: #fff;
@@ -1161,7 +1167,7 @@
                     padding: 0;
                     text-align: center;
                     .table-wrap {
-                        height: 250px;
+                        max-height: 250px;
                         overflow-y: scroll;
                         .table {
                             tbody {
@@ -1169,7 +1175,7 @@
                                     td {
                                         font-size: 12px;
                                         color: #666;
-                                        line-height: 50px;
+                                        height: 70px;
                                         border-bottom: 1px solid #dfdfdf;
                                         border-right: 1px solid #dfdfdf;
                                         background-color: #fff;
@@ -1351,6 +1357,7 @@
                             font-size: 12px;
                             font-weight: 400;
                             color: #fff;
+                            text-align: center;
                             background-color: #979aa2;
                             border: 0;
                             border-right: 1px solid #dfdfdf;
@@ -1528,9 +1535,12 @@
                 tbody {
                     tr {
                         td {
+                            a {
+                                color: #666;
+                            }
                             .btn-proceed {
                                 .btn.btn-xs {
-                                    width: 95px;
+                                    width: 85px;
                                 }
                             }
                         }
@@ -1718,6 +1728,7 @@
                                             }
                                             .form-control {
                                                 display: inline-block;
+                                                text-align: center;
                                                 width: 25px;
                                                 height: 25px;
                                                 padding: 3px;
@@ -1925,17 +1936,16 @@
                                     .form-group {
                                         > div {
                                             label {
-                                                display: block;
+                                                display: inline-block;
                                                 line-height: 24px;
-                                                margin-left: 40px;
                                             }
                                             & ~ div {
-                                                margin-top: 15px;
                                                 label {
-                                                    margin-left: 0;
+                                                    display: block;
+                                                    margin-top: 10px;
                                                 }
                                                 .form-control {
-                                                    margin-top: 5px;
+                                                    margin-top: 10px;
                                                 }
                                             }
                                         }
