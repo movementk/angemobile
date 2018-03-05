@@ -412,6 +412,8 @@ ul, ol {
       padding: 40px; }
       .five-elements .article-content .table-wrap .table tbody tr td .graph .img-responsive {
         margin: 0 auto; }
+    .five-elements .article-content .table-wrap .table tbody tr td > table {
+      width: 100% !important; }
   .five-elements .article-content .btn-area {
     margin-top: 20px;
     text-align: right; }
