@@ -69,6 +69,37 @@ ul, ol {
       padding-left: 5px;
       padding-right: 5px; }
 
+.btn-ebook {
+  margin-top: 15px;
+  text-align: center; }
+  .btn-ebook p {
+    font-size: 0; }
+    .btn-ebook p a {
+      margin-right: 10px; }
+      .btn-ebook p a:last-child {
+        margin-right: 0; }
+      .btn-ebook p a.btn {
+        font-size: 12px;
+        text-align: left;
+        padding: 0 10px 0 15px;
+        border-radius: 30px; }
+        .btn-ebook p a.btn.btn-white {
+          color: #999;
+          background-color: #fff;
+          border: 1px solid #b7b7b7; }
+        .btn-ebook p a.btn.btn-pink {
+          color: #fff;
+          background-color: #ff7875;
+          border: 1px solid #ff7875; }
+        .btn-ebook p a.btn.btn-md {
+          width: 145px;
+          line-height: 32px; }
+          .btn-ebook p a.btn.btn-md:after {
+            float: right;
+            display: inline-block;
+            content: "\E802";
+            font-family: "fontello"; }
+
 .tab-list {
   position: relative;
   /*margin-top: 10px;*/
@@ -158,17 +189,6 @@ ul, ol {
         color: #333;
         word-break: keep-all;
         line-height: 16px; }
-    .ebook .section-header .btn-area {
-      margin-top: 15px; }
-      .ebook .section-header .btn-area p .btn-more {
-        text-align: center;
-        color: #fff;
-        border-color: #ff7875;
-        background-color: #ff7875; }
-        .ebook .section-header .btn-area p .btn-more:after {
-          float: none;
-          color: #fff;
-          margin-left: 10px; }
   .ebook .section-content .year-date {
     position: relative;
     margin-bottom: 40px;
@@ -406,10 +426,15 @@ ul, ol {
       margin-top: 20px; }
       .magazine-view .section-content article .article-header .btn-area p {
         overflow: hidden; }
-        .magazine-view .section-content article .article-header .btn-area p .btn-md img {
-          display: inline-block;
-          width: 10px;
-          margin-left: 10px; }
+        .magazine-view .section-content article .article-header .btn-area p .btn-md {
+          width: 100px;
+          line-height: 34px; }
+          .magazine-view .section-content article .article-header .btn-area p .btn-md img {
+            display: inline-block;
+            width: 13px;
+            height: 13px;
+            vertical-align: middle;
+            margin-left: 10px; }
         .magazine-view .section-content article .article-header .btn-area p .btn-xs {
           float: left; }
           .magazine-view .section-content article .article-header .btn-area p .btn-xs:last-child {
