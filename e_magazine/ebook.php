@@ -47,9 +47,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="btn-area">
+                    <div class="btn-ebook">
                         <p>
-                            <a href="#" class="btn btn-lg btn-white btn-more" role="button">자세히보기</a>
+                            <a href="#" class="btn btn-md btn-white" role="button">자세히보기</a>
+                            <a href="#" class="btn btn-md btn-pink" role="button">e-book 보기</a>
                         </p>
                     </div>
                 </div>

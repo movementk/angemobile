@@ -1,5 +1,43 @@
 @import 'common';
-
+.btn-ebook {
+	margin-top: 15px;
+	text-align: center;
+	p {
+		font-size: 0;
+		a {
+			margin-right: 10px;
+			&:last-child {
+				margin-right: 0;
+			}
+			&.btn {
+				font-size: 12px;
+				text-align: left;
+				padding: 0 10px 0 15px;
+				border-radius: 30px;
+				&.btn-white {
+					color: #999;
+					background-color: #fff;
+					border: 1px solid #b7b7b7;
+				}
+				&.btn-pink {
+					color: #fff;
+					background-color: #ff7875;
+					border: 1px solid #ff7875;
+				}
+				&.btn-md {
+					width: 145px;
+					line-height: 32px;
+					&:after {
+						float: right;
+						display: inline-block;
+						content: "\E802";
+						font-family: "fontello";
+					}
+				}
+			}
+		}
+	}
+}
 .tab-list {
     position: relative;
     /*margin-top: 10px;*/
@@ -132,22 +170,22 @@
                 line-height: 16px;
             }
         }
-        .btn-area {
-            margin-top: 15px;
-            p {
-                .btn-more {
-                    text-align: center;
-                    color: #fff;
-                    border-color: #ff7875;
-                    background-color: #ff7875;
-                    &:after {
-                        float: none;
-                        color: #fff;
-                        margin-left: 10px;
-                    }
-                }
-            }
-        }
+//        .btn-area {
+//            margin-top: 15px;
+//            p {
+//                .btn-more {
+//                    text-align: center;
+//                    color: #fff;
+//                    border-color: #ff7875;
+//                    background-color: #ff7875;
+//                    &:after {
+//                        float: none;
+//                        color: #fff;
+//                        margin-left: 10px;
+//                    }
+//                }
+//            }
+//        }
     }
     .section-content {
         .year-date {
@@ -467,14 +505,18 @@
                 .btn-area {
                     margin-top: 20px;
                     p {
+						overflow: hidden;
                         .btn-md {
+							width: 100px;
+							line-height: 34px;
                             img {
                                 display: inline-block;
-                                width: 10px;
+                                width: 13px;
+								height: 13px;
+								vertical-align: middle;
                                 margin-left: 10px;
                             }
                         }
-                        overflow: hidden;
                         .btn-xs {
                             float: left;
                             &:last-child {
