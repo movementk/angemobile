@@ -57,11 +57,27 @@ body {
             }
         }
         .bx-controls {
-            position: absolute;
-            bottom: -32px;
-            width: 100%;
-            text-align: center;
+            .bx-controls-direction {
+                a {
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -8px;
+                    img {
+                        width: 9px;
+                    }
+                    &.bx-prev {
+                        left: 10px;
+                    }
+                    &.bx-next {
+                        right: 10px;
+                    }
+                }
+            }
             .bx-pager {
+                position: absolute;
+                bottom: -32px;
+                width: 100%;
+                text-align: center;
                 display: inline-block;
                 height: 15px;
                 .bx-pager-item {

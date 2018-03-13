@@ -538,7 +538,9 @@
             $(document).ready(function(){
                 // 메인슬라이드
                 $('.jumbo .container > ul').bxSlider({
-                    controls: false
+                    controls: true,
+                    prevText: '<img src="/assets/images/main/left_btn.png" alt="">',
+                    nextText: '<img src="/assets/images/main/right_btn.png" alt="">'
                 });
             });
         })(jQuery);
