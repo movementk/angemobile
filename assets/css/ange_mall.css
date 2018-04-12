@@ -343,6 +343,177 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/*핫딜 장바구니 step01*/
+.hotdeal-basket01 .section-content .board-type-4 > ul > li .list-header a .item-title {
+    vertical-align: top;
+    display: table-cell;
+    font-size: 14px;
+    color: #333;
+    word-break: break-word;
+    line-height: 20px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+.hotdeal-basket01 .section-content .board-type-4 > ul > li .details-info {
+	position: static;
+	margin-top: 0;
+	padding-left: 100px;
+}
+.hotdeal-basket01 .section-content .board-type-4 > ul > li .details-info dl dd .option {
+	padding-left: 45px;
+}
+.hotdeal-basket01 .section-content .board-type-4 > ul > li .details-info dl dd i {
+	font-style: normal;
+	color: #ff7875;
+}
+.hotdeal-basket01 .section-content .board-type-4 > ul > li .details-info .btn-area {
+	position: static;
+	margin-top: 15px;
+}
+.hotdeal-basket01 .section-content > .btn-area {
+	margin-top: 20px;
+    text-align: right;
+}
+
+/*핫딜 장바구니 step02*/
+.hotdeal-basket02 .product a .item-title {
+	word-break: break-word;
+    line-height: 20px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+.hotdeal-basket02 .section-content .table-wrap .radio-box .form-group label {
+    color: #999;
+    margin-right: 10px;
+    font-weight: 300;
+}
+.hotdeal-basket02 .view-details {
+    margin-top: 20px;
+}
+.hotdeal-basket02 .section-content .table-wrap .radio-box {
+	text-align: right;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.hotdeal-basket02 .section-content .table-wrap .radio-box .form-group label input[type="radio"] {
+	position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+.hotdeal-basket02 .view-details .product dl {
+    padding-left: 99px;
+	margin-top: 5px;
+}
+.hotdeal-basket02 .section-header .view-details .product dl dd .option {
+	padding-left: 45px;
+}
+.hotdeal-basket02 .section-header .view-details .product dl dd i {
+	font-style: normal;
+	color: #ff7875;
+}
+.hotdeal-basket02 .section-header .view-details .total > ul > li {
+	color: #999;
+}
+.hotdeal-basket02 .section-content .table-wrap .table.type-1:first-child {
+	margin-top: 20px;
+}
+.hotdeal-basket02 .section-content .table-wrap .table.type-1:first-child tbody tr td .form-group .form-control {
+	width: 105px;
+}
+.hotdeal-basket02 .section-content .table-wrap .table.type-1:first-child tbody tr td > p {
+	font-size: 11px;
+	color: #999;
+	margin-top: 7px;
+}
+.hotdeal-basket02 .section-content .table-wrap .table.type-1:first-child tbody tr td > p i {
+	font-style: normal;
+}
+.hotdeal-basket02 .section-content .table-wrap .table.type-1:first-child tbody tr td > p .max {
+	color: #ff7875;
+}
+.hotdeal-basket02 .section-content .table-wrap .table.type-1:first-child tbody tr td > p .have {
+	color: #7da7d9;
+}
+.hotdeal-basket02 .section-content .table-wrap .table.type-1:first-child tbody tr td label {
+	font-weight: 300;
+}
+.hotdeal-basket02 .section-content .table-wrap .table.type-1:first-child tbody tr td label:first-child {
+	margin-right: 15px;
+}
+.hotdeal-basket02 .section-content .table-wrap .btn-area {
+	text-align: right;
+	margin-top: 20px;
+}
+
+/*핫딜 마일리지몰 상세보기*/
+
+/*공통*/
+.hotdeal-view .product-report .section-header .information .info-head h3 {
+	font-size: 16px;
+	line-height: 24px;
+	word-break: keep-all;
+}
+.hotdeal-view .product-report .section-header .information .info-body dl dt {
+    width: 95px;
+}
+.hotdeal-view .product-report .section-header .information .info-body dl dd {
+	padding-left: 95px;
+}
+.hotdeal-view .product-report .section-header .information .info-body dl dd > i {
+	font-style: normal;
+	color: #ff7875;
+	font-weight: 300;
+}
+.hotdeal-view .product-report .section-header .information .info-body dl dd .time-price {
+	font-size: 15px;
+	font-weight: 500;
+}
+.hotdeal-view .product-report .section-header .information .info-body .info-second dl dd .form-group .form-control {
+	width: 85px;
+	height: 20px;
+	margin-top: 3px;
+}
+.hotdeal-view .product-report .section-header .information .info-body .info-second dl dd .form-group #amount {
+	width: 45px;
+	padding: 5px;
+}
+.hotdeal-view .product-report .section-header .information .info-body .info-second dl dd .form-group select {
+	padding: 0;
+}
+.hotdeal-view .product-report .section-header .btn-area p a {
+	margin-right: 0;
+}
+.hotdeal-view .product-report .section-header .btn-area p a:nth-of-type(1) {
+	margin-right: 10px;
+}
+.hotdeal-view .product-report .section-header .btn-area p .btn-naver {
+	/*width: 300px;*/
+	line-height: 32px;
+    color: #fff;
+    border: 1px solid #00c73c;
+	background-color: #00c73c;
+	background-image: url(/assets/images/ange_mall/naver_pay.jpg);
+	background-repeat: no-repeat;
+	background-position: 110px 50%;
+	background-size: 40px 15px;
+	padding-left: 65px;
+	margin-top: 10px;
+} 
+.hotdeal-view .product-report .section-header .btn-area p .btn {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
