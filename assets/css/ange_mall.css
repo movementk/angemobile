@@ -374,6 +374,12 @@
 	margin-top: 20px;
     text-align: right;
 }
+.hotdeal-basket01 .section-content .board-type-4 > ul > li .details-info .btn-area .btn.btn-md {
+	width: 100%;
+}
+
+
+
 
 /*핫딜 장바구니 step02*/
 .hotdeal-basket02 .product a .item-title {
@@ -444,6 +450,14 @@
 	text-align: right;
 	margin-top: 20px;
 }
+.hotdeal-basket02 .table-wrap .table tbody tr td label input {
+    top: 2px;
+}
+.hotdeal-basket02 .table-wrap .table tbody tr td .form-group textarea {
+	height: 60px;
+}
+
+
 
 /*핫딜 마일리지몰 상세보기*/
 
@@ -486,33 +500,109 @@
 .hotdeal-view .product-report .section-header .btn-area p a:nth-of-type(1) {
 	margin-right: 10px;
 }
+.hotdeal-view .product-report .section-header .btn-area p .btn:first-child {
+	margin-right: 4%;
+}
+.hotdeal-view .product-report .section-header .btn-area p .btn {
+	width: 48%;
+}
 .hotdeal-view .product-report .section-header .btn-area p .btn-naver {
-	/*width: 300px;*/
+	width: 100%;
 	line-height: 32px;
     color: #fff;
     border: 1px solid #00c73c;
 	background-color: #00c73c;
-	background-image: url(/assets/images/ange_mall/naver_pay.jpg);
-	background-repeat: no-repeat;
-	background-position: 110px 50%;
-	background-size: 40px 15px;
-	padding-left: 65px;
 	margin-top: 10px;
 } 
-.hotdeal-view .product-report .section-header .btn-area p .btn {
-	
+.hotdeal-view .product-report .section-header .btn-area p .btn-naver:before {
+	content: "";
+	width: 40px;
+	height: 15px;
+	text-align: center;
+	display: inline-block;
+	background-image: url(/assets/images/ange_mall/naver_pay.jpg);
+	background-size: 40px 15px;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	background-position: 50% 50%;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* 핫딜 리스트 */
+.hotdeal-list .section-content .board-type-5 ul li a {
+	position: relative;
+}
+/*.hotdeal-list .section-content .board-type-5 ul li a .sale-label {
+	position: absolute;
+	top: -6px;
+	left: 7px;
+}
+.hotdeal-list .section-content .board-type-5 ul li a .sale-label img {
+	width: 55px;
+}*/
+.hotdeal-list .section-content .board-type-5 ul li a .sale-label {
+	position: absolute;
+    top: -5px;
+    left: 7px;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 500;
+    width: 40px;
+    height: 38px;
+    z-index: 5;
+    /* padding-top: 10px; */
+    padding-top: 7px;
+    background-image: url(/assets/images/ange_mall/sale-label.png);
+    background-repeat: no-repeat;
+    /* background-size: 55px auto; */
+    background-size: 40px 38px;
+    font-family: 'Roboto', sans-serif;
+}
+.hotdeal-list .section-content .board-type-5 ul li a .clock {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 5;
+}
+.hotdeal-list .section-content .board-type-5 ul li a .clock img {
+	width: 35px;
+}
+.hotdeal-list .section-content .board-type-5 ul li a figure {
+	position: relative;
+}
+.hotdeal-list .section-content .board-type-5 ul li a figure dl {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 26px;
+	line-height: 24px;
+	z-index: 5;
+	background-color: #e5647f;
+}
+.hotdeal-list .section-content .board-type-5 ul li a figure dl dt {
+	display: inline-block;
+	font-size: 11px;
+	color: #fff;
+}
+.hotdeal-list .section-content .board-type-5 ul li a figure dl dd {
+	display: inline-block;
+	font-size: 11px;
+	color: #fff;
+}
+.hotdeal-list .section-content .board-type-5 ul li a figure dl dd span {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	color: #e5647f;
+	line-height: 15px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 3px;
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
 
 
 

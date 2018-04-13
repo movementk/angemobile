@@ -145,7 +145,7 @@
                                     </tr>
                                     <tr>
                                     	<th class="v-top">
-                                    		<label for="u-mileage">사용가능 마일리지</label>
+                                    		<label for="u-mileage">사용가능<br> 마일리지</label>
                                     	</th>
                                     	<td>
                                     		<div class="form-group">
@@ -191,14 +191,14 @@
                                         <td>02-1234-5678</td>
                                     </tr>
                                     <tr>
-                                        <th><label for="u-blog">신청이유</label></th>
+                                        <th class="v-top"><label for="u-blog">신청이유</label></th>
                                         <td>
                                             <div class="form-group">
                                                 <textarea id="reason" class="form-control"></textarea>
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr class="v-top">
                                         <th class="v-top"><label for="speech">신청 한마디</label></th>
                                         <td>
                                             <div class="form-group">
