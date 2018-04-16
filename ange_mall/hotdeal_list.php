@@ -67,7 +67,8 @@
                                     </figure>
                                     <div class="details">
                                         <p>Botanical Therapy 스텝원 베이비 치약 (무불소, 블루베리향)</p>
-                                        <small>5,600 P</small>
+                                        <i>￦ 25,000</i>
+                                        <small>￦ 15,000</small>
                                     </div>
                                 </a>
                             </li>

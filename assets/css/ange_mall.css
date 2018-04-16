@@ -603,9 +603,21 @@
 	background-color: #fff;
 	font-family: 'Roboto', sans-serif;
 }
-
-
-
+.hotdeal-list .section-content .board-type-5 ul li a .details i {
+	font-style: normal;
+    font-size: 11px;
+    text-decoration: line-through;
+    color: #666;
+    opacity: .5;
+    display: block;
+}
+.hotdeal-list .section-content .board-type-5 > ul > li > a .details small {
+	margin-top: 0;
+	font-weight: 500;
+}
+.hotdeal-list .section-content .board-type-5 > ul > li > a .details p {
+	margin-bottom: 5px;
+}
 
 
 
