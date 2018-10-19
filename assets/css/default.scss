@@ -68,7 +68,7 @@
 
 // Gnb
 #gnb {
-    background-color: #e25371;
+    background-color: #7e62b9;
     > ul {
         font-size: 0;
         > li {
@@ -82,8 +82,8 @@
                 line-height: 35px;
                 text-align: center;
                 text-decoration: none;
-                border-left: 1px solid #ee749e;
-                border-right: 1px solid #d32938;
+                border-left: 1px solid #8d75c1;
+                border-right: 1px solid #66459c;
             }
             &:first-child {
                 a {
@@ -101,7 +101,7 @@
 
 // gnb 메뉴 
 .gnb-opened {
-    overflow: hidden;
+    overflow: hidden; 
     #gnb-nav {
         width: 100%;
         .nav-container {
@@ -151,7 +151,7 @@
                 padding: 0;
                 border-radius: 0;
                 box-shadow: none !important;
-                background-color: #ff7875;
+                background-color: #66459c;
                 img {
                     position: relative;
                     top: -2px;
@@ -176,7 +176,7 @@
                         border: 0;
                         /*border: 1px solid #eeeff4;*/
                         border-radius: 0;
-                        border-bottom: 1px solid #e25371;
+                        border-bottom: 1px solid #66459c;
                         background-color: #eeeff4;
                     }
                 }
@@ -186,7 +186,7 @@
                         top: 0;
                         right: 0;
                         font-size: 13px;
-                        color: #e25371;
+                        color: #66459c;
                         padding: 0;
                         border: 0;
                         border-radius: 0;

@@ -541,23 +541,24 @@
 }*/
 .hotdeal-list .section-content .board-type-5 ul li a .sale-label {
 	position: absolute;
-    top: -5px;
-    left: 7px;
+    top: -4px;
+    left: 8px;
     text-align: center;
     color: #fff;
     font-size: 10px;
     line-height: 12px;
     font-weight: 500;
-    width: 40px;
-    height: 38px;
+    width: 53px;
+    height: 39px;
     z-index: 5;
-    /* padding-top: 10px; */
-    padding-top: 7px;
-    background-image: url(/assets/images/ange_mall/sale-label.png);
+    padding-top: 6px;
+    background-image: url(../images/ange_mall/sale-label.png);
     background-repeat: no-repeat;
-    /* background-size: 55px auto; */
-    background-size: 40px 38px;
+    background-size: 53px 39px;
     font-family: 'Roboto', sans-serif;
+}
+.hotdeal-list .section-content .board-type-5 ul li a .sale-label span {
+	font-family: 'Noto Sans KR', sans-serif;
 }
 .hotdeal-list .section-content .board-type-5 ul li a .clock {
 	position: absolute;
