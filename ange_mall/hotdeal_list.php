@@ -45,7 +45,7 @@
                             <li class="col-xs-6">
                                 <a href="#">
                                 	<p class="sale-label">
-                                		25% <br>
+                                		99,999<span>원</span><br>
                                 		SALE
                                 	</p>
 									<div class="clock">
