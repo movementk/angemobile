@@ -520,7 +520,7 @@
 	height: 15px;
 	text-align: center;
 	display: inline-block;
-	background-image: url(/assets/images/ange_mall/naver_pay.jpg);
+	background-image: url(/mobile/_assets/images/ange_mall/naver_pay.jpg);
 	background-size: 40px 15px;
 	background-repeat: no-repeat;
 	vertical-align: middle;
@@ -541,24 +541,23 @@
 }*/
 .hotdeal-list .section-content .board-type-5 ul li a .sale-label {
 	position: absolute;
-    top: -4px;
-    left: 8px;
+    top: -5px;
+    left: 7px;
     text-align: center;
     color: #fff;
     font-size: 10px;
     line-height: 12px;
     font-weight: 500;
-    width: 53px;
-    height: 39px;
+    width: 40px;
+    height: 38px;
     z-index: 5;
-    padding-top: 6px;
-    background-image: url(../images/ange_mall/sale-label.png);
+    /* padding-top: 10px; */
+    padding-top: 7px;
+    background-image: url(/mobile/_assets/images/ange_mall/sale-label.png);
     background-repeat: no-repeat;
-    background-size: 53px 39px;
+    /* background-size: 55px auto; */
+    background-size: 40px 38px;
     font-family: 'Roboto', sans-serif;
-}
-.hotdeal-list .section-content .board-type-5 ul li a .sale-label span {
-	font-family: 'Noto Sans KR', sans-serif;
 }
 .hotdeal-list .section-content .board-type-5 ul li a .clock {
 	position: absolute;
